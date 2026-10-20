@@ -1,5 +1,5 @@
-"""lorekeeper MCP server — exposes the knowledge graph as tools (mcp 2.x API),
-plus a --rest mode that serves a plain JSON facade for the Obsidian plugin.
+"""lorekeeper MCP server — knowledge-graph tools (mcp 2.x), plus a --rest mode
+serving a plain JSON facade for the Obsidian plugin.
 
 Run:
   python -m lorekeeper.server          # stdio MCP (Claude Code / Desktop)
@@ -21,7 +21,7 @@ mcp = MCPServer("lorekeeper")
 
 @mcp.tool()
 async def query_kb(question: str, mode: str = "hybrid") -> str:
-    """Answer a question grounded in the knowledge graph.
+    """Answer a question grounded strictly in the knowledge graph (no outside knowledge).
 
     mode: 'local' (specific entities), 'global' (themes/summaries),
     'hybrid' (default, best all-round), or 'naive' (plain vector RAG).
@@ -77,7 +77,7 @@ def main():
     elif args.http:
         mcp.run(transport="streamable-http", host="127.0.0.1", port=8765)
     else:
-        mcp.run()  # stdio
+        mcp.run()
 
 
 if __name__ == "__main__":

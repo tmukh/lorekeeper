@@ -9,110 +9,78 @@
       "Hebrew",
       "MCP",
       "Obsidian",
-      "Obsidian-vault",
       "Russian",
       "SETUP.md",
-      "Setup.md",
       "Smart Connections",
-      "Spaced Repetition",
-      "learning-ledger.md",
       "system.md"
     ],
-    "count": 16,
-    "create_time": 1792461320,
-    "update_time": 1792461320,
+    "count": 12,
+    "create_time": 1792467612,
+    "update_time": 1792467612,
     "_id": "README.md"
   },
   "SETUP.md": {
     "entity_names": [
+      "Claude",
       "Claude Code",
       "Claude Desktop",
       "Copilot",
+      "Dataview",
       "Git",
       "GitHub",
+      "Local REST API",
+      "MCP server",
+      "Node.js",
       "Obsidian",
+      "Obsidian Git",
       "Obsidian Sync",
       "Ollama",
+      "QuickAdd",
+      "Smart Connections",
+      "Spaced Repetition",
       "Syncthing",
       "Tarik",
+      "Templater",
       "WSL",
-      "WSL note",
       "Windows",
-      "tarik",
-      "tarik's projects",
-      "vault backup",
-      "wsync"
+      "github.com",
+      "tarik"
     ],
-    "count": 17,
-    "create_time": 1792461347,
-    "update_time": 1792461347,
+    "count": 24,
+    "create_time": 1792467644,
+    "update_time": 1792467644,
     "_id": "SETUP.md"
   },
   "10-Learning/_index.md": {
     "entity_names": [
+      "10-Learning",
       "Concept",
-      "Dataview",
+      "DATAVIEW",
+      "Go",
       "MCP",
       "Reverse-Engineering",
-      "Subfolders"
+      "_index",
+      "file",
+      "table"
     ],
-    "count": 5,
-    "create_time": 1792461354,
-    "update_time": 1792461354,
+    "count": 9,
+    "create_time": 1792467654,
+    "update_time": 1792467654,
     "_id": "10-Learning/_index.md"
   },
   "20-Projects/evtx-analyst.md": {
     "entity_names": [
       "DFIR",
+      "Windows",
+      "evtx",
       "evtx-analyst",
-      "windows",
+      "python-evtx",
       "windows-event-ids"
     ],
-    "count": 4,
-    "create_time": 1792461360,
-    "update_time": 1792461360,
+    "count": 6,
+    "create_time": 1792467663,
+    "update_time": 1792467663,
     "_id": "20-Projects/evtx-analyst.md"
-  },
-  "20-Projects/_index.md": {
-    "entity_names": [
-      "20-Projects",
-      "Dataview",
-      "Projects",
-      "Templates/project.md",
-      "_index"
-    ],
-    "count": 5,
-    "create_time": 1792461364,
-    "update_time": 1792461364,
-    "_id": "20-Projects/_index.md"
-  },
-  "30-CTF-Writeups/_index.md": {
-    "entity_names": [
-      "30-CTF-Writeups",
-      "Templates"
-    ],
-    "count": 2,
-    "create_time": 1792461368,
-    "update_time": 1792461368,
-    "_id": "30-CTF-Writeups/_index.md"
-  },
-  "40-Languages/_index.md": {
-    "entity_names": [
-      "40-Languages",
-      "Arabic",
-      "German",
-      "Hebrew",
-      "Languages",
-      "Russian",
-      "Templates",
-      "Vocab and grammar notes",
-      "_index",
-      "vocab.md"
-    ],
-    "count": 10,
-    "create_time": 1792461376,
-    "update_time": 1792461376,
-    "_id": "40-Languages/_index.md"
   },
   "50-Reference/windows-event-ids.md": {
     "entity_names": [
@@ -123,38 +91,29 @@
       "4688",
       "4720",
       "7045",
-      "Account",
-      "Anti-Forensics",
-      "Audit Log",
-      "Brute Force",
-      "Password Spraying",
-      "Process",
-      "Security Log",
-      "Service",
-      "System Log",
+      "Admin-equivalent logon",
+      "Anti-forensics red flag",
+      "Common persistence and lateral-movement artefact",
+      "Failed logon",
+      "Logon Type",
+      "Persistence / backdoor account",
+      "Process execution trail",
+      "Security",
+      "Successful logon",
+      "System",
       "Windows Event IDs"
     ],
-    "count": 17,
-    "create_time": 1792461390,
-    "update_time": 1792461390,
+    "count": 18,
+    "create_time": 1792467680,
+    "update_time": 1792467680,
     "_id": "50-Reference/windows-event-ids.md"
-  },
-  "50-Reference/_index.md": {
-    "entity_names": [
-      "50-Reference",
-      "Lookup tables and cheat sheets",
-      "dataview"
-    ],
-    "count": 3,
-    "create_time": 1792461396,
-    "update_time": 1792461396,
-    "_id": "50-Reference/_index.md"
   },
   "90-Meta/learning-ledger.md": {
     "entity_names": [
       "Area",
       "Go",
       "Goroutines & channels",
+      "Last checked",
       "MCP",
       "MCP server basics",
       "Notes",
@@ -163,9 +122,9 @@
       "Windows logon events (4624/4625)",
       "windows-event-ids"
     ],
-    "count": 10,
-    "create_time": 1792461408,
-    "update_time": 1792461408,
+    "count": 11,
+    "create_time": 1792467696,
+    "update_time": 1792467696,
     "_id": "90-Meta/learning-ledger.md"
   },
   "90-Meta/system.md": {
@@ -176,16 +135,16 @@
       "30-CTF-Writeups/",
       "40-Languages/",
       "50-Reference/",
-      "90-Meta/learning-ledger.md",
-      "Daily Sweep",
-      "Rule Zero",
-      "Spaced Repetition",
-      "Three Needs",
-      "flashcards"
+      "90-Meta/",
+      "Daily",
+      "Rule zero",
+      "Weekly sweep",
+      "flashcards",
+      "system"
     ],
     "count": 12,
-    "create_time": 1792461448,
-    "update_time": 1792461448,
+    "create_time": 1792467713,
+    "update_time": 1792467713,
     "_id": "90-Meta/system.md"
   }
 }

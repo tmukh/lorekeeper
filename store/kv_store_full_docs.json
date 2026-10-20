@@ -1,7 +1,7 @@
 {
   "README.md": {
     "content": "# README\n\n# obsidian-vault\n\nMy personal knowledge vault: Obsidian, versioned with git, AI-searchable, synced through GitHub.\n\n## Philosophy: capture, don't curate\n\n- **Everything lands in `00-Inbox/` first.** Don't stop to decide where something goes.\n- **Weekly 10-minute sweep.** Move inbox notes into their folders. Delete what doesn't matter. Stop when the timer runs out.\n- **Never garden the graph.** No link polishing, no tag taxonomies, no restructuring for its own sake. Search and AI do the finding.\n\n## Three needs, three homes\n\n| Need | Home |\n|---|---|\n| **Memorise** atoms (words, IDs, commands) | Spaced Repetition flashcards (`question::answer` in any note) |\n| **Understand** concepts | Write a note or write-up, in your own words |\n| **Find it later** | Plain markdown + search / AI (Copilot, Smart Connections, MCP) |\n\n## Layout\n\n| Folder | What goes there |\n|---|---|\n| `00-Inbox/` | Raw capture. Everything starts here |\n| `10-Learning/` | Concept notes (MCP, Reverse-Engineering, Go, …) |\n| `20-Projects/` | One note per project |\n| `30-CTF-Writeups/` | Challenge write-ups |\n| `40-Languages/` | Vocab and grammar: Hebrew, Russian, Arabic, German |\n| `50-Reference/` | Lookup tables and cheat sheets |\n| `90-Meta/` | How the vault works: `system.md`, `learning-ledger.md` |\n| `Templates/` | Templater templates |\n| `Attachments/` | Images and files |\n\nSetup, plugins, AI and sync are documented in [SETUP.md](SETUP.md). The workflow is in [90-Meta/system.md](90-Meta/system.md).",
-    "file_path": "unknown_source",
+    "file_path": "README.md",
     "parse_format": "raw",
     "content_hash": "8e5b6fa591cbebbe5c4d2245e111536c",
     "chunk_options": {
@@ -12,13 +12,13 @@
         "chunk_overlap_token_size": 100
       }
     },
-    "create_time": 1792461304,
-    "update_time": 1792461304,
+    "create_time": 1792467589,
+    "update_time": 1792467589,
     "_id": "README.md"
   },
   "SETUP.md": {
     "content": "# SETUP\n\n# SETUP: notes for future me\n\n- **Location (Windows):** `C:\\Users\\tarik\\projects\\obsidian-vault`\n- **Location (WSL):** `/mnt/c/Users/tarik/projects/obsidian-vault`\n- **Remote:** `git@github.com:tmukh/obsidian-vault.git` (private)\n- **Apps:** Obsidian, and Ollama with the models `llama3.1:8b` and `nomic-embed-text`\n\n## Plugins\n\nThese are already listed in `.obsidian/community-plugins.json`. On a new machine you still have to install them through Settings → Community plugins → Browse.\n\n| Plugin | ID | What it does |\n|---|---|---|\n| **Copilot** | `copilot` | Chat with the vault (RAG over your notes) using a local or cloud LLM. Here it's pointed at Ollama. |\n| **Smart Connections** | `smart-connections` | Embeds every note and shows semantically related notes in a side pane. It also offers semantic search. Its index lives in `.smart-env/`, which is git-ignored. |\n| **Templater** | `templater-obsidian` | Templates with code. `<% tp.date.now(\"YYYY-MM-DD\") %>` and `<% tp.file.title %>` in `Templates/`. |\n| **QuickAdd** | `quickadd` | One hotkey to capture into `00-Inbox/` or to create a note from a template. |\n| **Dataview** | `dataview` | Query notes like a database. The `_index.md` files use it to list their folder. |\n| **Spaced Repetition** | `obsidian-spaced-repetition` | Flashcards inside notes (`front::back`, or `?` on its own line for multi-line cards) in notes tagged `#flashcards`. |\n| **Obsidian Git** | `obsidian-git` | Auto-commit, push and pull this vault to GitHub. |\n\n### Recommended plugin settings\n- **Templater:** set Template folder location to `Templates`. Turn on \"Trigger Templater on new file creation\".\n- **QuickAdd:** add a Capture choice → file `00-Inbox/{{DATE:YYYY-MM-DD}} {{VALUE}}.md`, then bind a hotkey to it.\n- **Core settings:** Files & links → Default location for new attachments = `Attachments`, and Default location for new notes = `00-Inbox`.\n- **Daily notes (core):** template `Templates/daily.md`.\n\n## AI route A: Copilot with local Ollama (offline)\n\nWith this route you chat with the vault and nothing leaves the machine.\n\n1. Make sure Ollama is running (it starts with Windows, tray icon). Check it with `ollama list`. You should see `llama3.1:8b` and `nomic-embed-text`.\n2. Open Copilot settings → Model → add a custom model with these settings:\n   - Name `llama3.1:8b`, provider **Ollama**, base URL `http://localhost:11434`.\n   - Set it as the default chat model.\n3. Open Copilot settings → QA / Embeddings → add an embedding model with these settings:\n   - Name `nomic-embed-text`, provider **Ollama**.\n   - Set it as the embedding model.\n4. Open the Copilot pane and switch the mode to **Vault QA**. The first time, it indexes the vault.\n5. If Copilot can't connect, Ollama may be rejecting the app origin. Set the env var `OLLAMA_ORIGINS=app://obsidian.md*` and restart Ollama.\n\n## AI route B: an MCP server so Claude Desktop can read and write the vault\n\nGive Claude Desktop an MCP server rooted at this folder. Edit `%APPDATA%\\Claude\\claude_desktop_config.json`:\n\n```json\n{\n  \"mcpServers\": {\n    \"obsidian-vault\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@modelcontextprotocol/server-filesystem\",\n        \"C:\\\\Users\\\\tarik\\\\projects\\\\obsidian-vault\"\n      ]\n    }\n  }\n}\n```\n\n- You need Node.js on Windows (`winget install -e --id OpenJS.NodeJS.LTS`).\n- Restart Claude Desktop after editing the config. Claude can then list, search, read and write notes. Tell it to file new notes in `00-Inbox/`.\n- Alternative: an Obsidian-specific MCP server that talks to the vault via the **Local REST API** plugin. This is useful if you want it to work through Obsidian's own search. The filesystem server is simpler and needs Obsidian to be neither open nor running.\n- From Claude Code in WSL: `claude mcp add obsidian-vault -- npx -y @modelcontextprotocol/server-filesystem /mnt/c/Users/tarik/projects/obsidian-vault`.\n\n## Sync\n\n### Primary: Obsidian Git → GitHub (free)\nSettings for the Obsidian Git plugin:\n- **Auto commit-and-sync interval:** `10` minutes\n- **Pull on startup:** on\n- **Push on commit-and-sync:** on\n- Commit message: `vault backup: {{date}}`\n\nOn a new machine:\n```bash\ngit clone git@github.com:tmukh/obsidian-vault.git\n```\nThen open the folder as a vault, install the plugins and set up Copilot again. Per-machine state is git-ignored: `workspace*.json`, plugin `data.json` and the AI indexes.\n\nCaveats:\n- On mobile, Git is slow and unreliable.\n- If two machines edit the same note between syncs, you can get merge conflicts. Resolve them like any git conflict.\n\n### Alternatives\n- **Obsidian Sync** (paid, ~$4–5/month): official, end-to-end encrypted, the best choice for mobile, with version history. You can still keep git for history.\n- **Syncthing** (free, P2P): continuous device-to-device sync with no cloud. Don't sync `.git/` if you use Syncthing and git together. Pick one as the source of truth.\n\n## WSL note\n\n- **Keep the vault on the Windows filesystem.** Obsidian is a native Windows app. File watching on WSL paths (`\\\\wsl$\\...`) is slow and unreliable.\n- **From WSL**, reach the vault at `/mnt/c/Users/tarik/projects/obsidian-vault` for git, grep, scripts and Claude Code.\n- **Do NOT move the vault into WSL ext4** (`/home/tarik/...`).\n- Git from both sides is fine. If WSL git shows every file as modified, run `git config core.autocrlf false` and `git config core.filemode false` in the repo.",
-    "file_path": "unknown_source",
+    "file_path": "SETUP.md",
     "parse_format": "raw",
     "content_hash": "be091328c2e018bce49d18bdf34b9c21",
     "chunk_options": {
@@ -29,13 +29,13 @@
         "chunk_overlap_token_size": 100
       }
     },
-    "create_time": 1792461324,
-    "update_time": 1792461324,
+    "create_time": 1792467614,
+    "update_time": 1792467614,
     "_id": "SETUP.md"
   },
   "10-Learning/_index.md": {
     "content": "# _index\n\n# Learning\n\nConcept notes. Subfolders: MCP, Reverse-Engineering, Go.\n\n```dataview\nTABLE file.mtime AS \"Modified\"\nFROM \"10-Learning\"\nWHERE file.name != \"_index\"\nSORT file.mtime DESC\n```",
-    "file_path": "unknown_source",
+    "file_path": "_index.md",
     "parse_format": "raw",
     "content_hash": "49ca582b817d13c748307842c145400f",
     "chunk_options": {
@@ -46,13 +46,13 @@
         "chunk_overlap_token_size": 100
       }
     },
-    "create_time": 1792461348,
-    "update_time": 1792461348,
+    "create_time": 1792467646,
+    "update_time": 1792467646,
     "_id": "10-Learning/_index.md"
   },
   "20-Projects/evtx-analyst.md": {
     "content": "# evtx-analyst\n\n# evtx-analyst\n\n## Goal\nA tool to parse Windows `.evtx` logs and surface suspicious activity (failed/successful logons, privilege use, new services, log clearing).\n\n## Why\nPractise DFIR and Windows internals. Feeds [[windows-event-ids]].\n\n## Scope / ideas\n- [ ] Parse EVTX (Go? Python `python-evtx`?)\n- [ ] Detect: brute force (4625 bursts → 4624), new admin (4720 + 4672), persistence (7045), anti-forensics (1102)\n- [ ] Timeline output (CSV / markdown)\n\n## Log\n- 2026-10-19: seeded note.\n\n## Links\n- [[windows-event-ids]]",
-    "file_path": "unknown_source",
+    "file_path": "evtx-analyst.md",
     "parse_format": "raw",
     "content_hash": "4ed94677506bb92c9e0d04d0055c9d91",
     "chunk_options": {
@@ -63,64 +63,13 @@
         "chunk_overlap_token_size": 100
       }
     },
-    "create_time": 1792461354,
-    "update_time": 1792461354,
+    "create_time": 1792467655,
+    "update_time": 1792467655,
     "_id": "20-Projects/evtx-analyst.md"
-  },
-  "20-Projects/_index.md": {
-    "content": "# _index\n\n# Projects\n\nOne note per project. Template: Templates/project.md.\n\n```dataview\nTABLE file.mtime AS \"Modified\"\nFROM \"20-Projects\"\nWHERE file.name != \"_index\"\nSORT file.mtime DESC\n```",
-    "file_path": "unknown_source",
-    "parse_format": "raw",
-    "content_hash": "e9bbba6969d5fc5ada9ab4a47d0ef13c",
-    "chunk_options": {
-      "chunk_token_size": 1200,
-      "fixed_token": {
-        "split_by_character": null,
-        "split_by_character_only": false,
-        "chunk_overlap_token_size": 100
-      }
-    },
-    "create_time": 1792461361,
-    "update_time": 1792461361,
-    "_id": "20-Projects/_index.md"
-  },
-  "30-CTF-Writeups/_index.md": {
-    "content": "# _index\n\n# CTF Write-ups\n\nOne note per challenge. Template: Templates/ctf-writeup.md.\n\n```dataview\nTABLE file.mtime AS \"Modified\"\nFROM \"30-CTF-Writeups\"\nWHERE file.name != \"_index\"\nSORT file.mtime DESC\n```",
-    "file_path": "unknown_source",
-    "parse_format": "raw",
-    "content_hash": "9fcd927240c0914931f42eb93b95721a",
-    "chunk_options": {
-      "chunk_token_size": 1200,
-      "fixed_token": {
-        "split_by_character": null,
-        "split_by_character_only": false,
-        "chunk_overlap_token_size": 100
-      }
-    },
-    "create_time": 1792461365,
-    "update_time": 1792461365,
-    "_id": "30-CTF-Writeups/_index.md"
-  },
-  "40-Languages/_index.md": {
-    "content": "# _index\n\n# Languages\n\nVocab and grammar notes. Subfolders: Hebrew, Russian, Arabic, German. Template: Templates/vocab.md.\n\n```dataview\nTABLE file.mtime AS \"Modified\"\nFROM \"40-Languages\"\nWHERE file.name != \"_index\"\nSORT file.mtime DESC\n```",
-    "file_path": "unknown_source",
-    "parse_format": "raw",
-    "content_hash": "c515c23d879c63410035c8dda55adb9b",
-    "chunk_options": {
-      "chunk_token_size": 1200,
-      "fixed_token": {
-        "split_by_character": null,
-        "split_by_character_only": false,
-        "chunk_overlap_token_size": 100
-      }
-    },
-    "create_time": 1792461369,
-    "update_time": 1792461369,
-    "_id": "40-Languages/_index.md"
   },
   "50-Reference/windows-event-ids.md": {
     "content": "# windows-event-ids\n\n# Windows Event IDs\n\n| ID | Log | Meaning | Why it matters |\n|---|---|---|---|\n| 4624 | Security | An account successfully logged on | Check Logon Type (2 interactive, 3 network, 10 RDP) |\n| 4625 | Security | An account failed to log on | Bursts suggest brute force or password spraying |\n| 4672 | Security | Special privileges assigned to new logon | Admin-equivalent logon |\n| 4688 | Security | A new process has been created | Process execution trail (enable command-line auditing) |\n| 4720 | Security | A user account was created | Possible persistence / backdoor account |\n| 7045 | System | A new service was installed | Common persistence and lateral-movement artefact (PsExec) |\n| 1102 | Security | The audit log was cleared | Anti-forensics red flag |\n\n## Flashcards\n4624::Successful logon\n4625::Failed logon\n4672::Special privileges assigned to new logon (admin)\n4688::New process created\n4720::User account created\n7045::New service installed (System log)\n1102::Security audit log cleared",
-    "file_path": "unknown_source",
+    "file_path": "windows-event-ids.md",
     "parse_format": "raw",
     "content_hash": "0acd7f15f2844ac2dd1f120748a3917e",
     "chunk_options": {
@@ -131,30 +80,13 @@
         "chunk_overlap_token_size": 100
       }
     },
-    "create_time": 1792461377,
-    "update_time": 1792461377,
+    "create_time": 1792467664,
+    "update_time": 1792467664,
     "_id": "50-Reference/windows-event-ids.md"
-  },
-  "50-Reference/_index.md": {
-    "content": "# _index\n\n# Reference\n\nLookup tables and cheat sheets.\n\n```dataview\nTABLE file.mtime AS \"Modified\"\nFROM \"50-Reference\"\nWHERE file.name != \"_index\"\nSORT file.mtime DESC\n```",
-    "file_path": "unknown_source",
-    "parse_format": "raw",
-    "content_hash": "f7fca67131b69502757e4b38cb7e3c42",
-    "chunk_options": {
-      "chunk_token_size": 1200,
-      "fixed_token": {
-        "split_by_character": null,
-        "split_by_character_only": false,
-        "chunk_overlap_token_size": 100
-      }
-    },
-    "create_time": 1792461393,
-    "update_time": 1792461393,
-    "_id": "50-Reference/_index.md"
   },
   "90-Meta/learning-ledger.md": {
     "content": "# learning-ledger\n\n# Learning ledger\n\nStatus: `new` → `used` → `confident`\n\n| Concept | Area | Status | Last checked | Notes |\n|---|---|---|---|---|\n| MCP server basics | MCP | new | 2026-10-19 | |\n| Windows logon events (4624/4625) | Reverse-Engineering | new | 2026-10-19 | see [[windows-event-ids]] |\n| Goroutines & channels | Go | new | 2026-10-19 | |",
-    "file_path": "unknown_source",
+    "file_path": "learning-ledger.md",
     "parse_format": "raw",
     "content_hash": "998d89cd703b5d7369b8b979e7b0cdf6",
     "chunk_options": {
@@ -165,13 +97,13 @@
         "chunk_overlap_token_size": 100
       }
     },
-    "create_time": 1792461396,
-    "update_time": 1792461396,
+    "create_time": 1792467681,
+    "update_time": 1792467681,
     "_id": "90-Meta/learning-ledger.md"
   },
   "90-Meta/system.md": {
     "content": "# system\n\n# System: how this vault works\n\n## Rule zero: capture, don't curate\nCapture beats organisation. If deciding where a note goes costs friction, it goes in `00-Inbox/`.\nDon't garden the graph: no reorganising, no link polishing, no tag systems.\n\n## Daily\n- Capture anything into `00-Inbox/` (QuickAdd or a new note from a template).\n- If it's a fact to memorise, write it as a flashcard: `front::back` (or `?` on its own line for multi-line cards) and tag the note `#flashcards`.\n\n## Weekly sweep (10 minutes, timer on)\n1. Open `00-Inbox/`.\n2. For each note, pick one:\n   - **Memorise?** Turn it into flashcards and file it.\n   - **Understand?** Expand it into a note/write-up in `10-Learning/`, `30-CTF-Writeups/`, or `40-Languages/`.\n   - **Reference?** Move it to `50-Reference/` or the matching `20-Projects/` note.\n   - **Junk?** Delete it.\n3. Update `90-Meta/learning-ledger.md` for concepts you touched.\n4. Review due flashcards.\n5. Stop when the timer ends. Leftovers wait for next week.\n\n## Three needs, three homes\n| Need | Home |\n|---|---|\n| Memorise atoms | Spaced Repetition flashcards |\n| Understand concepts | A note / write-up in your own words |\n| Find it later | Markdown + search / AI |\n\n## Learning ledger statuses\n- **new**: met it, can't use it yet\n- **used**: applied it at least once for real\n- **confident**: could explain it or teach it cold",
-    "file_path": "unknown_source",
+    "file_path": "system.md",
     "parse_format": "raw",
     "content_hash": "084b1eb89231c4b9ff368e269544c327",
     "chunk_options": {
@@ -182,8 +114,8 @@
         "chunk_overlap_token_size": 100
       }
     },
-    "create_time": 1792461409,
-    "update_time": 1792461409,
+    "create_time": 1792467697,
+    "update_time": 1792467697,
     "_id": "90-Meta/system.md"
   }
 }

@@ -18,1387 +18,1225 @@
     <node id="Obsidian">
       <data key="d0">Obsidian</data>
       <data key="d1">organization</data>
-      <data key="d2">Personal knowledge vault software with version control, AI search, and GitHub sync.&lt;SEP&gt;A personal knowledge management and note-taking application.&lt;SEP&gt;Obsidian is a note-taking and knowledge management application.</data>
+      <data key="d2">Obsidian is a personal knowledge management system that allows users to capture, store, and connect information in a digital vault, with features such as version control using git, AI-searchable capabilities, and synchronization through GitHub.&lt;SEP&gt;A personal knowledge management and note-taking app.&lt;SEP&gt;A note-taking and knowledge management application.</data>
       <data key="d3">README.md-chunk-000&lt;SEP&gt;SETUP.md-chunk-000&lt;SEP&gt;SETUP.md-chunk-001</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461347</data>
+      <data key="d4">README.md&lt;SEP&gt;SETUP.md</data>
+      <data key="d5">1792467644</data>
       <data key="d6" />
     </node>
     <node id="Git">
       <data key="d0">Git</data>
-      <data key="d1">versioncontrolsystem</data>
-      <data key="d2">Version control system.&lt;SEP&gt;A distributed version control system for tracking changes in source code.</data>
+      <data key="d1">other</data>
+      <data key="d2">Git is a version control system that allows users to track changes to their files and collaborate with others on projects.&lt;SEP&gt;A version control system.</data>
       <data key="d3">README.md-chunk-000&lt;SEP&gt;SETUP.md-chunk-001</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461347</data>
+      <data key="d4">README.md&lt;SEP&gt;SETUP.md</data>
+      <data key="d5">1792467644</data>
       <data key="d6" />
     </node>
     <node id="GitHub">
       <data key="d0">GitHub</data>
       <data key="d1">organization</data>
-      <data key="d2">Web platform for version control and collaboration.&lt;SEP&gt;A web-based platform for version control and collaboration.&lt;SEP&gt;GitHub is a web-based platform for version control and collaboration.</data>
+      <data key="d2">GitHub is a web-based platform for version control and collaboration on software development projects.&lt;SEP&gt;GitHub is also used for synchronization of the Obsidian vault.&lt;SEP&gt;A web-based platform for version control and collaboration.</data>
       <data key="d3">README.md-chunk-000&lt;SEP&gt;SETUP.md-chunk-000&lt;SEP&gt;SETUP.md-chunk-001</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461347</data>
-      <data key="d6" />
-    </node>
-    <node id="Obsidian-vault">
-      <data key="d0">Obsidian-vault</data>
-      <data key="d1">organization</data>
-      <data key="d2">Personal knowledge management system.</data>
-      <data key="d3">README.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461320</data>
-      <data key="d6" />
-    </node>
-    <node id="Spaced Repetition">
-      <data key="d0">Spaced Repetition</data>
-      <data key="d1">method</data>
-      <data key="d2">Learning technique using flashcards for memorization.&lt;SEP&gt;A technique used to optimize memorization through repeated exposure to learned material.</data>
-      <data key="d3">README.md-chunk-000&lt;SEP&gt;90-Meta/system.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461448</data>
+      <data key="d4">README.md&lt;SEP&gt;SETUP.md</data>
+      <data key="d5">1792467644</data>
       <data key="d6" />
     </node>
     <node id="Copilot">
       <data key="d0">Copilot</data>
-      <data key="d1">ai-poweredcodeassistant</data>
-      <data key="d2">AI-powered coding assistant.&lt;SEP&gt;A tool that assists with coding tasks using artificial intelligence.</data>
-      <data key="d3">README.md-chunk-000&lt;SEP&gt;SETUP.md-chunk-001&lt;SEP&gt;SETUP.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461347</data>
+      <data key="d1">plugin</data>
+      <data key="d2">Copilot is an AI-powered coding assistant that can provide suggestions and complete code for users.&lt;SEP&gt;A plugin for Obsidian that allows for chat with the vault.</data>
+      <data key="d3">README.md-chunk-000&lt;SEP&gt;SETUP.md-chunk-000</data>
+      <data key="d4">README.md&lt;SEP&gt;SETUP.md</data>
+      <data key="d5">1792467644</data>
       <data key="d6" />
     </node>
     <node id="Smart Connections">
       <data key="d0">Smart Connections</data>
-      <data key="d1">content</data>
-      <data key="d2">AI-powered note-taking and knowledge management tool.</data>
-      <data key="d3">README.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461320</data>
+      <data key="d1">plugin</data>
+      <data key="d2">Smart Connections is a feature of Obsidian that allows users to connect related notes and ideas.&lt;SEP&gt;A plugin for Obsidian that embeds related notes and offers semantic search.</data>
+      <data key="d3">README.md-chunk-000&lt;SEP&gt;SETUP.md-chunk-000</data>
+      <data key="d4">README.md&lt;SEP&gt;SETUP.md</data>
+      <data key="d5">1792467644</data>
       <data key="d6" />
     </node>
     <node id="MCP">
       <data key="d0">MCP</data>
       <data key="d1">concept</data>
-      <data key="d2">AI-powered note-taking and knowledge management tool.&lt;SEP&gt;A subfolder for learning concepts.&lt;SEP&gt;MCP (Multiple Choice Proficiency) server technology.</data>
+      <data key="d2">MCP stands for "Meaningful Content Platform" and is a feature of Obsidian that allows users to create and connect concept notes.&lt;SEP&gt;Machine learning concept.&lt;SEP&gt;A network protocol used for remote access and management of devices.</data>
       <data key="d3">README.md-chunk-000&lt;SEP&gt;10-Learning/_index.md-chunk-000&lt;SEP&gt;90-Meta/learning-ledger.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461408</data>
-      <data key="d6" />
-    </node>
-    <node id="Hebrew">
-      <data key="d0">Hebrew</data>
-      <data key="d1">language</data>
-      <data key="d2">Language and script.&lt;SEP&gt;Semitic language spoken in Israel.</data>
-      <data key="d3">README.md-chunk-000&lt;SEP&gt;40-Languages/_index.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461376</data>
-      <data key="d6" />
-    </node>
-    <node id="Russian">
-      <data key="d0">Russian</data>
-      <data key="d1">language</data>
-      <data key="d2">Language and script.&lt;SEP&gt;Slavic language spoken in Russia.</data>
-      <data key="d3">README.md-chunk-000&lt;SEP&gt;40-Languages/_index.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461376</data>
-      <data key="d6" />
-    </node>
-    <node id="Arabic">
-      <data key="d0">Arabic</data>
-      <data key="d1">language</data>
-      <data key="d2">Language and script.&lt;SEP&gt;Semitic language spoken in Middle East and North Africa.</data>
-      <data key="d3">README.md-chunk-000&lt;SEP&gt;40-Languages/_index.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461376</data>
-      <data key="d6" />
-    </node>
-    <node id="German">
-      <data key="d0">German</data>
-      <data key="d1">language</data>
-      <data key="d2">Language and script.&lt;SEP&gt;Indo-European language spoken in Germany.</data>
-      <data key="d3">README.md-chunk-000&lt;SEP&gt;40-Languages/_index.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461376</data>
+      <data key="d4">README.md&lt;SEP&gt;_index.md&lt;SEP&gt;learning-ledger.md</data>
+      <data key="d5">1792467696</data>
       <data key="d6" />
     </node>
     <node id="SETUP.md">
       <data key="d0">SETUP.md</data>
       <data key="d1">content</data>
-      <data key="d2">Document for setting up Obsidian vault.</data>
+      <data key="d2">SETUP.md is a document that provides setup instructions for the Obsidian vault.</data>
       <data key="d3">README.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461320</data>
+      <data key="d4">README.md</data>
+      <data key="d5">1792467612</data>
       <data key="d6" />
     </node>
     <node id="system.md">
       <data key="d0">system.md</data>
       <data key="d1">content</data>
-      <data key="d2">Document for setting up system in Obsidian vault.</data>
+      <data key="d2">system.md is a document that provides information about the workflow of the Obsidian vault.</data>
       <data key="d3">README.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461320</data>
+      <data key="d4">README.md</data>
+      <data key="d5">1792467612</data>
       <data key="d6" />
     </node>
-    <node id="learning-ledger.md">
-      <data key="d0">learning-ledger.md</data>
-      <data key="d1">content</data>
-      <data key="d2">Document for tracking learning progress.</data>
+    <node id="Hebrew">
+      <data key="d0">Hebrew</data>
+      <data key="d1">location</data>
+      <data key="d2">Hebrew is a language that is being studied in the Obsidian vault.</data>
       <data key="d3">README.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461320</data>
+      <data key="d4">README.md</data>
+      <data key="d5">1792467612</data>
       <data key="d6" />
     </node>
-    <node id="Setup.md">
-      <data key="d0">Setup.md</data>
+    <node id="Russian">
+      <data key="d0">Russian</data>
+      <data key="d1">location</data>
+      <data key="d2">Russian is a language that is being studied in the Obsidian vault.</data>
       <data key="d3">README.md-chunk-000</data>
-      <data key="d2">Setup</data>
-      <data key="d1">UNKNOWN</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461320</data>
+      <data key="d4">README.md</data>
+      <data key="d5">1792467612</data>
       <data key="d6" />
     </node>
-    <node id="Tarik">
-      <data key="d0">Tarik</data>
-      <data key="d1">person</data>
-      <data key="d2">Tarik is a human being.</data>
-      <data key="d3">SETUP.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461347</data>
+    <node id="Arabic">
+      <data key="d0">Arabic</data>
+      <data key="d1">location</data>
+      <data key="d2">Arabic is a language that is being studied in the Obsidian vault.</data>
+      <data key="d3">README.md-chunk-000</data>
+      <data key="d4">README.md</data>
+      <data key="d5">1792467612</data>
+      <data key="d6" />
+    </node>
+    <node id="German">
+      <data key="d0">German</data>
+      <data key="d1">location</data>
+      <data key="d2">German is a language that is being studied in the Obsidian vault.</data>
+      <data key="d3">README.md-chunk-000</data>
+      <data key="d4">README.md</data>
+      <data key="d5">1792467612</data>
       <data key="d6" />
     </node>
     <node id="Ollama">
       <data key="d0">Ollama</data>
       <data key="d1">organization</data>
-      <data key="d2">Ollama is a language model provider.</data>
+      <data key="d2">A large language model.</data>
       <data key="d3">SETUP.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461347</data>
+      <data key="d4">SETUP.md</data>
+      <data key="d5">1792467644</data>
       <data key="d6" />
     </node>
     <node id="Claude Desktop">
       <data key="d0">Claude Desktop</data>
       <data key="d1">organization</data>
-      <data key="d2">Claude Desktop is a conversational AI platform.</data>
+      <data key="d2">A desktop AI assistant.</data>
       <data key="d3">SETUP.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461347</data>
+      <data key="d4">SETUP.md</data>
+      <data key="d5">1792467644</data>
       <data key="d6" />
     </node>
-    <node id="Windows">
-      <data key="d0">Windows</data>
-      <data key="d1">location</data>
-      <data key="d2">Windows is an operating system developed by Microsoft.</data>
+    <node id="Node.js">
+      <data key="d0">Node.js</data>
+      <data key="d1">organization</data>
+      <data key="d2">A JavaScript runtime environment.</data>
       <data key="d3">SETUP.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461347</data>
-      <data key="d6" />
-    </node>
-    <node id="WSL">
-      <data key="d0">WSL</data>
-      <data key="d1">location</data>
-      <data key="d2">A Windows subsystem for Linux, allowing the execution of Linux binaries.&lt;SEP&gt;WSL stands for Windows Subsystem for Linux, which allows running Linux binaries on Windows.</data>
-      <data key="d3">SETUP.md-chunk-000&lt;SEP&gt;SETUP.md-chunk-001</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461347</data>
-      <data key="d6" />
-    </node>
-    <node id="Obsidian Sync">
-      <data key="d0">Obsidian Sync</data>
-      <data key="d1">service</data>
-      <data key="d2">A paid service for official, end-to-end encrypted syncing of notes.</data>
-      <data key="d3">SETUP.md-chunk-001</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461347</data>
-      <data key="d6" />
-    </node>
-    <node id="Syncthing">
-      <data key="d0">Syncthing</data>
-      <data key="d1">application</data>
-      <data key="d2">A free, P2P-based service for continuous device-to-device syncing.</data>
-      <data key="d3">SETUP.md-chunk-001</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461347</data>
+      <data key="d4">SETUP.md</data>
+      <data key="d5">1792467644</data>
       <data key="d6" />
     </node>
     <node id="tarik">
       <data key="d0">tarik</data>
       <data key="d1">person</data>
-      <data key="d2">The author of the provided text.</data>
+      <data key="d2">The user who set up the Obsidian vault.</data>
+      <data key="d3">SETUP.md-chunk-000</data>
+      <data key="d4">SETUP.md</data>
+      <data key="d5">1792467644</data>
+      <data key="d6" />
+    </node>
+    <node id="Templater">
+      <data key="d0">Templater</data>
+      <data key="d1">plugin</data>
+      <data key="d2">A plugin for Obsidian that allows for templates with code.</data>
+      <data key="d3">SETUP.md-chunk-000</data>
+      <data key="d4">SETUP.md</data>
+      <data key="d5">1792467644</data>
+      <data key="d6" />
+    </node>
+    <node id="QuickAdd">
+      <data key="d0">QuickAdd</data>
+      <data key="d1">plugin</data>
+      <data key="d2">A plugin for Obsidian that allows for one hotkey to capture into a specific folder.</data>
+      <data key="d3">SETUP.md-chunk-000</data>
+      <data key="d4">SETUP.md</data>
+      <data key="d5">1792467644</data>
+      <data key="d6" />
+    </node>
+    <node id="Dataview">
+      <data key="d0">Dataview</data>
+      <data key="d1">plugin</data>
+      <data key="d2">A plugin for Obsidian that allows for querying notes like a database.</data>
+      <data key="d3">SETUP.md-chunk-000</data>
+      <data key="d4">SETUP.md</data>
+      <data key="d5">1792467644</data>
+      <data key="d6" />
+    </node>
+    <node id="Spaced Repetition">
+      <data key="d0">Spaced Repetition</data>
+      <data key="d1">plugin</data>
+      <data key="d2">A plugin for Obsidian that allows for flashcards inside notes.</data>
+      <data key="d3">SETUP.md-chunk-000</data>
+      <data key="d4">SETUP.md</data>
+      <data key="d5">1792467644</data>
+      <data key="d6" />
+    </node>
+    <node id="Obsidian Git">
+      <data key="d0">Obsidian Git</data>
+      <data key="d1">plugin</data>
+      <data key="d2">A plugin for Obsidian that allows for auto-commit, push, and pull to GitHub.</data>
+      <data key="d3">SETUP.md-chunk-000</data>
+      <data key="d4">SETUP.md</data>
+      <data key="d5">1792467644</data>
+      <data key="d6" />
+    </node>
+    <node id="Local REST API">
+      <data key="d0">Local REST API</data>
+      <data key="d1">plugin</data>
+      <data key="d2">A plugin for Obsidian that allows for the Obsidian-specific MCP server.</data>
+      <data key="d3">SETUP.md-chunk-000</data>
+      <data key="d4">SETUP.md</data>
+      <data key="d5">1792467644</data>
+      <data key="d6" />
+    </node>
+    <node id="MCP server">
+      <data key="d0">MCP server</data>
+      <data key="d1">concept</data>
+      <data key="d2">A server that allows for the Obsidian-specific MCP server.</data>
+      <data key="d3">SETUP.md-chunk-000</data>
+      <data key="d4">SETUP.md</data>
+      <data key="d5">1792467644</data>
+      <data key="d6" />
+    </node>
+    <node id="Windows">
+      <data key="d0">Windows</data>
+      <data key="d1">other</data>
+      <data key="d2">An operating system used by the user.&lt;SEP&gt;Windows is the operating system where the evtx-analyst tool is used to parse logs.</data>
+      <data key="d3">SETUP.md-chunk-000&lt;SEP&gt;20-Projects/evtx-analyst.md-chunk-000</data>
+      <data key="d4">SETUP.md&lt;SEP&gt;evtx-analyst.md</data>
+      <data key="d5">1792467663</data>
+      <data key="d6" />
+    </node>
+    <node id="WSL">
+      <data key="d0">WSL</data>
+      <data key="d1">concept</data>
+      <data key="d2">A Linux environment on Windows.&lt;SEP&gt;A Linux environment for Windows.</data>
+      <data key="d3">SETUP.md-chunk-000&lt;SEP&gt;SETUP.md-chunk-001</data>
+      <data key="d4">SETUP.md</data>
+      <data key="d5">1792467644</data>
+      <data key="d6" />
+    </node>
+    <node id="github.com">
+      <data key="d0">github.com</data>
+      <data key="d1">organization</data>
+      <data key="d2">The website for the GitHub platform.</data>
+      <data key="d3">SETUP.md-chunk-000</data>
+      <data key="d4">SETUP.md</data>
+      <data key="d5">1792467644</data>
+      <data key="d6" />
+    </node>
+    <node id="Obsidian Sync">
+      <data key="d0">Obsidian Sync</data>
+      <data key="d1">other</data>
+      <data key="d2">A paid service for official, end-to-end encrypted syncing.</data>
       <data key="d3">SETUP.md-chunk-001</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461347</data>
+      <data key="d4">SETUP.md</data>
+      <data key="d5">1792467644</data>
+      <data key="d6" />
+    </node>
+    <node id="Syncthing">
+      <data key="d0">Syncthing</data>
+      <data key="d1">other</data>
+      <data key="d2">A free, peer-to-peer syncing service.</data>
+      <data key="d3">SETUP.md-chunk-001</data>
+      <data key="d4">SETUP.md</data>
+      <data key="d5">1792467644</data>
       <data key="d6" />
     </node>
     <node id="Claude Code">
       <data key="d0">Claude Code</data>
-      <data key="d1">tool</data>
-      <data key="d2">A code-writing tool powered by artificial intelligence.</data>
+      <data key="d1">other</data>
+      <data key="d2">A coding assistant.</data>
       <data key="d3">SETUP.md-chunk-001</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461347</data>
+      <data key="d4">SETUP.md</data>
+      <data key="d5">1792467644</data>
       <data key="d6" />
     </node>
-    <node id="WSL note">
-      <data key="d0">WSL note</data>
-      <data key="d1">concept</data>
-      <data key="d2">A note-taking concept within the WSL environment.</data>
+    <node id="Tarik">
+      <data key="d0">Tarik</data>
+      <data key="d1">person</data>
+      <data key="d2">The user, managing their Obsidian vault.</data>
       <data key="d3">SETUP.md-chunk-001</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461347</data>
+      <data key="d4">SETUP.md</data>
+      <data key="d5">1792467644</data>
       <data key="d6" />
     </node>
-    <node id="vault backup">
-      <data key="d0">vault backup</data>
-      <data key="d1">event</data>
-      <data key="d2">A scheduled backup of the Obsidian vault.</data>
+    <node id="Claude">
+      <data key="d0">Claude</data>
+      <data key="d1">other</data>
+      <data key="d2">A coding assistant.</data>
       <data key="d3">SETUP.md-chunk-001</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461347</data>
-      <data key="d6" />
-    </node>
-    <node id="tarik's projects">
-      <data key="d0">tarik's projects</data>
-      <data key="d1">concept</data>
-      <data key="d2">A personal projects directory for the author.</data>
-      <data key="d3">SETUP.md-chunk-001</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461347</data>
-      <data key="d6" />
-    </node>
-    <node id="wsync">
-      <data key="d0">wsync</data>
-      <data key="d1">concept</data>
-      <data key="d2">A command for syncing the vault.</data>
-      <data key="d3">SETUP.md-chunk-001</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461347</data>
+      <data key="d4">SETUP.md</data>
+      <data key="d5">1792467644</data>
       <data key="d6" />
     </node>
     <node id="Concept">
       <data key="d0">Concept</data>
       <data key="d1">concept</data>
-      <data key="d2">Notes and subfolders for learning concepts, including MCP and Reverse-Engineering.</data>
+      <data key="d2">Notes on various learning concepts, including MCP and Reverse-Engineering.</data>
       <data key="d3">10-Learning/_index.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461354</data>
-      <data key="d6" />
-    </node>
-    <node id="Subfolders">
-      <data key="d0">Subfolders</data>
-      <data key="d1">other</data>
-      <data key="d2">Subfolders for learning concepts, including MCP and Reverse-Engineering.</data>
-      <data key="d3">10-Learning/_index.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461354</data>
+      <data key="d4">_index.md</data>
+      <data key="d5">1792467654</data>
       <data key="d6" />
     </node>
     <node id="Reverse-Engineering">
       <data key="d0">Reverse-Engineering</data>
       <data key="d1">concept</data>
-      <data key="d2">A subfolder for learning concepts.&lt;SEP&gt;Process of analyzing and deconstructing software, firmware, or hardware to understand its inner workings.</data>
+      <data key="d2">Method of understanding how a system works by analyzing its components.&lt;SEP&gt;The process of analyzing and reverse-engineering software or systems to understand their internal workings.</data>
       <data key="d3">10-Learning/_index.md-chunk-000&lt;SEP&gt;90-Meta/learning-ledger.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461408</data>
-      <data key="d6" />
-    </node>
-    <node id="Dataview">
-      <data key="d0">Dataview</data>
-      <data key="d1">concept</data>
-      <data key="d2">A command used in the input text to display a table of files.&lt;SEP&gt;A query language for displaying data.</data>
-      <data key="d3">10-Learning/_index.md-chunk-000&lt;SEP&gt;20-Projects/_index.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461364</data>
-      <data key="d6" />
-    </node>
-    <node id="evtx-analyst">
-      <data key="d0">evtx-analyst</data>
-      <data key="d1">other</data>
-      <data key="d2">A tool used for parsing Windows `.evtx` logs to surface suspicious activity.</data>
-      <data key="d3">20-Projects/evtx-analyst.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461360</data>
-      <data key="d6" />
-    </node>
-    <node id="windows">
-      <data key="d0">windows</data>
-      <data key="d1">other</data>
-      <data key="d2">The Windows operating system.</data>
-      <data key="d3">20-Projects/evtx-analyst.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461360</data>
-      <data key="d6" />
-    </node>
-    <node id="DFIR">
-      <data key="d0">DFIR</data>
-      <data key="d1">other</data>
-      <data key="d2">Digital Forensics and Incident Response.</data>
-      <data key="d3">20-Projects/evtx-analyst.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461360</data>
-      <data key="d6" />
-    </node>
-    <node id="windows-event-ids">
-      <data key="d0">windows-event-ids</data>
-      <data key="d1">concept</data>
-      <data key="d2">A list of Windows event IDs.&lt;SEP&gt;Document providing information on Windows Event IDs.</data>
-      <data key="d3">20-Projects/evtx-analyst.md-chunk-000&lt;SEP&gt;90-Meta/learning-ledger.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461408</data>
-      <data key="d6" />
-    </node>
-    <node id="Projects">
-      <data key="d0">Projects</data>
-      <data key="d1">organization</data>
-      <data key="d2">A collection of projects with individual notes.</data>
-      <data key="d3">20-Projects/_index.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461364</data>
-      <data key="d6" />
-    </node>
-    <node id="Templates/project.md">
-      <data key="d0">Templates/project.md</data>
-      <data key="d1">content</data>
-      <data key="d2">A template for project notes.</data>
-      <data key="d3">20-Projects/_index.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461364</data>
-      <data key="d6" />
-    </node>
-    <node id="20-Projects">
-      <data key="d0">20-Projects</data>
-      <data key="d1">organization</data>
-      <data key="d2">A database of projects with metadata.</data>
-      <data key="d3">20-Projects/_index.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461364</data>
-      <data key="d6" />
-    </node>
-    <node id="_index">
-      <data key="d0">_index</data>
-      <data key="d1">file</data>
-      <data key="d2">The current document index.&lt;SEP&gt;Root directory of the document.</data>
-      <data key="d3">20-Projects/_index.md-chunk-000&lt;SEP&gt;40-Languages/_index.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461376</data>
-      <data key="d6" />
-    </node>
-    <node id="30-CTF-Writeups">
-      <data key="d0">30-CTF-Writeups</data>
-      <data key="d1">content</data>
-      <data key="d2">A collection of CTF write-ups, stored in a table format with file modification times.</data>
-      <data key="d3">30-CTF-Writeups/_index.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461368</data>
-      <data key="d6" />
-    </node>
-    <node id="Templates">
-      <data key="d0">Templates</data>
-      <data key="d1">folder</data>
-      <data key="d2">A collection of CTF write-up templates, used for generating write-ups.&lt;SEP&gt;Collection of reusable templates.</data>
-      <data key="d3">30-CTF-Writeups/_index.md-chunk-000&lt;SEP&gt;40-Languages/_index.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461376</data>
-      <data key="d6" />
-    </node>
-    <node id="Languages">
-      <data key="d0">Languages</data>
-      <data key="d1">concept</data>
-      <data key="d2">Collection of languages with associated vocabulary and grammar notes.</data>
-      <data key="d3">40-Languages/_index.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461376</data>
-      <data key="d6" />
-    </node>
-    <node id="vocab.md">
-      <data key="d0">vocab.md</data>
-      <data key="d1">file</data>
-      <data key="d2">Template for vocabulary notes.</data>
-      <data key="d3">40-Languages/_index.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461376</data>
-      <data key="d6" />
-    </node>
-    <node id="40-Languages">
-      <data key="d0">40-Languages</data>
-      <data key="d1">folder</data>
-      <data key="d2">Collection of language resources.</data>
-      <data key="d3">40-Languages/_index.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461376</data>
-      <data key="d6" />
-    </node>
-    <node id="Vocab and grammar notes">
-      <data key="d0">Vocab and grammar notes</data>
-      <data key="d3">40-Languages/_index.md-chunk-000</data>
-      <data key="d2">Vocab and grammar notes contain templates.</data>
-      <data key="d1">UNKNOWN</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461376</data>
-      <data key="d6" />
-    </node>
-    <node id="Windows Event IDs">
-      <data key="d0">Windows Event IDs</data>
-      <data key="d1">concept</data>
-      <data key="d2">A set of unique identifiers for events in Windows operating systems</data>
-      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461390</data>
-      <data key="d6" />
-    </node>
-    <node id="Security Log">
-      <data key="d0">Security Log</data>
-      <data key="d1">concept</data>
-      <data key="d2">A log that records security-related events in Windows</data>
-      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461390</data>
-      <data key="d6" />
-    </node>
-    <node id="System Log">
-      <data key="d0">System Log</data>
-      <data key="d1">concept</data>
-      <data key="d2">A log that records system-related events in Windows</data>
-      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461390</data>
-      <data key="d6" />
-    </node>
-    <node id="Account">
-      <data key="d0">Account</data>
-      <data key="d1">concept</data>
-      <data key="d2">A user or group in Windows</data>
-      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461390</data>
-      <data key="d6" />
-    </node>
-    <node id="Process">
-      <data key="d0">Process</data>
-      <data key="d1">concept</data>
-      <data key="d2">A running program in Windows</data>
-      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461390</data>
-      <data key="d6" />
-    </node>
-    <node id="Service">
-      <data key="d0">Service</data>
-      <data key="d1">concept</data>
-      <data key="d2">A running program in Windows that performs a specific function</data>
-      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461390</data>
-      <data key="d6" />
-    </node>
-    <node id="Audit Log">
-      <data key="d0">Audit Log</data>
-      <data key="d1">concept</data>
-      <data key="d2">A log that records changes made to the security settings in Windows</data>
-      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461390</data>
-      <data key="d6" />
-    </node>
-    <node id="Brute Force">
-      <data key="d0">Brute Force</data>
-      <data key="d1">concept</data>
-      <data key="d2">A method of guessing passwords by trying many combinations</data>
-      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461390</data>
-      <data key="d6" />
-    </node>
-    <node id="Password Spraying">
-      <data key="d0">Password Spraying</data>
-      <data key="d1">concept</data>
-      <data key="d2">A method of guessing passwords by using a single password for multiple accounts</data>
-      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461390</data>
-      <data key="d6" />
-    </node>
-    <node id="Anti-Forensics">
-      <data key="d0">Anti-Forensics</data>
-      <data key="d1">concept</data>
-      <data key="d2">Actions taken to conceal or destroy evidence of malicious activity</data>
-      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461390</data>
-      <data key="d6" />
-    </node>
-    <node id="4624">
-      <data key="d0">4624</data>
-      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d2">contrasting</data>
-      <data key="d1">UNKNOWN</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461390</data>
-      <data key="d6" />
-    </node>
-    <node id="4625">
-      <data key="d0">4625</data>
-      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d2">contrasting</data>
-      <data key="d1">UNKNOWN</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461390</data>
-      <data key="d6" />
-    </node>
-    <node id="4672">
-      <data key="d0">4672</data>
-      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d2">indicates</data>
-      <data key="d1">UNKNOWN</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461390</data>
-      <data key="d6" />
-    </node>
-    <node id="4688">
-      <data key="d0">4688</data>
-      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d2">indicates</data>
-      <data key="d1">UNKNOWN</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461390</data>
-      <data key="d6" />
-    </node>
-    <node id="4720">
-      <data key="d0">4720</data>
-      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d2">indicates</data>
-      <data key="d1">UNKNOWN</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461390</data>
-      <data key="d6" />
-    </node>
-    <node id="7045">
-      <data key="d0">7045</data>
-      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d2">indicates</data>
-      <data key="d1">UNKNOWN</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461390</data>
-      <data key="d6" />
-    </node>
-    <node id="1102">
-      <data key="d0">1102</data>
-      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d2">indicates</data>
-      <data key="d1">UNKNOWN</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461390</data>
-      <data key="d6" />
-    </node>
-    <node id="Lookup tables and cheat sheets">
-      <data key="d0">Lookup tables and cheat sheets</data>
-      <data key="d1">content</data>
-      <data key="d2">Reference materials for quick lookup and information retrieval.</data>
-      <data key="d3">50-Reference/_index.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461396</data>
-      <data key="d6" />
-    </node>
-    <node id="50-Reference">
-      <data key="d0">50-Reference</data>
-      <data key="d1">content</data>
-      <data key="d2">Collection of reference materials stored in a "50-Reference" folder.</data>
-      <data key="d3">50-Reference/_index.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461396</data>
-      <data key="d6" />
-    </node>
-    <node id="dataview">
-      <data key="d0">dataview</data>
-      <data key="d1">content</data>
-      <data key="d2">Tool or system used for displaying data.</data>
-      <data key="d3">50-Reference/_index.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461396</data>
-      <data key="d6" />
-    </node>
-    <node id="MCP server basics">
-      <data key="d0">MCP server basics</data>
-      <data key="d1">concept</data>
-      <data key="d2">Learning material focusing on MCP server fundamentals, targeting users with little to no prior experience.</data>
-      <data key="d3">90-Meta/learning-ledger.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461408</data>
-      <data key="d6" />
-    </node>
-    <node id="Windows logon events (4624/4625)">
-      <data key="d0">Windows logon events (4624/4625)</data>
-      <data key="d1">concept</data>
-      <data key="d2">Study topic covering Windows logon event IDs 4624 and 4625, relevant to reverse-engineering tasks.</data>
-      <data key="d3">90-Meta/learning-ledger.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461408</data>
-      <data key="d6" />
-    </node>
-    <node id="Goroutines &amp; channels">
-      <data key="d0">Goroutines &amp; channels</data>
-      <data key="d1">concept</data>
-      <data key="d2">Educational content on Go programming language's goroutines and channels.</data>
-      <data key="d3">90-Meta/learning-ledger.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461408</data>
+      <data key="d4">_index.md&lt;SEP&gt;learning-ledger.md</data>
+      <data key="d5">1792467696</data>
       <data key="d6" />
     </node>
     <node id="Go">
       <data key="d0">Go</data>
       <data key="d1">concept</data>
-      <data key="d2">Programming language, particularly its concurrent capabilities.</data>
-      <data key="d3">90-Meta/learning-ledger.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461408</data>
+      <data key="d2">Programming concept or game.&lt;SEP&gt;A programming language developed by Google.</data>
+      <data key="d3">10-Learning/_index.md-chunk-000&lt;SEP&gt;90-Meta/learning-ledger.md-chunk-000</data>
+      <data key="d4">_index.md&lt;SEP&gt;learning-ledger.md</data>
+      <data key="d5">1792467696</data>
       <data key="d6" />
     </node>
-    <node id="Area">
-      <data key="d0">Area</data>
+    <node id="_index">
+      <data key="d0">_index</data>
+      <data key="d1">artifact</data>
+      <data key="d2">Front page of learning notes.</data>
+      <data key="d3">10-Learning/_index.md-chunk-000</data>
+      <data key="d4">_index.md</data>
+      <data key="d5">1792467654</data>
+      <data key="d6" />
+    </node>
+    <node id="10-Learning">
+      <data key="d0">10-Learning</data>
+      <data key="d1">folder</data>
+      <data key="d2">Directory containing learning notes.</data>
+      <data key="d3">10-Learning/_index.md-chunk-000</data>
+      <data key="d4">_index.md</data>
+      <data key="d5">1792467654</data>
+      <data key="d6" />
+    </node>
+    <node id="file">
+      <data key="d0">file</data>
       <data key="d1">concept</data>
-      <data key="d2">Category of learning material or study topics.</data>
+      <data key="d2">Generic term for a document or file.</data>
+      <data key="d3">10-Learning/_index.md-chunk-000</data>
+      <data key="d4">_index.md</data>
+      <data key="d5">1792467654</data>
+      <data key="d6" />
+    </node>
+    <node id="DATAVIEW">
+      <data key="d0">DATAVIEW</data>
+      <data key="d1">concept</data>
+      <data key="d2">Programming concept or data visualization tool.</data>
+      <data key="d3">10-Learning/_index.md-chunk-000</data>
+      <data key="d4">_index.md</data>
+      <data key="d5">1792467654</data>
+      <data key="d6" />
+    </node>
+    <node id="table">
+      <data key="d0">table</data>
+      <data key="d1">concept</data>
+      <data key="d2">Generic term for a database table.</data>
+      <data key="d3">10-Learning/_index.md-chunk-000</data>
+      <data key="d4">_index.md</data>
+      <data key="d5">1792467654</data>
+      <data key="d6" />
+    </node>
+    <node id="evtx-analyst">
+      <data key="d0">evtx-analyst</data>
+      <data key="d1">other</data>
+      <data key="d2">evtx-analyst is a tool used to parse Windows `.evtx` logs and surface suspicious activity.&lt;SEP&gt;The tool feeds [[windows-event-ids]] to detect suspicious activity.</data>
+      <data key="d3">20-Projects/evtx-analyst.md-chunk-000</data>
+      <data key="d4">evtx-analyst.md</data>
+      <data key="d5">1792467663</data>
+      <data key="d6" />
+    </node>
+    <node id="DFIR">
+      <data key="d0">DFIR</data>
+      <data key="d1">other</data>
+      <data key="d2">DFIR is the goal of using the evtx-analyst tool.</data>
+      <data key="d3">20-Projects/evtx-analyst.md-chunk-000</data>
+      <data key="d4">evtx-analyst.md</data>
+      <data key="d5">1792467663</data>
+      <data key="d6" />
+    </node>
+    <node id="python-evtx">
+      <data key="d0">python-evtx</data>
+      <data key="d1">other</data>
+      <data key="d2">python-evtx is a Python library that can be used to parse EVTX logs.</data>
+      <data key="d3">20-Projects/evtx-analyst.md-chunk-000</data>
+      <data key="d4">evtx-analyst.md</data>
+      <data key="d5">1792467663</data>
+      <data key="d6" />
+    </node>
+    <node id="windows-event-ids">
+      <data key="d0">windows-event-ids</data>
+      <data key="d1">concept</data>
+      <data key="d2">windows-event-ids is a list of event IDs that the evtx-analyst tool feeds on to detect suspicious activity.&lt;SEP&gt;A wiki page documenting Windows event IDs.</data>
+      <data key="d3">20-Projects/evtx-analyst.md-chunk-000&lt;SEP&gt;90-Meta/learning-ledger.md-chunk-000</data>
+      <data key="d4">evtx-analyst.md&lt;SEP&gt;learning-ledger.md</data>
+      <data key="d5">1792467696</data>
+      <data key="d6" />
+    </node>
+    <node id="evtx">
+      <data key="d0">evtx</data>
+      <data key="d1">other</data>
+      <data key="d2">evtx is the file format of the logs that the evtx-analyst tool parses.</data>
+      <data key="d3">20-Projects/evtx-analyst.md-chunk-000</data>
+      <data key="d4">evtx-analyst.md</data>
+      <data key="d5">1792467663</data>
+      <data key="d6" />
+    </node>
+    <node id="Windows Event IDs">
+      <data key="d0">Windows Event IDs</data>
+      <data key="d1">concept</data>
+      <data key="d2">A collection of event codes used for Windows logging and auditing</data>
+      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
+      <data key="d4">windows-event-ids.md</data>
+      <data key="d5">1792467680</data>
+      <data key="d6" />
+    </node>
+    <node id="4624">
+      <data key="d0">4624</data>
+      <data key="d1">eventid</data>
+      <data key="d2">An account successfully logged on</data>
+      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
+      <data key="d4">windows-event-ids.md</data>
+      <data key="d5">1792467680</data>
+      <data key="d6" />
+    </node>
+    <node id="4625">
+      <data key="d0">4625</data>
+      <data key="d1">eventid</data>
+      <data key="d2">An account failed to log on</data>
+      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
+      <data key="d4">windows-event-ids.md</data>
+      <data key="d5">1792467680</data>
+      <data key="d6" />
+    </node>
+    <node id="4672">
+      <data key="d0">4672</data>
+      <data key="d1">eventid</data>
+      <data key="d2">Special privileges assigned to new logon</data>
+      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
+      <data key="d4">windows-event-ids.md</data>
+      <data key="d5">1792467680</data>
+      <data key="d6" />
+    </node>
+    <node id="4688">
+      <data key="d0">4688</data>
+      <data key="d1">eventid</data>
+      <data key="d2">A new process has been created</data>
+      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
+      <data key="d4">windows-event-ids.md</data>
+      <data key="d5">1792467680</data>
+      <data key="d6" />
+    </node>
+    <node id="4720">
+      <data key="d0">4720</data>
+      <data key="d1">eventid</data>
+      <data key="d2">A user account was created</data>
+      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
+      <data key="d4">windows-event-ids.md</data>
+      <data key="d5">1792467680</data>
+      <data key="d6" />
+    </node>
+    <node id="7045">
+      <data key="d0">7045</data>
+      <data key="d1">eventid</data>
+      <data key="d2">A new service was installed</data>
+      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
+      <data key="d4">windows-event-ids.md</data>
+      <data key="d5">1792467680</data>
+      <data key="d6" />
+    </node>
+    <node id="1102">
+      <data key="d0">1102</data>
+      <data key="d1">eventid</data>
+      <data key="d2">The audit log was cleared</data>
+      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
+      <data key="d4">windows-event-ids.md</data>
+      <data key="d5">1792467680</data>
+      <data key="d6" />
+    </node>
+    <node id="Security">
+      <data key="d0">Security</data>
+      <data key="d1">logtype</data>
+      <data key="d2">Relates to security-related events</data>
+      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
+      <data key="d4">windows-event-ids.md</data>
+      <data key="d5">1792467680</data>
+      <data key="d6" />
+    </node>
+    <node id="System">
+      <data key="d0">System</data>
+      <data key="d1">logtype</data>
+      <data key="d2">Relates to system-related events</data>
+      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
+      <data key="d4">windows-event-ids.md</data>
+      <data key="d5">1792467680</data>
+      <data key="d6" />
+    </node>
+    <node id="Logon Type">
+      <data key="d0">Logon Type</data>
+      <data key="d1">eventattribute</data>
+      <data key="d2">Indicates the type of logon (interactive, network, etc.)</data>
+      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
+      <data key="d4">windows-event-ids.md</data>
+      <data key="d5">1792467680</data>
+      <data key="d6" />
+    </node>
+    <node id="Successful logon">
+      <data key="d0">Successful logon</data>
+      <data key="d1">eventdescription</data>
+      <data key="d2">Indicates a successful user logon</data>
+      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
+      <data key="d4">windows-event-ids.md</data>
+      <data key="d5">1792467680</data>
+      <data key="d6" />
+    </node>
+    <node id="Failed logon">
+      <data key="d0">Failed logon</data>
+      <data key="d1">eventdescription</data>
+      <data key="d2">Indicates a failed user logon</data>
+      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
+      <data key="d4">windows-event-ids.md</data>
+      <data key="d5">1792467680</data>
+      <data key="d6" />
+    </node>
+    <node id="Admin-equivalent logon">
+      <data key="d0">Admin-equivalent logon</data>
+      <data key="d1">eventdescription</data>
+      <data key="d2">Indicates a logon with special administrative privileges</data>
+      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
+      <data key="d4">windows-event-ids.md</data>
+      <data key="d5">1792467680</data>
+      <data key="d6" />
+    </node>
+    <node id="Process execution trail">
+      <data key="d0">Process execution trail</data>
+      <data key="d1">eventdescription</data>
+      <data key="d2">Indicates the creation of a new process for auditing purposes</data>
+      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
+      <data key="d4">windows-event-ids.md</data>
+      <data key="d5">1792467680</data>
+      <data key="d6" />
+    </node>
+    <node id="Persistence / backdoor account">
+      <data key="d0">Persistence / backdoor account</data>
+      <data key="d1">eventdescription</data>
+      <data key="d2">Indicates the creation of a user account for potential malicious activities</data>
+      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
+      <data key="d4">windows-event-ids.md</data>
+      <data key="d5">1792467680</data>
+      <data key="d6" />
+    </node>
+    <node id="Common persistence and lateral-movement artefact">
+      <data key="d0">Common persistence and lateral-movement artefact</data>
+      <data key="d1">eventdescription</data>
+      <data key="d2">Indicates the installation of a new service, often used for malicious activities</data>
+      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
+      <data key="d4">windows-event-ids.md</data>
+      <data key="d5">1792467680</data>
+      <data key="d6" />
+    </node>
+    <node id="Anti-forensics red flag">
+      <data key="d0">Anti-forensics red flag</data>
+      <data key="d1">eventdescription</data>
+      <data key="d2">Indicates the clearing of the audit log, often used for malicious activities</data>
+      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
+      <data key="d4">windows-event-ids.md</data>
+      <data key="d5">1792467680</data>
+      <data key="d6" />
+    </node>
+    <node id="MCP server basics">
+      <data key="d0">MCP server basics</data>
+      <data key="d1">concept</data>
+      <data key="d2">A set of rules and concepts related to MCP server management, including setup, configuration, and troubleshooting.</data>
       <data key="d3">90-Meta/learning-ledger.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461408</data>
+      <data key="d4">learning-ledger.md</data>
+      <data key="d5">1792467696</data>
+      <data key="d6" />
+    </node>
+    <node id="Windows logon events (4624/4625)">
+      <data key="d0">Windows logon events (4624/4625)</data>
+      <data key="d1">concept</data>
+      <data key="d2">A set of Windows events related to logon activities, including success and failure events.</data>
+      <data key="d3">90-Meta/learning-ledger.md-chunk-000</data>
+      <data key="d4">learning-ledger.md</data>
+      <data key="d5">1792467696</data>
+      <data key="d6" />
+    </node>
+    <node id="Goroutines &amp; channels">
+      <data key="d0">Goroutines &amp; channels</data>
+      <data key="d1">concept</data>
+      <data key="d2">A set of programming concepts and techniques for using goroutines and channels in Go programming.</data>
+      <data key="d3">90-Meta/learning-ledger.md-chunk-000</data>
+      <data key="d4">learning-ledger.md</data>
+      <data key="d5">1792467696</data>
       <data key="d6" />
     </node>
     <node id="Status">
       <data key="d0">Status</data>
       <data key="d1">concept</data>
-      <data key="d2">Indicator or label describing the current state of learning material or tasks.</data>
+      <data key="d2">A set of possible states or conditions that a learning ledger can have, including `new`, `used`, and `confident`.</data>
       <data key="d3">90-Meta/learning-ledger.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461408</data>
+      <data key="d4">learning-ledger.md</data>
+      <data key="d5">1792467696</data>
+      <data key="d6" />
+    </node>
+    <node id="Area">
+      <data key="d0">Area</data>
+      <data key="d1">concept</data>
+      <data key="d2">A category or field of study that a concept or topic belongs to.</data>
+      <data key="d3">90-Meta/learning-ledger.md-chunk-000</data>
+      <data key="d4">learning-ledger.md</data>
+      <data key="d5">1792467696</data>
+      <data key="d6" />
+    </node>
+    <node id="Last checked">
+      <data key="d0">Last checked</data>
+      <data key="d1">concept</data>
+      <data key="d2">A date or timestamp indicating when a concept or topic was last reviewed or updated.</data>
+      <data key="d3">90-Meta/learning-ledger.md-chunk-000</data>
+      <data key="d4">learning-ledger.md</data>
+      <data key="d5">1792467696</data>
       <data key="d6" />
     </node>
     <node id="Notes">
       <data key="d0">Notes</data>
+      <data key="d1">concept</data>
+      <data key="d2">A field for storing additional comments or explanations related to a concept or topic.</data>
       <data key="d3">90-Meta/learning-ledger.md-chunk-000</data>
-      <data key="d2">mentioned in the notes section of Windows logon events.</data>
-      <data key="d1">UNKNOWN</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461408</data>
+      <data key="d4">learning-ledger.md</data>
+      <data key="d5">1792467696</data>
       <data key="d6" />
     </node>
     <node id="00-Inbox/">
       <data key="d0">00-Inbox/</data>
       <data key="d1">location</data>
-      <data key="d2">A designated folder for capturing new notes without organizing them initially.</data>
+      <data key="d2">A designated area for capturing new notes and ideas, sorted chronologically.</data>
       <data key="d3">90-Meta/system.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461448</data>
+      <data key="d4">system.md</data>
+      <data key="d5">1792467713</data>
       <data key="d6" />
     </node>
     <node id="10-Learning/">
       <data key="d0">10-Learning/</data>
       <data key="d1">location</data>
-      <data key="d2">A designated folder for writing up notes on concepts to understand.</data>
+      <data key="d2">A repository for detailed learning materials, categorized by topic.</data>
       <data key="d3">90-Meta/system.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461448</data>
+      <data key="d4">system.md</data>
+      <data key="d5">1792467713</data>
       <data key="d6" />
     </node>
     <node id="20-Projects/">
       <data key="d0">20-Projects/</data>
       <data key="d1">location</data>
-      <data key="d2">A designated folder for project-related notes.</data>
+      <data key="d2">A collection of project notes, organized by project.</data>
       <data key="d3">90-Meta/system.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461448</data>
+      <data key="d4">system.md</data>
+      <data key="d5">1792467713</data>
       <data key="d6" />
     </node>
     <node id="30-CTF-Writeups/">
       <data key="d0">30-CTF-Writeups/</data>
       <data key="d1">location</data>
-      <data key="d2">A designated folder for write-ups on capture the flag challenges.</data>
+      <data key="d2">A database of write-ups on Capture The Flag challenges, sorted chronologically.</data>
       <data key="d3">90-Meta/system.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461448</data>
+      <data key="d4">system.md</data>
+      <data key="d5">1792467713</data>
       <data key="d6" />
     </node>
     <node id="40-Languages/">
       <data key="d0">40-Languages/</data>
       <data key="d1">location</data>
-      <data key="d2">A designated folder for notes on learning languages.</data>
+      <data key="d2">A library of notes on various programming languages, organized alphabetically.</data>
       <data key="d3">90-Meta/system.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461448</data>
+      <data key="d4">system.md</data>
+      <data key="d5">1792467713</data>
       <data key="d6" />
     </node>
     <node id="50-Reference/">
       <data key="d0">50-Reference/</data>
       <data key="d1">location</data>
-      <data key="d2">A designated folder for reference materials.</data>
+      <data key="d2">A database of reference materials, organized by category.</data>
       <data key="d3">90-Meta/system.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461448</data>
+      <data key="d4">system.md</data>
+      <data key="d5">1792467713</data>
       <data key="d6" />
     </node>
-    <node id="90-Meta/learning-ledger.md">
-      <data key="d0">90-Meta/learning-ledger.md</data>
-      <data key="d1">content</data>
-      <data key="d2">A metadata file for tracking learning progress.</data>
+    <node id="90-Meta/">
+      <data key="d0">90-Meta/</data>
+      <data key="d1">location</data>
+      <data key="d2">A metadata repository, containing learning ledgers and other relevant information.</data>
       <data key="d3">90-Meta/system.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461448</data>
+      <data key="d4">system.md</data>
+      <data key="d5">1792467713</data>
       <data key="d6" />
     </node>
     <node id="flashcards">
       <data key="d0">flashcards</data>
-      <data key="d1">content</data>
-      <data key="d2">A type of note used for memorization.</data>
-      <data key="d3">90-Meta/system.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461448</data>
-      <data key="d6" />
-    </node>
-    <node id="Rule Zero">
-      <data key="d0">Rule Zero</data>
       <data key="d1">concept</data>
-      <data key="d2">A principle guiding the vault's organization, favoring capture over curation.</data>
+      <data key="d2">A technique for memorizing information, utilizing spaced repetition and review.</data>
       <data key="d3">90-Meta/system.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461448</data>
+      <data key="d4">system.md</data>
+      <data key="d5">1792467713</data>
       <data key="d6" />
     </node>
-    <node id="Three Needs">
-      <data key="d0">Three Needs</data>
+    <node id="system">
+      <data key="d0">system</data>
       <data key="d1">concept</data>
-      <data key="d2">A principle guiding note management, categorizing needs into memorization, understanding, and reference.</data>
+      <data key="d2">The underlying mechanism for managing notes and ideas.</data>
       <data key="d3">90-Meta/system.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461448</data>
+      <data key="d4">system.md</data>
+      <data key="d5">1792467713</data>
       <data key="d6" />
     </node>
-    <node id="Daily Sweep">
-      <data key="d0">Daily Sweep</data>
+    <node id="Rule zero">
+      <data key="d0">Rule zero</data>
+      <data key="d1">concept</data>
+      <data key="d2">A guiding principle for capturing notes, emphasizing simplicity and minimal effort.</data>
+      <data key="d3">90-Meta/system.md-chunk-000</data>
+      <data key="d4">system.md</data>
+      <data key="d5">1792467713</data>
+      <data key="d6" />
+    </node>
+    <node id="Daily">
+      <data key="d0">Daily</data>
       <data key="d1">event</data>
-      <data key="d2">A recurring task for reviewing and organizing notes.</data>
+      <data key="d2">A recurring activity for managing notes, taking place every day.</data>
       <data key="d3">90-Meta/system.md-chunk-000</data>
-      <data key="d4">unknown_source</data>
-      <data key="d5">1792461448</data>
+      <data key="d4">system.md</data>
+      <data key="d5">1792467713</data>
+      <data key="d6" />
+    </node>
+    <node id="Weekly sweep">
+      <data key="d0">Weekly sweep</data>
+      <data key="d1">event</data>
+      <data key="d2">A periodic task for reviewing and organizing notes, occurring once a week.</data>
+      <data key="d3">90-Meta/system.md-chunk-000</data>
+      <data key="d4">system.md</data>
+      <data key="d5">1792467713</data>
       <data key="d6" />
     </node>
     <edge source="Obsidian" target="Copilot">
       <data key="d7">1.0</data>
-      <data key="d8">AI-powered</data>
-      <data key="d9">Search</data>
+      <data key="d8">Obsidian uses Copilot to provide AI-powered coding suggestions.</data>
+      <data key="d9">AI,Uses</data>
       <data key="d10">README.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461320</data>
+      <data key="d11">README.md</data>
+      <data key="d12">1792467612</data>
       <data key="d13" />
     </edge>
-    <edge source="Obsidian" target="Smart Connections">
-      <data key="d7">1.0</data>
-      <data key="d8">AI-powered</data>
-      <data key="d9">Search</data>
-      <data key="d10">README.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461320</data>
+    <edge source="Obsidian" target="GitHub">
+      <data key="d7">2.0</data>
+      <data key="d8">Obsidian synchronizes with GitHub to ensure that the vault is up-to-date.&lt;SEP&gt;Obsidian integrates with GitHub for version control.</data>
+      <data key="d9">Synchronization,Syncs,integrates,links</data>
+      <data key="d10">README.md-chunk-000&lt;SEP&gt;SETUP.md-chunk-001</data>
+      <data key="d11">README.md&lt;SEP&gt;SETUP.md</data>
+      <data key="d12">1792467644</data>
       <data key="d13" />
     </edge>
     <edge source="Obsidian" target="MCP">
       <data key="d7">1.0</data>
-      <data key="d8">AI-powered</data>
-      <data key="d9">Search</data>
+      <data key="d8">Obsidian integrates with MCP to provide a meaningful content platform.</data>
+      <data key="d9">Content,Integrates</data>
       <data key="d10">README.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461320</data>
+      <data key="d11">README.md</data>
+      <data key="d12">1792467612</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Obsidian" target="Smart Connections">
+      <data key="d7">1.0</data>
+      <data key="d8">Obsidian provides Smart Connections to connect related notes and ideas.</data>
+      <data key="d9">Content,Provides</data>
+      <data key="d10">README.md-chunk-000</data>
+      <data key="d11">README.md</data>
+      <data key="d12">1792467612</data>
       <data key="d13" />
     </edge>
     <edge source="Obsidian" target="Hebrew">
-      <data key="d7">1.0</data>
-      <data key="d8">Language</data>
-      <data key="d9">Memorize</data>
+      <data key="d7">2.0</data>
+      <data key="d8">Hebrew is being learned in the Obsidian vault.&lt;SEP&gt;Obsidian learned Hebrew in the vault.</data>
+      <data key="d9">Language,Learned,Location</data>
       <data key="d10">README.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461320</data>
+      <data key="d11">README.md</data>
+      <data key="d12">1792467612</data>
       <data key="d13" />
     </edge>
     <edge source="Obsidian" target="Russian">
-      <data key="d7">1.0</data>
-      <data key="d8">Language</data>
-      <data key="d9">Memorize</data>
+      <data key="d7">2.0</data>
+      <data key="d8">Russian is being learned in the Obsidian vault.&lt;SEP&gt;Obsidian learned Russian in the vault.</data>
+      <data key="d9">Language,Learned,Location</data>
       <data key="d10">README.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461320</data>
+      <data key="d11">README.md</data>
+      <data key="d12">1792467612</data>
       <data key="d13" />
     </edge>
     <edge source="Obsidian" target="Arabic">
-      <data key="d7">1.0</data>
-      <data key="d8">Language</data>
-      <data key="d9">Memorize</data>
+      <data key="d7">2.0</data>
+      <data key="d8">Arabic is being learned in the Obsidian vault.&lt;SEP&gt;Obsidian learned Arabic in the vault.</data>
+      <data key="d9">Language,Learned,Location</data>
       <data key="d10">README.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461320</data>
+      <data key="d11">README.md</data>
+      <data key="d12">1792467612</data>
       <data key="d13" />
     </edge>
     <edge source="Obsidian" target="German">
-      <data key="d7">1.0</data>
-      <data key="d8">Language</data>
-      <data key="d9">Memorize</data>
+      <data key="d7">2.0</data>
+      <data key="d8">German is being learned in the Obsidian vault.&lt;SEP&gt;Obsidian learned German in the vault.</data>
+      <data key="d9">Language,Learned,Location</data>
       <data key="d10">README.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461320</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Obsidian" target="SETUP.md">
-      <data key="d7">1.0</data>
-      <data key="d8">Setup</data>
-      <data key="d9">Documentation</data>
-      <data key="d10">README.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461320</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Obsidian" target="Setup.md">
-      <data key="d7">1.0</data>
-      <data key="d8">Setup</data>
-      <data key="d9">Documentation</data>
-      <data key="d10">README.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461320</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Obsidian" target="system.md">
-      <data key="d7">1.0</data>
-      <data key="d8">Setup</data>
-      <data key="d9">Documentation</data>
-      <data key="d10">README.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461320</data>
+      <data key="d11">README.md</data>
+      <data key="d12">1792467612</data>
       <data key="d13" />
     </edge>
     <edge source="Obsidian" target="Tarik">
       <data key="d7">1.0</data>
-      <data key="d8">Tarik uses Obsidian for note-taking and knowledge management.</data>
-      <data key="d9">Interacts,Uses</data>
-      <data key="d10">SETUP.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461347</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Obsidian" target="Ollama">
-      <data key="d7">2.0</data>
-      <data key="d8">Obsidian is connected to Ollama for language model services.&lt;SEP&gt;Ollama is integrated with Obsidian for language model services.</data>
-      <data key="d9">Connected To,Integrated With</data>
-      <data key="d10">SETUP.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461347</data>
+      <data key="d8">The user runs Obsidian for personal knowledge management.</data>
+      <data key="d9">runs,uses</data>
+      <data key="d10">SETUP.md-chunk-001</data>
+      <data key="d11">SETUP.md</data>
+      <data key="d12">1792467644</data>
       <data key="d13" />
     </edge>
     <edge source="Obsidian" target="Obsidian Sync">
       <data key="d7">1.0</data>
-      <data key="d8">relation_description: Obsidian users can sync their notes with Obsidian Sync.</data>
-      <data key="d9">Sync</data>
+      <data key="d8">Obsidian Sync supports and enhances Obsidian syncing.</data>
+      <data key="d9">enhances,supports</data>
       <data key="d10">SETUP.md-chunk-001</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461347</data>
+      <data key="d11">SETUP.md</data>
+      <data key="d12">1792467644</data>
       <data key="d13" />
     </edge>
-    <edge source="Obsidian" target="GitHub">
-      <data key="d7">3.0</data>
-      <data key="d8">relation_description: Obsidian users can clone their vault from GitHub.&lt;SEP&gt;Obsidian syncs with GitHub for version control.&lt;SEP&gt;GitHub syncs with Obsidian for version control.</data>
-      <data key="d9">Sync,Syncs</data>
-      <data key="d10">SETUP.md-chunk-000&lt;SEP&gt;SETUP.md-chunk-001</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461347</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Obsidian" target="WSL note">
+    <edge source="Obsidian" target="Syncthing">
       <data key="d7">1.0</data>
-      <data key="d8">relation_description: Users should keep the vault on the Windows filesystem.</data>
-      <data key="d9">Path</data>
+      <data key="d8">Syncthing integrates and complements Obsidian syncing.</data>
+      <data key="d9">complements,integrates</data>
       <data key="d10">SETUP.md-chunk-001</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461347</data>
+      <data key="d11">SETUP.md</data>
+      <data key="d12">1792467644</data>
       <data key="d13" />
     </edge>
-    <edge source="Obsidian" target="Claude Desktop">
+    <edge source="Obsidian" target="Git">
       <data key="d7">1.0</data>
-      <data key="d8">Claude Desktop integrates with Obsidian for note-taking and knowledge management.</data>
-      <data key="d9">Integrates</data>
-      <data key="d10">SETUP.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461347</data>
+      <data key="d8">Git integrates and is utilized by Obsidian for version control.</data>
+      <data key="d9">integrates,utilizes</data>
+      <data key="d10">SETUP.md-chunk-001</data>
+      <data key="d11">SETUP.md</data>
+      <data key="d12">1792467644</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Obsidian" target="Claude Code">
+      <data key="d7">1.0</data>
+      <data key="d8">Claude Code integrates and enhances Obsidian with coding assistance.</data>
+      <data key="d9">enhances,integrates</data>
+      <data key="d10">SETUP.md-chunk-001</data>
+      <data key="d11">SETUP.md</data>
+      <data key="d12">1792467644</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Obsidian" target="WSL">
+      <data key="d7">1.0</data>
+      <data key="d8">Obsidian integrates and utilizes WSL for file watching and management.</data>
+      <data key="d9">integrates,utilizes</data>
+      <data key="d10">SETUP.md-chunk-001</data>
+      <data key="d11">SETUP.md</data>
+      <data key="d12">1792467644</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Obsidian" target="Claude">
+      <data key="d7">1.0</data>
+      <data key="d8">Claude integrates and enhances Obsidian with coding assistance.</data>
+      <data key="d9">enhances,integrates</data>
+      <data key="d10">SETUP.md-chunk-001</data>
+      <data key="d11">SETUP.md</data>
+      <data key="d12">1792467644</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Git" target="Tarik">
+      <data key="d7">1.0</data>
+      <data key="d8">The user uses and manages Git for version control.</data>
+      <data key="d9">manages,uses</data>
+      <data key="d10">SETUP.md-chunk-001</data>
+      <data key="d11">SETUP.md</data>
+      <data key="d12">1792467644</data>
       <data key="d13" />
     </edge>
     <edge source="Git" target="WSL">
       <data key="d7">1.0</data>
-      <data key="d8">relation_description: WSL git may show every file as modified due to file mode issues.</data>
-      <data key="d9">Conflict</data>
+      <data key="d8">Git integrates and is utilized by WSL for version control.</data>
+      <data key="d9">integrates,utilizes</data>
       <data key="d10">SETUP.md-chunk-001</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461347</data>
+      <data key="d11">SETUP.md</data>
+      <data key="d12">1792467644</data>
       <data key="d13" />
     </edge>
-    <edge source="GitHub" target="Tarik">
+    <edge source="MCP" target="Concept">
       <data key="d7">1.0</data>
-      <data key="d8">Tarik uses GitHub for version control and collaboration.</data>
-      <data key="d9">Interacts,Uses</data>
-      <data key="d10">SETUP.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461347</data>
+      <data key="d8">Relevant to Machine learning.</data>
+      <data key="d9">related_to</data>
+      <data key="d10">10-Learning/_index.md-chunk-000</data>
+      <data key="d11">_index.md</data>
+      <data key="d12">1792467654</data>
       <data key="d13" />
     </edge>
-    <edge source="GitHub" target="Syncthing">
+    <edge source="MCP" target="windows-event-ids">
       <data key="d7">1.0</data>
-      <data key="d8">relation_description: The provided text mentions that using both GitHub and Syncthing may cause conflicts.</data>
-      <data key="d9">Conflict</data>
-      <data key="d10">SETUP.md-chunk-001</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461347</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Copilot" target="Tarik">
-      <data key="d7">1.0</data>
-      <data key="d8">Tarik uses Copilot for chatting with the vault.</data>
-      <data key="d9">Interacts,Uses</data>
-      <data key="d10">SETUP.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461347</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Copilot" target="Claude Code">
-      <data key="d7">1.0</data>
-      <data key="d8">relation_description: Copilot and Claude Code are integrated for AI-powered coding tasks.</data>
-      <data key="d9">Integration</data>
-      <data key="d10">SETUP.md-chunk-001</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461347</data>
-      <data key="d13" />
-    </edge>
-    <edge source="MCP" target="MCP server basics">
-      <data key="d7">1.0</data>
-      <data key="d8">MCP server technology.</data>
-      <data key="d9">relates to</data>
+      <data key="d8">MCP is a protocol that is described in the windows-event-ids wiki page.</data>
+      <data key="d9">described in</data>
       <data key="d10">90-Meta/learning-ledger.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461408</data>
+      <data key="d11">learning-ledger.md</data>
+      <data key="d12">1792467696</data>
       <data key="d13" />
     </edge>
-    <edge source="Hebrew" target="Russian">
+    <edge source="Windows" target="evtx-analyst">
       <data key="d7">1.0</data>
-      <data key="d8">Hebrew and Russian are neighboring languages.</data>
-      <data key="d9">neighboring_languages</data>
-      <data key="d10">40-Languages/_index.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461376</data>
+      <data key="d8">The evtx-analyst tool is used on the Windows operating system to parse logs.</data>
+      <data key="d9">use</data>
+      <data key="d10">20-Projects/evtx-analyst.md-chunk-000</data>
+      <data key="d11">evtx-analyst.md</data>
+      <data key="d12">1792467663</data>
       <data key="d13" />
     </edge>
-    <edge source="Hebrew" target="Arabic">
+    <edge source="WSL" target="Tarik">
       <data key="d7">1.0</data>
-      <data key="d8">Hebrew and Arabic are neighboring languages.</data>
-      <data key="d9">neighboring_languages</data>
-      <data key="d10">40-Languages/_index.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461376</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Arabic" target="German">
-      <data key="d7">1.0</data>
-      <data key="d8">Arabic has influenced German language.</data>
-      <data key="d9">influenced_languages</data>
-      <data key="d10">40-Languages/_index.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461376</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Tarik" target="Ollama">
-      <data key="d7">1.0</data>
-      <data key="d8">Tarik uses Ollama as a language model provider for Copilot.</data>
-      <data key="d9">Interacts,Uses</data>
-      <data key="d10">SETUP.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461347</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Tarik" target="Claude Desktop">
-      <data key="d7">2.0</data>
-      <data key="d8">Tarik uses Claude Desktop as a conversational AI platform.&lt;SEP&gt;Tarik uses Claude Desktop for conversational AI services.</data>
-      <data key="d9">Interacts,Uses</data>
-      <data key="d10">SETUP.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461347</data>
-      <data key="d13" />
-    </edge>
-    <edge source="WSL" target="WSL note">
-      <data key="d7">1.0</data>
-      <data key="d8">relation_description: The author suggests keeping the vault on the Windows filesystem for WSL use.</data>
-      <data key="d9">Path</data>
+      <data key="d8">The user runs WSL for a Linux environment on Windows.</data>
+      <data key="d9">runs,uses</data>
       <data key="d10">SETUP.md-chunk-001</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461347</data>
+      <data key="d11">SETUP.md</data>
+      <data key="d12">1792467644</data>
       <data key="d13" />
     </edge>
-    <edge source="Obsidian Sync" target="vault backup">
+    <edge source="Obsidian Sync" target="Tarik">
       <data key="d7">1.0</data>
-      <data key="d8">relation_description: Obsidian Sync is a recommended service for official, end-to-end encrypted syncing of notes.</data>
-      <data key="d9">Purpose</data>
+      <data key="d8">The user uses and benefits from Obsidian Sync for secure syncing.</data>
+      <data key="d9">benefits,uses</data>
       <data key="d10">SETUP.md-chunk-001</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461347</data>
+      <data key="d11">SETUP.md</data>
+      <data key="d12">1792467644</data>
       <data key="d13" />
     </edge>
-    <edge source="Syncthing" target="vault backup">
+    <edge source="Syncthing" target="Tarik">
       <data key="d7">1.0</data>
-      <data key="d8">relation_description: Users should not sync `.git/` if using Syncthing and git together.</data>
-      <data key="d9">Conflict</data>
+      <data key="d8">The user uses and benefits from Syncthing for peer-to-peer syncing.</data>
+      <data key="d9">benefits,uses</data>
       <data key="d10">SETUP.md-chunk-001</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461347</data>
+      <data key="d11">SETUP.md</data>
+      <data key="d12">1792467644</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Claude Code" target="Tarik">
+      <data key="d7">1.0</data>
+      <data key="d8">The user uses and benefits from Claude Code for coding assistance.</data>
+      <data key="d9">benefits,uses</data>
+      <data key="d10">SETUP.md-chunk-001</data>
+      <data key="d11">SETUP.md</data>
+      <data key="d12">1792467644</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Tarik" target="Claude">
+      <data key="d7">1.0</data>
+      <data key="d8">The user uses and benefits from Claude for coding assistance.</data>
+      <data key="d9">benefits,uses</data>
+      <data key="d10">SETUP.md-chunk-001</data>
+      <data key="d11">SETUP.md</data>
+      <data key="d12">1792467644</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Concept" target="Reverse-Engineering">
+      <data key="d7">1.0</data>
+      <data key="d8">Method of understanding how a system works by analyzing its components.</data>
+      <data key="d9">related_to</data>
+      <data key="d10">10-Learning/_index.md-chunk-000</data>
+      <data key="d11">_index.md</data>
+      <data key="d12">1792467654</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Concept" target="Go">
+      <data key="d7">1.0</data>
+      <data key="d8">Programming concept or game.</data>
+      <data key="d9">related_to</data>
+      <data key="d10">10-Learning/_index.md-chunk-000</data>
+      <data key="d11">_index.md</data>
+      <data key="d12">1792467654</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Concept" target="DATAVIEW">
+      <data key="d7">1.0</data>
+      <data key="d8">Used for data visualization.</data>
+      <data key="d9">related_to</data>
+      <data key="d10">10-Learning/_index.md-chunk-000</data>
+      <data key="d11">_index.md</data>
+      <data key="d12">1792467654</data>
       <data key="d13" />
     </edge>
     <edge source="Reverse-Engineering" target="Windows logon events (4624/4625)">
       <data key="d7">1.0</data>
-      <data key="d8">relevant to reverse-engineering tasks.</data>
-      <data key="d9">pertains to</data>
+      <data key="d8">Windows logon events (4624/4625) can be used in the context of reverse-engineering.</data>
+      <data key="d9">applies to</data>
       <data key="d10">90-Meta/learning-ledger.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461408</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Reverse-Engineering" target="Goroutines &amp; channels">
-      <data key="d7">1.0</data>
-      <data key="d8">can be applied in reverse-engineering tasks.</data>
-      <data key="d9">may be used for</data>
-      <data key="d10">90-Meta/learning-ledger.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461408</data>
+      <data key="d11">learning-ledger.md</data>
+      <data key="d12">1792467696</data>
       <data key="d13" />
     </edge>
     <edge source="Reverse-Engineering" target="MCP server basics">
       <data key="d7">1.0</data>
-      <data key="d8">relates to MCP server basics in the context of reverse-engineering.</data>
-      <data key="d9">may be applied to</data>
+      <data key="d8">MCP server basics can be used in the context of reverse-engineering.</data>
+      <data key="d9">applies to</data>
       <data key="d10">90-Meta/learning-ledger.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461408</data>
+      <data key="d11">learning-ledger.md</data>
+      <data key="d12">1792467696</data>
       <data key="d13" />
     </edge>
-    <edge source="Dataview" target="Templates/project.md">
+    <edge source="Reverse-Engineering" target="Goroutines &amp; channels">
       <data key="d7">1.0</data>
-      <data key="d8">Used for displaying project notes.</data>
-      <data key="d9">related_to</data>
-      <data key="d10">20-Projects/_index.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461364</data>
+      <data key="d8">Goroutines &amp; channels can be related to reverse-engineering activities.</data>
+      <data key="d9">related to</data>
+      <data key="d10">90-Meta/learning-ledger.md-chunk-000</data>
+      <data key="d11">learning-ledger.md</data>
+      <data key="d12">1792467696</data>
       <data key="d13" />
     </edge>
-    <edge source="evtx-analyst" target="windows">
-      <data key="d7">2.0</data>
-      <data key="d8">The evtx-analyst tool is used to surface suspicious activity in Windows logs.</data>
-      <data key="d9">Surface</data>
+    <edge source="Reverse-Engineering" target="Area">
+      <data key="d7">1.0</data>
+      <data key="d8">Area is related to reverse-engineering activities.</data>
+      <data key="d9">related to</data>
+      <data key="d10">90-Meta/learning-ledger.md-chunk-000</data>
+      <data key="d11">learning-ledger.md</data>
+      <data key="d12">1792467696</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Reverse-Engineering" target="Notes">
+      <data key="d7">1.0</data>
+      <data key="d8">Notes are related to reverse-engineering activities.</data>
+      <data key="d9">related to</data>
+      <data key="d10">90-Meta/learning-ledger.md-chunk-000</data>
+      <data key="d11">learning-ledger.md</data>
+      <data key="d12">1792467696</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Reverse-Engineering" target="Last checked">
+      <data key="d7">1.0</data>
+      <data key="d8">Last checked date is used in the context of reverse-engineering.</data>
+      <data key="d9">applies to</data>
+      <data key="d10">90-Meta/learning-ledger.md-chunk-000</data>
+      <data key="d11">learning-ledger.md</data>
+      <data key="d12">1792467696</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Go" target="Goroutines &amp; channels">
+      <data key="d7">1.0</data>
+      <data key="d8">Goroutines &amp; channels is a feature of the Go programming language.</data>
+      <data key="d9">implemented using</data>
+      <data key="d10">90-Meta/learning-ledger.md-chunk-000</data>
+      <data key="d11">learning-ledger.md</data>
+      <data key="d12">1792467696</data>
+      <data key="d13" />
+    </edge>
+    <edge source="_index" target="file">
+      <data key="d7">1.0</data>
+      <data key="d8">Contains front page information.</data>
+      <data key="d9">contains</data>
+      <data key="d10">10-Learning/_index.md-chunk-000</data>
+      <data key="d11">_index.md</data>
+      <data key="d12">1792467654</data>
+      <data key="d13" />
+    </edge>
+    <edge source="_index" target="10-Learning">
+      <data key="d7">1.0</data>
+      <data key="d8">Contains learning notes and front page information.</data>
+      <data key="d9">contains</data>
+      <data key="d10">10-Learning/_index.md-chunk-000</data>
+      <data key="d11">_index.md</data>
+      <data key="d12">1792467654</data>
+      <data key="d13" />
+    </edge>
+    <edge source="10-Learning" target="file">
+      <data key="d7">1.0</data>
+      <data key="d8">Contains learning notes.</data>
+      <data key="d9">contains</data>
+      <data key="d10">10-Learning/_index.md-chunk-000</data>
+      <data key="d11">_index.md</data>
+      <data key="d12">1792467654</data>
+      <data key="d13" />
+    </edge>
+    <edge source="DATAVIEW" target="table">
+      <data key="d7">1.0</data>
+      <data key="d8">Used for data visualization and table representation.</data>
+      <data key="d9">uses</data>
+      <data key="d10">10-Learning/_index.md-chunk-000</data>
+      <data key="d11">_index.md</data>
+      <data key="d12">1792467654</data>
+      <data key="d13" />
+    </edge>
+    <edge source="evtx-analyst" target="python-evtx">
+      <data key="d7">1.0</data>
+      <data key="d8">The evtx-analyst tool can use the python-evtx library to parse EVTX logs.</data>
+      <data key="d9">parse</data>
       <data key="d10">20-Projects/evtx-analyst.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461360</data>
+      <data key="d11">evtx-analyst.md</data>
+      <data key="d12">1792467663</data>
       <data key="d13" />
     </edge>
     <edge source="evtx-analyst" target="windows-event-ids">
       <data key="d7">1.0</data>
-      <data key="d8">The evtx-analyst tool feeds into Windows event IDs.</data>
-      <data key="d9">Feed</data>
+      <data key="d8">The evtx-analyst tool feeds on the windows-event-ids list to detect suspicious activity.</data>
+      <data key="d9">feed</data>
       <data key="d10">20-Projects/evtx-analyst.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461360</data>
+      <data key="d11">evtx-analyst.md</data>
+      <data key="d12">1792467663</data>
+      <data key="d13" />
+    </edge>
+    <edge source="evtx-analyst" target="evtx">
+      <data key="d7">1.0</data>
+      <data key="d8">The evtx-analyst tool parses EVTX logs.</data>
+      <data key="d9">parse</data>
+      <data key="d10">20-Projects/evtx-analyst.md-chunk-000</data>
+      <data key="d11">evtx-analyst.md</data>
+      <data key="d12">1792467663</data>
       <data key="d13" />
     </edge>
     <edge source="evtx-analyst" target="DFIR">
       <data key="d7">2.0</data>
-      <data key="d8">The evtx-analyst tool is used for practising DFIR.</data>
-      <data key="d9">Practise</data>
+      <data key="d8">The evtx-analyst tool is used to practice DFIR skills.</data>
+      <data key="d9">practice</data>
       <data key="d10">20-Projects/evtx-analyst.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461360</data>
-      <data key="d13" />
-    </edge>
-    <edge source="windows-event-ids" target="MCP server basics">
-      <data key="d7">1.0</data>
-      <data key="d8">lists necessary Windows Event IDs for MCP server setup.</data>
-      <data key="d9">uses</data>
-      <data key="d10">90-Meta/learning-ledger.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461408</data>
-      <data key="d13" />
-    </edge>
-    <edge source="windows-event-ids" target="Windows logon events (4624/4625)">
-      <data key="d7">1.0</data>
-      <data key="d8">lists necessary information on Windows logon event IDs.</data>
-      <data key="d9">related to</data>
-      <data key="d10">90-Meta/learning-ledger.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461408</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Templates/project.md" target="20-Projects">
-      <data key="d7">1.0</data>
-      <data key="d8">Contains project notes.</data>
-      <data key="d9">related_to</data>
-      <data key="d10">20-Projects/_index.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461364</data>
-      <data key="d13" />
-    </edge>
-    <edge source="_index" target="40-Languages">
-      <data key="d7">1.0</data>
-      <data key="d8">_index contains 40-Languages folder.</data>
-      <data key="d9">contains</data>
-      <data key="d10">40-Languages/_index.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461376</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Templates" target="Languages">
-      <data key="d7">1.0</data>
-      <data key="d8">Languages have associated templates for vocabulary and grammar notes.</data>
-      <data key="d9">organized_in</data>
-      <data key="d10">40-Languages/_index.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461376</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Templates" target="vocab.md">
-      <data key="d7">1.0</data>
-      <data key="d8">Templates contains vocabulary notes template.</data>
-      <data key="d9">contains</data>
-      <data key="d10">40-Languages/_index.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461376</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Templates" target="Vocab and grammar notes">
-      <data key="d7">1.0</data>
-      <data key="d8">Vocab and grammar notes contain templates.</data>
-      <data key="d9">contains</data>
-      <data key="d10">40-Languages/_index.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461376</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Templates" target="40-Languages">
-      <data key="d7">1.0</data>
-      <data key="d8">40-Languages is organized in Templates folder.</data>
-      <data key="d9">organized_in</data>
-      <data key="d10">40-Languages/_index.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461376</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Languages" target="40-Languages">
-      <data key="d7">1.0</data>
-      <data key="d8">40-Languages is a collection of languages resources.</data>
-      <data key="d9">collection_of</data>
-      <data key="d10">40-Languages/_index.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461376</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Windows Event IDs" target="Security Log">
-      <data key="d7">1.0</data>
-      <data key="d8">contains</data>
-      <data key="d9">contains</data>
-      <data key="d10">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461390</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Windows Event IDs" target="System Log">
-      <data key="d7">1.0</data>
-      <data key="d8">contains</data>
-      <data key="d9">contains</data>
-      <data key="d10">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461390</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Windows Event IDs" target="Anti-Forensics">
-      <data key="d7">1.0</data>
-      <data key="d8">indicates</data>
-      <data key="d9">related to</data>
-      <data key="d10">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461390</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Windows Event IDs" target="Password Spraying">
-      <data key="d7">1.0</data>
-      <data key="d8">indicates</data>
-      <data key="d9">related to</data>
-      <data key="d10">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461390</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Windows Event IDs" target="Brute Force">
-      <data key="d7">1.0</data>
-      <data key="d8">indicates</data>
-      <data key="d9">related to</data>
-      <data key="d10">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461390</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Account" target="Process">
-      <data key="d7">1.0</data>
-      <data key="d8">executes</data>
-      <data key="d9">interacts</data>
-      <data key="d10">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461390</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Account" target="Audit Log">
-      <data key="d7">1.0</data>
-      <data key="d8">records changes</data>
-      <data key="d9">affects</data>
-      <data key="d10">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461390</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Process" target="Service">
-      <data key="d7">1.0</data>
-      <data key="d8">depends on</data>
-      <data key="d9">interacts</data>
-      <data key="d10">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461390</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Audit Log" target="Anti-Forensics">
-      <data key="d7">1.0</data>
-      <data key="d8">hinders detection</data>
-      <data key="d9">related to</data>
-      <data key="d10">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461390</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Brute Force" target="Password Spraying">
-      <data key="d7">1.0</data>
-      <data key="d8">related to</data>
-      <data key="d9">similar to</data>
-      <data key="d10">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461390</data>
+      <data key="d11">evtx-analyst.md</data>
+      <data key="d12">1792467663</data>
       <data key="d13" />
     </edge>
     <edge source="4624" target="4625">
-      <data key="d7">1.0</data>
-      <data key="d8">contrasting</data>
-      <data key="d9">opposite</data>
+      <data key="d7">2.0</data>
+      <data key="d8">Relationship between a successful and failed logon&lt;SEP&gt;Relationship between a failed and successful logon</data>
+      <data key="d9">Failed Logon,Successful Logon</data>
       <data key="d10">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461390</data>
+      <data key="d11">windows-event-ids.md</data>
+      <data key="d12">1792467680</data>
       <data key="d13" />
     </edge>
     <edge source="4624" target="4672">
-      <data key="d7">1.0</data>
-      <data key="d8">indicates</data>
-      <data key="d9">related to</data>
+      <data key="d7">2.0</data>
+      <data key="d8">Relationship between a successful logon and special privilege assignment&lt;SEP&gt;Relationship between special privilege assignment and a successful logon</data>
+      <data key="d9">Privilege Assignment</data>
       <data key="d10">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461390</data>
+      <data key="d11">windows-event-ids.md</data>
+      <data key="d12">1792467680</data>
       <data key="d13" />
     </edge>
     <edge source="4624" target="4688">
-      <data key="d7">1.0</data>
-      <data key="d8">indicates</data>
-      <data key="d9">related to</data>
+      <data key="d7">2.0</data>
+      <data key="d8">Relationship between a successful logon and process creation&lt;SEP&gt;Relationship between process creation and a successful logon</data>
+      <data key="d9">Process Creation</data>
       <data key="d10">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461390</data>
+      <data key="d11">windows-event-ids.md</data>
+      <data key="d12">1792467680</data>
       <data key="d13" />
     </edge>
     <edge source="4624" target="4720">
       <data key="d7">1.0</data>
-      <data key="d8">indicates</data>
-      <data key="d9">related to</data>
+      <data key="d8">Relationship between account creation and a successful logon</data>
+      <data key="d9">Account Creation</data>
       <data key="d10">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461390</data>
+      <data key="d11">windows-event-ids.md</data>
+      <data key="d12">1792467680</data>
       <data key="d13" />
     </edge>
     <edge source="4624" target="7045">
       <data key="d7">1.0</data>
-      <data key="d8">indicates</data>
-      <data key="d9">related to</data>
+      <data key="d8">Relationship between service installation and a successful logon</data>
+      <data key="d9">Service Installation</data>
       <data key="d10">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461390</data>
+      <data key="d11">windows-event-ids.md</data>
+      <data key="d12">1792467680</data>
       <data key="d13" />
     </edge>
     <edge source="4624" target="1102">
       <data key="d7">1.0</data>
-      <data key="d8">indicates</data>
-      <data key="d9">related to</data>
+      <data key="d8">Relationship between audit log cleared and a successful logon</data>
+      <data key="d9">Audit Log Cleared</data>
       <data key="d10">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461390</data>
+      <data key="d11">windows-event-ids.md</data>
+      <data key="d12">1792467680</data>
+      <data key="d13" />
+    </edge>
+    <edge source="MCP server basics" target="Windows logon events (4624/4625)">
+      <data key="d7">1.0</data>
+      <data key="d8">describes the usage of MCP server basics in the context of Windows logon events.</data>
+      <data key="d9">related to</data>
+      <data key="d10">90-Meta/learning-ledger.md-chunk-000</data>
+      <data key="d11">learning-ledger.md</data>
+      <data key="d12">1792467696</data>
+      <data key="d13" />
+    </edge>
+    <edge source="MCP server basics" target="Goroutines &amp; channels">
+      <data key="d7">1.0</data>
+      <data key="d8">Goroutines &amp; channels can be used in the context of MCP server basics.</data>
+      <data key="d9">applies to</data>
+      <data key="d10">90-Meta/learning-ledger.md-chunk-000</data>
+      <data key="d11">learning-ledger.md</data>
+      <data key="d12">1792467696</data>
       <data key="d13" />
     </edge>
     <edge source="MCP server basics" target="Status">
       <data key="d7">1.0</data>
-      <data key="d8">concerns the new status of MCP server basics.</data>
-      <data key="d9">relates to</data>
+      <data key="d8">MCP server basics describes the `new` status.</data>
+      <data key="d9">describes</data>
       <data key="d10">90-Meta/learning-ledger.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461408</data>
-      <data key="d13" />
-    </edge>
-    <edge source="MCP server basics" target="Area">
-      <data key="d7">1.0</data>
-      <data key="d8">covers MCP server basics within the Area category.</data>
-      <data key="d9">concerns</data>
-      <data key="d10">90-Meta/learning-ledger.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461408</data>
+      <data key="d11">learning-ledger.md</data>
+      <data key="d12">1792467696</data>
       <data key="d13" />
     </edge>
     <edge source="Windows logon events (4624/4625)" target="Status">
       <data key="d7">1.0</data>
-      <data key="d8">relevant to the new status of Windows logon events.</data>
-      <data key="d9">pertains to</data>
+      <data key="d8">Windows logon events (4624/4625) describes the `new` status.</data>
+      <data key="d9">describes</data>
       <data key="d10">90-Meta/learning-ledger.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461408</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Windows logon events (4624/4625)" target="Notes">
-      <data key="d7">1.0</data>
-      <data key="d8">mentioned in the notes section of Windows logon events.</data>
-      <data key="d9">relevant to</data>
-      <data key="d10">90-Meta/learning-ledger.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461408</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Goroutines &amp; channels" target="Go">
-      <data key="d7">1.0</data>
-      <data key="d8">educates users on goroutines and channels in the Go programming language.</data>
-      <data key="d9">applies to</data>
-      <data key="d10">90-Meta/learning-ledger.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461408</data>
+      <data key="d11">learning-ledger.md</data>
+      <data key="d12">1792467696</data>
       <data key="d13" />
     </edge>
     <edge source="Goroutines &amp; channels" target="Status">
       <data key="d7">1.0</data>
-      <data key="d8">can be applied to the used status of Goroutines &amp; channels.</data>
-      <data key="d9">may be used for</data>
+      <data key="d8">Goroutines &amp; channels describes the `new` status.</data>
+      <data key="d9">describes</data>
       <data key="d10">90-Meta/learning-ledger.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461408</data>
+      <data key="d11">learning-ledger.md</data>
+      <data key="d12">1792467696</data>
       <data key="d13" />
     </edge>
-    <edge source="Goroutines &amp; channels" target="Notes">
+    <edge source="Status" target="Last checked">
       <data key="d7">1.0</data>
-      <data key="d8">can be applied in the notes section of Goroutines &amp; channels.</data>
-      <data key="d9">may be used for</data>
+      <data key="d8">The status is applied to the last checked date.</data>
+      <data key="d9">applies to</data>
       <data key="d10">90-Meta/learning-ledger.md-chunk-000</data>
-      <data key="d11">unknown_source</data>
-      <data key="d12">1792461408</data>
+      <data key="d11">learning-ledger.md</data>
+      <data key="d12">1792467696</data>
       <data key="d13" />
     </edge>
   </graph>

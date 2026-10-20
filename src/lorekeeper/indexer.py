@@ -71,6 +71,21 @@ def _supports_ids(rag) -> bool:
         return False
 
 
+def _ainsert_kwargs(rag, doc) -> dict:
+    """Pass ids AND file_paths when supported. file_paths is what gives chunks a
+    real source for citation — without it LightRAG stores 'unknown_source'."""
+    try:
+        params = inspect.signature(rag.ainsert).parameters
+    except (TypeError, ValueError):
+        params = {}
+    kw = {}
+    if "ids" in params:
+        kw["ids"] = [doc.doc_id]
+    if "file_paths" in params:
+        kw["file_paths"] = [doc.doc_id]
+    return kw
+
+
 async def index_documents(docs: Iterable[Document]) -> int:
     if not CONFIG.is_indexer:
         raise RuntimeError(
@@ -78,22 +93,20 @@ async def index_documents(docs: Iterable[Document]) -> int:
             "Indexing runs on the desktop/GPU box; the laptop queries the committed graph."
         )
     rag = await get_rag()
-    use_ids = _supports_ids(rag)
     n = 0
     for doc in docs:
-        if use_ids:
-            await rag.ainsert(doc.text, ids=[doc.doc_id])
-        else:
-            await rag.ainsert(doc.text)
+        await rag.ainsert(doc.text, **_ainsert_kwargs(rag, doc))
         n += 1
     return n
 
 
 STRICT_GROUNDING = (
-    "Answer ONLY using the information in the provided Knowledge Base context. "
-    "Do not use any outside or general knowledge, and do not add background the "
-    "context does not contain. If the answer is not in the context, reply with "
-    "exactly: That's not in your notes yet. Prefer citing the note titles you drew from."
+    "Answer ONLY using the information in my notes provided as context. Do not use outside "
+    "or general knowledge, and do not add background my notes do not contain. If the answer "
+    "is not in my notes, reply with exactly: That's not in your notes yet. "
+    "Write a direct prose answer only. Do NOT include citation markers, reference ids, or a "
+    "list of references/sources in your reply; sources are shown separately. Refer to the "
+    "material as 'your notes', never as 'the provided text', 'the context', or 'document chunks'."
 )
 
 
@@ -151,9 +164,9 @@ async def query_with_sources(question: str, mode: str = "hybrid", strict: bool =
     sources: list[dict] = []
     try:
         data = await rag.aquery_data(question, param=QueryParam(mode=mode))
-        items = []
-        if isinstance(data, dict):
-            items = data.get("references") or data.get("chunks") or []
+        payload = data.get("data", data) if isinstance(data, dict) else {}
+        # references is reliably empty here; the real file_paths live on chunks.
+        items = (payload.get("references") or payload.get("chunks") or []) if isinstance(payload, dict) else []
         seen = set()
         for it in items:
             fp = _ref_path(it)
@@ -164,6 +177,8 @@ async def query_with_sources(question: str, mode: str = "hybrid", strict: bool =
             if title.endswith(".md"):
                 title = title[:-3]
             sources.append({"title": title, "path": fp})
+            if len(sources) >= 8:
+                break
     except Exception:
         pass
     return answer, sources
