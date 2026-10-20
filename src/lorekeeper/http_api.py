@@ -2,7 +2,8 @@
 
   GET  /health                       -> {ok, model, vault, indexer}
   POST /query   {question, mode?}    -> {answer, sources:[{title,path}]}
-  POST /suggest {draft_text, title?} -> {result}
+  POST /suggest {draft_text, title?} -> {result, plan:{...}}
+  POST /reindex                      -> {indexed}
 """
 from __future__ import annotations
 
@@ -13,13 +14,12 @@ from starlette.responses import JSONResponse
 from starlette.routing import Route
 
 from . import indexer, placement
+from .adapters.obsidian import ObsidianAdapter
 from .config import CONFIG
 
 
 async def _health(request):
-    return JSONResponse(
-        {"ok": True, "model": CONFIG.llm_model, "vault": str(CONFIG.vault_path), "indexer": CONFIG.is_indexer}
-    )
+    return JSONResponse({"ok": True, "model": CONFIG.llm_model, "vault": str(CONFIG.vault_path), "indexer": CONFIG.is_indexer})
 
 
 async def _query(request):
@@ -36,8 +36,13 @@ async def _suggest(request):
     draft = (body or {}).get("draft_text", "").strip()
     if not draft:
         return JSONResponse({"error": "missing 'draft_text'"}, status_code=400)
-    result = await placement.suggest(draft, (body or {}).get("title", ""))
-    return JSONResponse({"result": result})
+    plan = await placement.suggest_data(draft, (body or {}).get("title", ""))
+    return JSONResponse({"result": placement.format_plan(plan), "plan": plan})
+
+
+async def _reindex(request):
+    n = await indexer.index_documents(ObsidianAdapter(CONFIG.vault_path).documents())
+    return JSONResponse({"indexed": n})
 
 
 def build_app() -> Starlette:
@@ -45,6 +50,7 @@ def build_app() -> Starlette:
         Route("/health", _health, methods=["GET"]),
         Route("/query", _query, methods=["POST"]),
         Route("/suggest", _suggest, methods=["POST"]),
+        Route("/reindex", _reindex, methods=["POST"]),
     ]
     middleware = [Middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])]
     return Starlette(routes=routes, middleware=middleware)

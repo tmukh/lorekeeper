@@ -494,11 +494,11 @@
     </node>
     <node id="System">
       <data key="d0">System</data>
-      <data key="d1">logtype</data>
-      <data key="d2">Relates to system-related events</data>
-      <data key="d3">50-Reference/windows-event-ids.md-chunk-000</data>
-      <data key="d4">windows-event-ids.md</data>
-      <data key="d5">1792467680</data>
+      <data key="d1">concept</data>
+      <data key="d2">Relates to system-related events&lt;SEP&gt;A set of interconnected components that work together to achieve a specific goal.</data>
+      <data key="d3">50-Reference/windows-event-ids.md-chunk-000&lt;SEP&gt;10-Learning/Physics/thermodynamics.md-chunk-000</data>
+      <data key="d4">windows-event-ids.md&lt;SEP&gt;thermodynamics.md</data>
+      <data key="d5">1792470838</data>
       <data key="d6" />
     </node>
     <node id="Logon Type">
@@ -742,6 +742,159 @@
       <data key="d3">90-Meta/system.md-chunk-000</data>
       <data key="d4">system.md</data>
       <data key="d5">1792467713</data>
+      <data key="d6" />
+    </node>
+    <node id="Stock Market">
+      <data key="d0">Stock Market</data>
+      <data key="d1">other</data>
+      <data key="d2">The stock market is a global network of exchanges and trading venues where investors buy and sell shares of publicly traded companies.</data>
+      <data key="d3">10-Learning/Finance/20-10-2026.md-chunk-000</data>
+      <data key="d4">20-10-2026.md</data>
+      <data key="d5">1792470831</data>
+      <data key="d6" />
+    </node>
+    <node id="Investors">
+      <data key="d0">Investors</data>
+      <data key="d1">other</data>
+      <data key="d2">Investors are individuals or organizations that buy and sell shares of publicly traded companies.</data>
+      <data key="d3">10-Learning/Finance/20-10-2026.md-chunk-000</data>
+      <data key="d4">20-10-2026.md</data>
+      <data key="d5">1792470831</data>
+      <data key="d6" />
+    </node>
+    <node id="Companies">
+      <data key="d0">Companies</data>
+      <data key="d1">other</data>
+      <data key="d2">Companies are entities that issue shares to the public through an Initial Public Offering (IPO).</data>
+      <data key="d3">10-Learning/Finance/20-10-2026.md-chunk-000</data>
+      <data key="d4">20-10-2026.md</data>
+      <data key="d5">1792470831</data>
+      <data key="d6" />
+    </node>
+    <node id="Exchanges">
+      <data key="d0">Exchanges</data>
+      <data key="d1">other</data>
+      <data key="d2">Exchanges are organized marketplaces where trades take place.</data>
+      <data key="d3">10-Learning/Finance/20-10-2026.md-chunk-000</data>
+      <data key="d4">20-10-2026.md</data>
+      <data key="d5">1792470831</data>
+      <data key="d6" />
+    </node>
+    <node id="Brokerages">
+      <data key="d0">Brokerages</data>
+      <data key="d1">other</data>
+      <data key="d2">Brokerages are accounts or platforms that everyday people use to place buy and sell orders on exchanges.</data>
+      <data key="d3">10-Learning/Finance/20-10-2026.md-chunk-000</data>
+      <data key="d4">20-10-2026.md</data>
+      <data key="d5">1792470831</data>
+      <data key="d6" />
+    </node>
+    <node id="Investopedia">
+      <data key="d0">Investopedia</data>
+      <data key="d1">content</data>
+      <data key="d2">Investopedia is a website that provides educational resources and information on investing.</data>
+      <data key="d3">10-Learning/Finance/20-10-2026.md-chunk-000</data>
+      <data key="d4">20-10-2026.md</data>
+      <data key="d5">1792470831</data>
+      <data key="d6" />
+    </node>
+    <node id="HSBC">
+      <data key="d0">HSBC</data>
+      <data key="d1">organization</data>
+      <data key="d2">HSBC is a global bank and financial institution.</data>
+      <data key="d3">10-Learning/Finance/20-10-2026.md-chunk-000</data>
+      <data key="d4">20-10-2026.md</data>
+      <data key="d5">1792470831</data>
+      <data key="d6" />
+    </node>
+    <node id="Fidelity">
+      <data key="d0">Fidelity</data>
+      <data key="d1">organization</data>
+      <data key="d2">Fidelity is a financial services company that provides brokerage services.</data>
+      <data key="d3">10-Learning/Finance/20-10-2026.md-chunk-000</data>
+      <data key="d4">20-10-2026.md</data>
+      <data key="d5">1792470831</data>
+      <data key="d6" />
+    </node>
+    <node id="S&amp;P 500">
+      <data key="d0">S&amp;P 500</data>
+      <data key="d1">concept</data>
+      <data key="d2">The S&amp;P 500 is a stock market index that tracks the performance of 500 large-cap stocks.</data>
+      <data key="d3">10-Learning/Finance/20-10-2026.md-chunk-000</data>
+      <data key="d4">20-10-2026.md</data>
+      <data key="d5">1792470831</data>
+      <data key="d6" />
+    </node>
+    <node id="Dow Jones Industrial Average">
+      <data key="d0">Dow Jones Industrial Average</data>
+      <data key="d1">concept</data>
+      <data key="d2">The Dow Jones Industrial Average is a stock market index that tracks the performance of 30 large-cap stocks.</data>
+      <data key="d3">10-Learning/Finance/20-10-2026.md-chunk-000</data>
+      <data key="d4">20-10-2026.md</data>
+      <data key="d5">1792470831</data>
+      <data key="d6" />
+    </node>
+    <node id="Supply and Demand">
+      <data key="d0">Supply and Demand</data>
+      <data key="d3">10-Learning/Finance/20-10-2026.md-chunk-000</data>
+      <data key="d2">Share prices move up or down based on company performance, economic news, and how many people want to buy or sell in the stock market.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">20-10-2026.md</data>
+      <data key="d5">1792470831</data>
+      <data key="d6" />
+    </node>
+    <node id="Stock Exchanges">
+      <data key="d0">Stock Exchanges</data>
+      <data key="d3">10-Learning/Finance/20-10-2026.md-chunk-000</data>
+      <data key="d2">Stock exchanges include the New York Stock Exchange, Nasdaq, and the London Stock Exchange.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">20-10-2026.md</data>
+      <data key="d5">1792470831</data>
+      <data key="d6" />
+    </node>
+    <node id="Returns">
+      <data key="d0">Returns</data>
+      <data key="d3">10-Learning/Finance/20-10-2026.md-chunk-000</data>
+      <data key="d2">Investors can make money through dividends (cash payments from company profits) or price appreciation (selling a stock for more than they paid) in the stock market.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">20-10-2026.md</data>
+      <data key="d5">1792470831</data>
+      <data key="d6" />
+    </node>
+    <node id="Thermodynamics">
+      <data key="d0">Thermodynamics</data>
+      <data key="d1">concept</data>
+      <data key="d2">It encompasses topics like heat transfer, thermodynamic systems, and the behavior of gases and liquids.&lt;SEP&gt;The study of the relationships between heat, work, and energy.</data>
+      <data key="d3">10-Learning/Physics/thermodynamics.md-chunk-000</data>
+      <data key="d4">thermodynamics.md</data>
+      <data key="d5">1792470838</data>
+      <data key="d6" />
+    </node>
+    <node id="Heat">
+      <data key="d0">Heat</data>
+      <data key="d1">concept</data>
+      <data key="d2">A form of energy that can be transferred through radiation, conduction, and convection.</data>
+      <data key="d3">10-Learning/Physics/thermodynamics.md-chunk-000</data>
+      <data key="d4">thermodynamics.md</data>
+      <data key="d5">1792470838</data>
+      <data key="d6" />
+    </node>
+    <node id="Work">
+      <data key="d0">Work</data>
+      <data key="d1">concept</data>
+      <data key="d2">Energy transferred due to a force applied over a distance.</data>
+      <data key="d3">10-Learning/Physics/thermodynamics.md-chunk-000</data>
+      <data key="d4">thermodynamics.md</data>
+      <data key="d5">1792470838</data>
+      <data key="d6" />
+    </node>
+    <node id="Energy">
+      <data key="d0">Energy</data>
+      <data key="d1">concept</data>
+      <data key="d2">The capacity to do work, often quantified in terms of heat or work.</data>
+      <data key="d3">10-Learning/Physics/thermodynamics.md-chunk-000</data>
+      <data key="d4">thermodynamics.md</data>
+      <data key="d5">1792470838</data>
       <data key="d6" />
     </node>
     <edge source="Obsidian" target="Copilot">
@@ -1185,6 +1338,15 @@
       <data key="d12">1792467680</data>
       <data key="d13" />
     </edge>
+    <edge source="System" target="Thermodynamics">
+      <data key="d7">1.0</data>
+      <data key="d8">interconnected_components</data>
+      <data key="d9">is_related_to</data>
+      <data key="d10">10-Learning/Physics/thermodynamics.md-chunk-000</data>
+      <data key="d11">thermodynamics.md</data>
+      <data key="d12">1792470838</data>
+      <data key="d13" />
+    </edge>
     <edge source="MCP server basics" target="Windows logon events (4624/4625)">
       <data key="d7">1.0</data>
       <data key="d8">describes the usage of MCP server basics in the context of Windows logon events.</data>
@@ -1237,6 +1399,132 @@
       <data key="d10">90-Meta/learning-ledger.md-chunk-000</data>
       <data key="d11">learning-ledger.md</data>
       <data key="d12">1792467696</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Stock Market" target="Investors">
+      <data key="d7">1.0</data>
+      <data key="d8">Investors buy and sell shares of publicly traded companies in the stock market.</data>
+      <data key="d9">owns,sells</data>
+      <data key="d10">10-Learning/Finance/20-10-2026.md-chunk-000</data>
+      <data key="d11">20-10-2026.md</data>
+      <data key="d12">1792470831</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Stock Market" target="Companies">
+      <data key="d7">1.0</data>
+      <data key="d8">Companies list their shares publicly through an Initial Public Offering (IPO) to raise money to grow their business in the stock market.</data>
+      <data key="d9">list,raise</data>
+      <data key="d10">10-Learning/Finance/20-10-2026.md-chunk-000</data>
+      <data key="d11">20-10-2026.md</data>
+      <data key="d12">1792470831</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Stock Market" target="Exchanges">
+      <data key="d7">1.0</data>
+      <data key="d8">Most daily trading happens between investors buying and selling existing shares from one another rather than from the company itself in the stock market.</data>
+      <data key="d9">happen,occur</data>
+      <data key="d10">10-Learning/Finance/20-10-2026.md-chunk-000</data>
+      <data key="d11">20-10-2026.md</data>
+      <data key="d12">1792470831</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Stock Market" target="Supply and Demand">
+      <data key="d7">1.0</data>
+      <data key="d8">Share prices move up or down based on company performance, economic news, and how many people want to buy or sell in the stock market.</data>
+      <data key="d9">influenced,moves</data>
+      <data key="d10">10-Learning/Finance/20-10-2026.md-chunk-000</data>
+      <data key="d11">20-10-2026.md</data>
+      <data key="d12">1792470831</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Stock Market" target="Returns">
+      <data key="d7">1.0</data>
+      <data key="d8">Investors can make money through dividends (cash payments from company profits) or price appreciation (selling a stock for more than they paid) in the stock market.</data>
+      <data key="d9">generate,make</data>
+      <data key="d10">10-Learning/Finance/20-10-2026.md-chunk-000</data>
+      <data key="d11">20-10-2026.md</data>
+      <data key="d12">1792470831</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Stock Market" target="Investopedia">
+      <data key="d7">1.0</data>
+      <data key="d8">Investopedia provides educational resources and information on investing in the stock market.</data>
+      <data key="d9">educates,provides</data>
+      <data key="d10">10-Learning/Finance/20-10-2026.md-chunk-000</data>
+      <data key="d11">20-10-2026.md</data>
+      <data key="d12">1792470831</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Stock Market" target="HSBC">
+      <data key="d7">1.0</data>
+      <data key="d8">HSBC provides financial services and products to investors in the stock market.</data>
+      <data key="d9">offers,provide</data>
+      <data key="d10">10-Learning/Finance/20-10-2026.md-chunk-000</data>
+      <data key="d11">20-10-2026.md</data>
+      <data key="d12">1792470831</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Stock Market" target="Fidelity">
+      <data key="d7">1.0</data>
+      <data key="d8">Fidelity provides brokerage services and financial products to investors in the stock market.</data>
+      <data key="d9">offers,provide</data>
+      <data key="d10">10-Learning/Finance/20-10-2026.md-chunk-000</data>
+      <data key="d11">20-10-2026.md</data>
+      <data key="d12">1792470831</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Stock Market" target="S&amp;P 500">
+      <data key="d7">1.0</data>
+      <data key="d8">The S&amp;P 500 is a stock market index that tracks the performance of 500 large-cap stocks in the stock market.</data>
+      <data key="d9">measure,tracks</data>
+      <data key="d10">10-Learning/Finance/20-10-2026.md-chunk-000</data>
+      <data key="d11">20-10-2026.md</data>
+      <data key="d12">1792470831</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Stock Market" target="Dow Jones Industrial Average">
+      <data key="d7">1.0</data>
+      <data key="d8">The Dow Jones Industrial Average is a stock market index that tracks the performance of 30 large-cap stocks in the stock market.</data>
+      <data key="d9">measure,tracks</data>
+      <data key="d10">10-Learning/Finance/20-10-2026.md-chunk-000</data>
+      <data key="d11">20-10-2026.md</data>
+      <data key="d12">1792470831</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Exchanges" target="Stock Exchanges">
+      <data key="d7">1.0</data>
+      <data key="d8">Stock exchanges include the New York Stock Exchange, Nasdaq, and the London Stock Exchange.</data>
+      <data key="d9">have,include</data>
+      <data key="d10">10-Learning/Finance/20-10-2026.md-chunk-000</data>
+      <data key="d11">20-10-2026.md</data>
+      <data key="d12">1792470831</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Thermodynamics" target="Heat">
+      <data key="d7">2.0</data>
+      <data key="d8">transfers_energy&lt;SEP&gt;energy_transfer</data>
+      <data key="d9">is_an_aspect_of,relates_to</data>
+      <data key="d10">10-Learning/Physics/thermodynamics.md-chunk-000</data>
+      <data key="d11">thermodynamics.md</data>
+      <data key="d12">1792470838</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Thermodynamics" target="Work">
+      <data key="d7">2.0</data>
+      <data key="d8">energy_transfers&lt;SEP&gt;energy_transfer</data>
+      <data key="d9">is_an_aspect_of,relates_to</data>
+      <data key="d10">10-Learning/Physics/thermodynamics.md-chunk-000</data>
+      <data key="d11">thermodynamics.md</data>
+      <data key="d12">1792470838</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Thermodynamics" target="Energy">
+      <data key="d7">1.0</data>
+      <data key="d8">capacity_to_do_work</data>
+      <data key="d9">is_defined_as</data>
+      <data key="d10">10-Learning/Physics/thermodynamics.md-chunk-000</data>
+      <data key="d11">thermodynamics.md</data>
+      <data key="d12">1792470838</data>
       <data key="d13" />
     </edge>
   </graph>

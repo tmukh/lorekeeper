@@ -260,5 +260,257 @@
     "chunks_list": [
       "90-Meta/system.md-chunk-000"
     ]
+  },
+  "dup-80c00948af4a8f0872781f63aebdf812": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: README.md",
+    "content_length": 1500,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:33:34.452031+00:00",
+    "updated_at": "2026-10-20T04:33:34.452034+00:00",
+    "file_path": "README.md",
+    "track_id": "insert_20261020_063334_c7f135f3",
+    "error_msg": "File name already exists. Original doc_id: README.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "README.md",
+      "original_track_id": "insert_20261020_053949_607bcf1f"
+    }
+  },
+  "dup-722ef6dbcfd58b93b904f2fbb6021676": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: SETUP.md",
+    "content_length": 5418,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:33:34.455187+00:00",
+    "updated_at": "2026-10-20T04:33:34.455191+00:00",
+    "file_path": "SETUP.md",
+    "track_id": "insert_20261020_063334_a68ab6af",
+    "error_msg": "File name already exists. Original doc_id: SETUP.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "SETUP.md",
+      "original_track_id": "insert_20261020_054014_7dd72986"
+    }
+  },
+  "dup-bb58f489c6b09d21029bfbc44405da24": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 194,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:33:34.458144+00:00",
+    "updated_at": "2026-10-20T04:33:34.458148+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_063334_3c028f6b",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_054046_045eb524"
+    }
+  },
+  "dup-87804cf924d74caf9b226aa359f3464b": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 20-Projects/evtx-analyst.md",
+    "content_length": 539,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:33:34.460490+00:00",
+    "updated_at": "2026-10-20T04:33:34.460493+00:00",
+    "file_path": "evtx-analyst.md",
+    "track_id": "insert_20261020_063334_b42bb0a3",
+    "error_msg": "File name already exists. Original doc_id: 20-Projects/evtx-analyst.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "20-Projects/evtx-analyst.md",
+      "original_track_id": "insert_20261020_054055_7db747dd"
+    }
+  },
+  "dup-c24cc3b58a117c271c17523f209a41fe": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 191,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:33:34.462679+00:00",
+    "updated_at": "2026-10-20T04:33:34.462682+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_063334_06395b16",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_054046_045eb524"
+    }
+  },
+  "dup-552237af2576030d28054c91a059be1d": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 207,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:33:34.464961+00:00",
+    "updated_at": "2026-10-20T04:33:34.464964+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_063334_2e9f5894",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_054046_045eb524"
+    }
+  },
+  "dup-c7a36fb757790a29688672bbc01b1ef7": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 239,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:33:34.467100+00:00",
+    "updated_at": "2026-10-20T04:33:34.467103+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_063334_93d5db54",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_054046_045eb524"
+    }
+  },
+  "dup-9045026a3dbf46b159d42325dfeae3e0": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 50-Reference/windows-event-ids.md",
+    "content_length": 1019,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:33:34.469388+00:00",
+    "updated_at": "2026-10-20T04:33:34.469391+00:00",
+    "file_path": "windows-event-ids.md",
+    "track_id": "insert_20261020_063334_53031fae",
+    "error_msg": "File name already exists. Original doc_id: 50-Reference/windows-event-ids.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "50-Reference/windows-event-ids.md",
+      "original_track_id": "insert_20261020_054104_8024ba94"
+    }
+  },
+  "dup-dad849c4e8517a868b79cdb1a05d76a5": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 171,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:33:34.471553+00:00",
+    "updated_at": "2026-10-20T04:33:34.471557+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_063334_b6a54ac0",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_054046_045eb524"
+    }
+  },
+  "dup-28862116b9fc52a31bba51a2e089a015": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 90-Meta/learning-ledger.md",
+    "content_length": 355,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:33:34.482641+00:00",
+    "updated_at": "2026-10-20T04:33:34.482644+00:00",
+    "file_path": "learning-ledger.md",
+    "track_id": "insert_20261020_063334_69ea5f50",
+    "error_msg": "File name already exists. Original doc_id: 90-Meta/learning-ledger.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "90-Meta/learning-ledger.md",
+      "original_track_id": "insert_20261020_054121_0d519150"
+    }
+  },
+  "dup-146c81459f8fa0fc1edd132b5331844b": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 90-Meta/system.md",
+    "content_length": 1374,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:33:34.485168+00:00",
+    "updated_at": "2026-10-20T04:33:34.485172+00:00",
+    "file_path": "system.md",
+    "track_id": "insert_20261020_063334_b596727b",
+    "error_msg": "File name already exists. Original doc_id: 90-Meta/system.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "90-Meta/system.md",
+      "original_track_id": "insert_20261020_054137_887e5d6f"
+    }
+  },
+  "10-Learning/Finance/20-10-2026.md": {
+    "status": "processed",
+    "content_summary": "# 20-10-2026\n\n# 20-10-2026\n\nThe stock market is a global network of exchanges and trading venues where investors buy and sell shares of publicly traded companies. [[1](https://www.hsbc.co.uk/investments/what-is-the-stock-market/), [2](https://www.fid...",
+    "content_length": 2985,
+    "created_at": "2026-10-20T04:33:34.488223+00:00",
+    "updated_at": "2026-10-20T04:33:52.472819+00:00",
+    "file_path": "20-10-2026.md",
+    "track_id": "insert_20261020_063334_f889da37",
+    "content_hash": "c609f33ed2fee5a83b8ef346d924f3b7",
+    "metadata": {
+      "parse_start_time": 1792470814,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1792470814,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1792470814,
+      "process_end_time": 1792470832,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "10-Learning/Finance/20-10-2026.md-chunk-000"
+    ]
+  },
+  "10-Learning/Physics/thermodynamics.md": {
+    "status": "processed",
+    "content_summary": "# thermodynamics\n\n# thermodynamics\n\n## In one sentence\n\n## How it works\n\n## Example\n\n## Gotchas\n\n## Flashcards\n<!-- front::back -->\n\n## Sources\n\n\n## Related\n- [[system]]",
+    "content_length": 169,
+    "created_at": "2026-10-20T04:33:52.475558+00:00",
+    "updated_at": "2026-10-20T04:33:59.101471+00:00",
+    "file_path": "thermodynamics.md",
+    "track_id": "insert_20261020_063352_39e75767",
+    "content_hash": "94841b89a7f7c66abcb325ff9dc62a91",
+    "metadata": {
+      "parse_start_time": 1792470832,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1792470832,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1792470832,
+      "process_end_time": 1792470839,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "10-Learning/Physics/thermodynamics.md-chunk-000"
+    ]
   }
 }

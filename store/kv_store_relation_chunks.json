@@ -493,5 +493,140 @@
     "create_time": 1792467696,
     "update_time": 1792467696,
     "_id": "Last checked<SEP>Reverse-Engineering"
+  },
+  "Investors<SEP>Stock Market": {
+    "chunk_ids": [
+      "10-Learning/Finance/20-10-2026.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470831,
+    "update_time": 1792470831,
+    "_id": "Investors<SEP>Stock Market"
+  },
+  "Companies<SEP>Stock Market": {
+    "chunk_ids": [
+      "10-Learning/Finance/20-10-2026.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470831,
+    "update_time": 1792470831,
+    "_id": "Companies<SEP>Stock Market"
+  },
+  "Exchanges<SEP>Stock Market": {
+    "chunk_ids": [
+      "10-Learning/Finance/20-10-2026.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470831,
+    "update_time": 1792470831,
+    "_id": "Exchanges<SEP>Stock Market"
+  },
+  "Stock Market<SEP>Supply and Demand": {
+    "chunk_ids": [
+      "10-Learning/Finance/20-10-2026.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470831,
+    "update_time": 1792470831,
+    "_id": "Stock Market<SEP>Supply and Demand"
+  },
+  "Exchanges<SEP>Stock Exchanges": {
+    "chunk_ids": [
+      "10-Learning/Finance/20-10-2026.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470831,
+    "update_time": 1792470831,
+    "_id": "Exchanges<SEP>Stock Exchanges"
+  },
+  "Returns<SEP>Stock Market": {
+    "chunk_ids": [
+      "10-Learning/Finance/20-10-2026.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470831,
+    "update_time": 1792470831,
+    "_id": "Returns<SEP>Stock Market"
+  },
+  "Investopedia<SEP>Stock Market": {
+    "chunk_ids": [
+      "10-Learning/Finance/20-10-2026.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470831,
+    "update_time": 1792470831,
+    "_id": "Investopedia<SEP>Stock Market"
+  },
+  "HSBC<SEP>Stock Market": {
+    "chunk_ids": [
+      "10-Learning/Finance/20-10-2026.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470831,
+    "update_time": 1792470831,
+    "_id": "HSBC<SEP>Stock Market"
+  },
+  "Fidelity<SEP>Stock Market": {
+    "chunk_ids": [
+      "10-Learning/Finance/20-10-2026.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470831,
+    "update_time": 1792470831,
+    "_id": "Fidelity<SEP>Stock Market"
+  },
+  "S&P 500<SEP>Stock Market": {
+    "chunk_ids": [
+      "10-Learning/Finance/20-10-2026.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470831,
+    "update_time": 1792470831,
+    "_id": "S&P 500<SEP>Stock Market"
+  },
+  "Dow Jones Industrial Average<SEP>Stock Market": {
+    "chunk_ids": [
+      "10-Learning/Finance/20-10-2026.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470831,
+    "update_time": 1792470831,
+    "_id": "Dow Jones Industrial Average<SEP>Stock Market"
+  },
+  "Heat<SEP>Thermodynamics": {
+    "chunk_ids": [
+      "10-Learning/Physics/thermodynamics.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470838,
+    "update_time": 1792470838,
+    "_id": "Heat<SEP>Thermodynamics"
+  },
+  "Thermodynamics<SEP>Work": {
+    "chunk_ids": [
+      "10-Learning/Physics/thermodynamics.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470838,
+    "update_time": 1792470838,
+    "_id": "Thermodynamics<SEP>Work"
+  },
+  "Energy<SEP>Thermodynamics": {
+    "chunk_ids": [
+      "10-Learning/Physics/thermodynamics.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470838,
+    "update_time": 1792470838,
+    "_id": "Energy<SEP>Thermodynamics"
+  },
+  "System<SEP>Thermodynamics": {
+    "chunk_ids": [
+      "10-Learning/Physics/thermodynamics.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470838,
+    "update_time": 1792470838,
+    "_id": "System<SEP>Thermodynamics"
   }
 }

@@ -110,5 +110,33 @@
     "create_time": 1792467697,
     "update_time": 1792467713,
     "_id": "90-Meta/system.md-chunk-000"
+  },
+  "10-Learning/Finance/20-10-2026.md-chunk-000": {
+    "tokens": 744,
+    "content": "# 20-10-2026\n\n# 20-10-2026\n\nThe stock market is a global network of exchanges and trading venues where investors buy and sell shares of publicly traded companies. [[1](https://www.hsbc.co.uk/investments/what-is-the-stock-market/), [2](https://www.fidelity.com/learning-center/smart-money/what-is-the-stock-market)]\n\nYou can learn more about its core structure and principles through [Investopedia](https://www.investopedia.com/terms/s/stockmarket.asp). [[1](https://www.investopedia.com/terms/s/stockmarket.asp)]\n\nHow It Works\n\n- **Ownership:** Buying a stock means you purchase a small piece of ownership (a share) in a company. [[1](https://www.manulife.com/ca/en/personal/insights/market-insights/what-s-the-stock-market-and-why-is-it-important-), [2](https://www.investopedia.com/terms/s/stockmarket.asp)]\n- **Raising Capital:** Companies list their shares publicly through an Initial Public Offering (IPO) to raise money to grow their business. [[1](https://www.td.com/ca/en/investing/direct-investing/articles/what-is-stock-market), [2](https://www.youtube.com/watch?v=dMOcrLMfDFM)]\n- **Secondary Market:** Most daily trading happens between investors buying and selling existing shares from one another rather than from the company itself. [[1](https://www.nbc.ca/en/direct-brokerage/learning-centre/understanding-stock-market/stock-market-basics/what-is-stock-market.html), [2](https://www.youtube.com/watch?v=dMOcrLMfDFM)]\n- **Supply and Demand:** Share prices move up or down based on company performance, economic news, and how many people want to buy or sell. [[1](https://www.hsbc.co.uk/investments/what-is-the-stock-market/), [2](https://www.youtube.com/watch?v=dMOcrLMfDFM)]\n- **Returns:** Investors can make money through **dividends** (cash payments from company profits) or **price appreciation** (selling a stock for more than they paid). [[1](https://www.bcu.ac.uk/blog/accounting-finance-and-economics/what-is-the-stock-market), [2](https://www.fidelity.com/learning-center/smart-money/what-is-the-stock-market)]\n\nMajor Components\n\n- **Stock Exchanges:** Organized marketplaces where trades take place, such as the New York Stock Exchange (NYSE), Nasdaq, and the London Stock Exchange (LSE). [[1](https://www.fidelity.com/learning-center/smart-money/what-is-the-stock-market), [2](https://www.bcu.ac.uk/blog/accounting-finance-and-economics/what-is-the-stock-market)]\n- **Market Indexes:** Tools like the **S&P 500** or the **Dow Jones Industrial Average** track groups of large companies to show the overall health of the market. [[1](https://www.neamb.com/retirement-planning/understanding-the-stock-market-a-beginners-guide), [2](https://www.fidelity.com/learning-center/smart-money/what-is-the-stock-market)]\n- **Brokerages:** Accounts or platforms that everyday people use to place buy and sell orders on exchanges. [[1](https://www.investopedia.com/terms/s/stockmarket.asp), [2](https://www.fidelity.com/learning-center/smart-money/what-is-the-stock-market)]",
+    "chunk_order_index": 0,
+    "full_doc_id": "10-Learning/Finance/20-10-2026.md",
+    "file_path": "20-10-2026.md",
+    "llm_cache_list": [
+      "default:extract:349c9b4ec65be43f986dbbb4d62feb7a",
+      "default:extract:4d5090d8b24ade639129a8213dcde412"
+    ],
+    "create_time": 1792470814,
+    "update_time": 1792470831,
+    "_id": "10-Learning/Finance/20-10-2026.md-chunk-000"
+  },
+  "10-Learning/Physics/thermodynamics.md-chunk-000": {
+    "tokens": 44,
+    "content": "# thermodynamics\n\n# thermodynamics\n\n## In one sentence\n\n## How it works\n\n## Example\n\n## Gotchas\n\n## Flashcards\n<!-- front::back -->\n\n## Sources\n\n\n## Related\n- [[system]]",
+    "chunk_order_index": 0,
+    "full_doc_id": "10-Learning/Physics/thermodynamics.md",
+    "file_path": "thermodynamics.md",
+    "llm_cache_list": [
+      "default:extract:6ad571153307793b1c8de01f5942acbd",
+      "default:extract:1029617cd2ce23950955c7af08c5f122"
+    ],
+    "create_time": 1792470832,
+    "update_time": 1792470838,
+    "_id": "10-Learning/Physics/thermodynamics.md-chunk-000"
   }
 }

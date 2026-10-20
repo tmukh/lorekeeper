@@ -482,11 +482,11 @@
   },
   "System": {
     "chunk_ids": [
-      "50-Reference/windows-event-ids.md-chunk-000"
+      "50-Reference/windows-event-ids.md-chunk-000",
+      "10-Learning/Physics/thermodynamics.md-chunk-000"
     ],
-    "count": 1,
-    "create_time": 1792467680,
-    "update_time": 1792467680,
+    "count": 2,
+    "update_time": 1792470838,
     "_id": "System"
   },
   "Logon Type": {
@@ -731,5 +731,158 @@
     "create_time": 1792467713,
     "update_time": 1792467713,
     "_id": "Weekly sweep"
+  },
+  "Stock Market": {
+    "chunk_ids": [
+      "10-Learning/Finance/20-10-2026.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470831,
+    "update_time": 1792470831,
+    "_id": "Stock Market"
+  },
+  "Investors": {
+    "chunk_ids": [
+      "10-Learning/Finance/20-10-2026.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470831,
+    "update_time": 1792470831,
+    "_id": "Investors"
+  },
+  "Companies": {
+    "chunk_ids": [
+      "10-Learning/Finance/20-10-2026.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470831,
+    "update_time": 1792470831,
+    "_id": "Companies"
+  },
+  "Exchanges": {
+    "chunk_ids": [
+      "10-Learning/Finance/20-10-2026.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470831,
+    "update_time": 1792470831,
+    "_id": "Exchanges"
+  },
+  "Brokerages": {
+    "chunk_ids": [
+      "10-Learning/Finance/20-10-2026.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470831,
+    "update_time": 1792470831,
+    "_id": "Brokerages"
+  },
+  "Investopedia": {
+    "chunk_ids": [
+      "10-Learning/Finance/20-10-2026.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470831,
+    "update_time": 1792470831,
+    "_id": "Investopedia"
+  },
+  "HSBC": {
+    "chunk_ids": [
+      "10-Learning/Finance/20-10-2026.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470831,
+    "update_time": 1792470831,
+    "_id": "HSBC"
+  },
+  "Fidelity": {
+    "chunk_ids": [
+      "10-Learning/Finance/20-10-2026.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470831,
+    "update_time": 1792470831,
+    "_id": "Fidelity"
+  },
+  "S&P 500": {
+    "chunk_ids": [
+      "10-Learning/Finance/20-10-2026.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470831,
+    "update_time": 1792470831,
+    "_id": "S&P 500"
+  },
+  "Dow Jones Industrial Average": {
+    "chunk_ids": [
+      "10-Learning/Finance/20-10-2026.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470831,
+    "update_time": 1792470831,
+    "_id": "Dow Jones Industrial Average"
+  },
+  "Supply and Demand": {
+    "chunk_ids": [
+      "10-Learning/Finance/20-10-2026.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470831,
+    "update_time": 1792470831,
+    "_id": "Supply and Demand"
+  },
+  "Stock Exchanges": {
+    "chunk_ids": [
+      "10-Learning/Finance/20-10-2026.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470831,
+    "update_time": 1792470831,
+    "_id": "Stock Exchanges"
+  },
+  "Returns": {
+    "chunk_ids": [
+      "10-Learning/Finance/20-10-2026.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470831,
+    "update_time": 1792470831,
+    "_id": "Returns"
+  },
+  "Thermodynamics": {
+    "chunk_ids": [
+      "10-Learning/Physics/thermodynamics.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470838,
+    "update_time": 1792470838,
+    "_id": "Thermodynamics"
+  },
+  "Heat": {
+    "chunk_ids": [
+      "10-Learning/Physics/thermodynamics.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470838,
+    "update_time": 1792470838,
+    "_id": "Heat"
+  },
+  "Work": {
+    "chunk_ids": [
+      "10-Learning/Physics/thermodynamics.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470838,
+    "update_time": 1792470838,
+    "_id": "Work"
+  },
+  "Energy": {
+    "chunk_ids": [
+      "10-Learning/Physics/thermodynamics.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792470838,
+    "update_time": 1792470838,
+    "_id": "Energy"
   }
 }

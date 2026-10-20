@@ -53,3 +53,12 @@
   background: var(--interactive-accent); color: var(--text-on-accent); border: none;
 }
 .lorekeeper-chat .lk-send:hover { background: var(--interactive-accent-hover); }
+
+/* --- modals (smart note / file-it) --- */
+.lk-modal .lk-modal-gist { width: 100%; resize: vertical; margin: 8px 0; border-radius: 8px; padding: 8px; font-family: inherit; }
+.lk-modal .lk-plan { margin: 10px 0; padding: 10px 12px; border-radius: 8px; background: var(--background-secondary); border: 1px solid var(--background-modifier-border); }
+.lk-modal .lk-plan:empty { display: none; }
+.lk-modal .lk-plan-line { display: flex; gap: 8px; margin: 3px 0; font-size: 13px; }
+.lk-modal .lk-plan-k { min-width: 68px; opacity: 0.6; text-transform: uppercase; font-size: 10px; letter-spacing: 0.04em; padding-top: 2px; }
+.lk-modal .lk-plan-v { flex: 1; }
+.lk-modal .lk-modal-actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 12px; }

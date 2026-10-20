@@ -146,5 +146,39 @@
     "create_time": 1792467713,
     "update_time": 1792467713,
     "_id": "90-Meta/system.md"
+  },
+  "10-Learning/Finance/20-10-2026.md": {
+    "entity_names": [
+      "Brokerages",
+      "Companies",
+      "Dow Jones Industrial Average",
+      "Exchanges",
+      "Fidelity",
+      "HSBC",
+      "Investopedia",
+      "Investors",
+      "Returns",
+      "S&P 500",
+      "Stock Exchanges",
+      "Stock Market",
+      "Supply and Demand"
+    ],
+    "count": 13,
+    "create_time": 1792470831,
+    "update_time": 1792470831,
+    "_id": "10-Learning/Finance/20-10-2026.md"
+  },
+  "10-Learning/Physics/thermodynamics.md": {
+    "entity_names": [
+      "Energy",
+      "Heat",
+      "System",
+      "Thermodynamics",
+      "Work"
+    ],
+    "count": 5,
+    "create_time": 1792470838,
+    "update_time": 1792470838,
+    "_id": "10-Learning/Physics/thermodynamics.md"
   }
 }
