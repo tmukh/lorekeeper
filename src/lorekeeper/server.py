@@ -1,12 +1,10 @@
-"""lorekeeper MCP server — exposes the knowledge graph as tools (mcp 2.x API).
-
-Transports:
-  - stdio (default): Claude Code / Claude Desktop.
-  - streamable-http: the Obsidian plugin (localhost:8765).
+"""lorekeeper MCP server — exposes the knowledge graph as tools (mcp 2.x API),
+plus a --rest mode that serves a plain JSON facade for the Obsidian plugin.
 
 Run:
-  python -m lorekeeper.server          # stdio
-  python -m lorekeeper.server --http   # http on 127.0.0.1:8765
+  python -m lorekeeper.server          # stdio MCP (Claude Code / Desktop)
+  python -m lorekeeper.server --http   # streamable-http MCP
+  python -m lorekeeper.server --rest   # plain REST facade for the Obsidian plugin
 """
 from __future__ import annotations
 
@@ -69,10 +67,14 @@ def graph_stats() -> str:
 
 
 def main():
-    ap = argparse.ArgumentParser(description="lorekeeper MCP server")
-    ap.add_argument("--http", action="store_true", help="serve streamable-http on 127.0.0.1:8765")
+    ap = argparse.ArgumentParser(description="lorekeeper server")
+    ap.add_argument("--http", action="store_true", help="serve streamable-http MCP on 127.0.0.1:8765")
+    ap.add_argument("--rest", action="store_true", help="serve the plain REST facade for the Obsidian plugin on 127.0.0.1:8765")
     args = ap.parse_args()
-    if args.http:
+    if args.rest:
+        from .http_api import run_rest
+        run_rest()
+    elif args.http:
         mcp.run(transport="streamable-http", host="127.0.0.1", port=8765)
     else:
         mcp.run()  # stdio

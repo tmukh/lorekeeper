@@ -326,5 +326,49 @@
     "create_time": 1792462603,
     "update_time": 1792462603,
     "_id": "hybrid:query:19022e95787b220f2dedeec53abbdde4"
+  },
+  "hybrid:keywords:9231c1ce432dfb9e14ee4ebd0921b034": {
+    "return": "{\"high_level_keywords\": [\"mcp\"], \"low_level_keywords\": [\"learned\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "what have i learned about mcp/",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1792464313,
+    "update_time": 1792464313,
+    "_id": "hybrid:keywords:9231c1ce432dfb9e14ee4ebd0921b034"
+  },
+  "hybrid:query:b3808f20cf7f66682753f45ed10a5370": {
+    "return": "Based on the document chunks, here's what you've learned about MCP (Model Context Protocol):\n\n1. **MCP is a protocol for interacting with large language models (LLMs)**: You've set up an MCP server rooted at your Obsidian vault, allowing you to interact with LLMs like Ollama or Claude Desktop.\n2. **MCP servers can be used with different clients**: You've mentioned using the MCP server with both Ollama (Copilot) and Claude Desktop. This suggests that MCP is a flexible protocol that can be used with various clients and models.\n3. **MCP can be used for file system access**: You've used the MCP server to access your Obsidian vault's file system, allowing you to interact with your notes and files using LLMs.\n4. **MCP can be used for real-time interactions**: With MCP, you can have real-time interactions with LLMs, allowing you to ask questions, generate text, and receive feedback in a conversational manner.\n5. **MCP is a bridge between LLMs and your content**: MCP serves as a bridge between your LLMs and your content, enabling you to access and interact with your notes, files, and other content using LLMs.\n\nThese are the key takeaways about MCP from the document chunks. Let me know if you have any further questions or if there's anything else I can help you with!",
+    "cache_type": "query",
+    "chunk_id": null,
+    "original_prompt": "what have i learned about mcp/",
+    "queryparam": {
+      "answer_cache_version": "query-answer-cache-v2",
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "hl_keywords": "mcp",
+      "ll_keywords": "learned",
+      "user_prompt": "",
+      "enable_rerank": true,
+      "enable_content_headings": true
+    },
+    "create_time": 1792464323,
+    "update_time": 1792464323,
+    "_id": "hybrid:query:b3808f20cf7f66682753f45ed10a5370"
   }
 }

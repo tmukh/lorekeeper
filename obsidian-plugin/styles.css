@@ -1,0 +1,18 @@
+.lorekeeper-chat { display: flex; flex-direction: column; height: 100%; }
+.lorekeeper-chat .lk-log { flex: 1; overflow-y: auto; padding: 8px; }
+.lorekeeper-chat .lk-msg { margin-bottom: 10px; }
+.lorekeeper-chat .lk-who { font-size: 11px; opacity: 0.6; margin-bottom: 2px; }
+.lorekeeper-chat .lk-text {
+  white-space: pre-wrap;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: var(--background-secondary);
+}
+.lorekeeper-chat .lk-you .lk-text { background: var(--background-modifier-hover); }
+.lorekeeper-chat .lk-form {
+  display: flex;
+  gap: 6px;
+  padding: 8px;
+  border-top: 1px solid var(--background-modifier-border);
+}
+.lorekeeper-chat .lk-input { flex: 1; resize: none; }

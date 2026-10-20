@@ -8,6 +8,8 @@ dependencies = [
     "mcp[cli]>=2,<3",    # MCP server SDK (2.x: MCPServer, formerly FastMCP)
     "python-dotenv>=1.0",
     "ollama>=0.3",
+    "starlette>=0.37",
+    "uvicorn>=0.30",
 ]
 
 [project.scripts]
