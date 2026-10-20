@@ -370,5 +370,93 @@
     "create_time": 1792464323,
     "update_time": 1792464323,
     "_id": "hybrid:query:b3808f20cf7f66682753f45ed10a5370"
+  },
+  "hybrid:keywords:e1e73114f0a71bc4ed7b3427ea52a6eb": {
+    "return": "{\"high_level_keywords\": [\"learning\", \"mcps\"], \"low_level_keywords\": [\"mcps\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "what have i learned about mcps?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "Answer ONLY using the information in the provided Knowledge Base context. Do not use any outside or general knowledge, and do not add background the context does not contain. If the answer is not in the context, reply with exactly: That's not in your notes yet. Prefer citing the note titles you drew from.",
+      "enable_rerank": true
+    },
+    "create_time": 1792465422,
+    "update_time": 1792465422,
+    "_id": "hybrid:keywords:e1e73114f0a71bc4ed7b3427ea52a6eb"
+  },
+  "hybrid:query:59b35b1410e931dff60479bd9d28bbeb": {
+    "return": "Based on the text, here's what you've learned about MCPs (Model Context Protocol):\n\n1. **MCP servers**: You can set up an MCP server rooted at a specific folder, allowing you to interact with the vault using a Model Context Protocol client (e.g., Claude Desktop).\n2. **Local REST API plugin**: There's an alternative to the filesystem server, which is an Obsidian-specific MCP server that talks to the vault via the Local REST API plugin.\n3. **Claude Desktop**: You can configure Claude Desktop to connect to an MCP server rooted at your Obsidian vault, allowing you to list, search, read, and write notes.\n4. **Model Context Protocol (MCP) server settings**: You need to configure the MCP server settings, such as the command and arguments, to point to the Obsidian vault.\n5. **MCP clients**: You can use MCP clients like Claude Desktop to interact with the MCP server and the Obsidian vault.\n\nYou've also learned about the following:\n\n* **Claude Desktop**: A tool that can interact with an MCP server and the Obsidian vault.\n* **Model Context Protocol (MCP) servers**: Can be used to interact with an Obsidian vault using an MCP client.\n* **Local REST API plugin**: An alternative to the filesystem server for interacting with the Obsidian vault.\n\nThese are the key takeaways about MCPs based on the provided text.",
+    "cache_type": "query",
+    "chunk_id": null,
+    "original_prompt": "what have i learned about mcps?",
+    "queryparam": {
+      "answer_cache_version": "query-answer-cache-v2",
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "hl_keywords": "learning, mcps",
+      "ll_keywords": "mcps",
+      "user_prompt": "Answer ONLY using the information in the provided Knowledge Base context. Do not use any outside or general knowledge, and do not add background the context does not contain. If the answer is not in the context, reply with exactly: That's not in your notes yet. Prefer citing the note titles you drew from.",
+      "enable_rerank": true,
+      "enable_content_headings": true
+    },
+    "create_time": 1792465429,
+    "update_time": 1792465429,
+    "_id": "hybrid:query:59b35b1410e931dff60479bd9d28bbeb"
+  },
+  "hybrid:keywords:bb511328a1c6baf635e871542016accd": {
+    "return": "{\"high_level_keywords\": [\"quantum tunneling\", \"what i have learned\"], \"low_level_keywords\": [\"quantum\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "what have i learned about quantum tunneling?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "Answer ONLY using the information in the provided Knowledge Base context. Do not use any outside or general knowledge, and do not add background the context does not contain. If the answer is not in the context, reply with exactly: That's not in your notes yet. Prefer citing the note titles you drew from.",
+      "enable_rerank": true
+    },
+    "create_time": 1792465442,
+    "update_time": 1792465442,
+    "_id": "hybrid:keywords:bb511328a1c6baf635e871542016accd"
+  },
+  "hybrid:query:e08264d1ff69318f5ecb4f20bc7b01f9": {
+    "return": "There is no mention of \"quantum tunneling\" in the provided text.",
+    "cache_type": "query",
+    "chunk_id": null,
+    "original_prompt": "what have i learned about quantum tunneling?",
+    "queryparam": {
+      "answer_cache_version": "query-answer-cache-v2",
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "hl_keywords": "quantum tunneling, what i have learned",
+      "ll_keywords": "quantum",
+      "user_prompt": "Answer ONLY using the information in the provided Knowledge Base context. Do not use any outside or general knowledge, and do not add background the context does not contain. If the answer is not in the context, reply with exactly: That's not in your notes yet. Prefer citing the note titles you drew from.",
+      "enable_rerank": true,
+      "enable_content_headings": true
+    },
+    "create_time": 1792465444,
+    "update_time": 1792465444,
+    "_id": "hybrid:query:e08264d1ff69318f5ecb4f20bc7b01f9"
   }
 }

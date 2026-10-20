@@ -89,11 +89,20 @@ async def index_documents(docs: Iterable[Document]) -> int:
     return n
 
 
-async def query(question: str, mode: str = "hybrid") -> str:
+STRICT_GROUNDING = (
+    "Answer ONLY using the information in the provided Knowledge Base context. "
+    "Do not use any outside or general knowledge, and do not add background the "
+    "context does not contain. If the answer is not in the context, reply with "
+    "exactly: That's not in your notes yet. Prefer citing the note titles you drew from."
+)
+
+
+async def query(question: str, mode: str = "hybrid", strict: bool = True) -> str:
     from lightrag import QueryParam
 
     rag = await get_rag()
-    return await rag.aquery(question, param=QueryParam(mode=mode))
+    param = QueryParam(mode=mode, user_prompt=STRICT_GROUNDING if strict else None)
+    return await rag.aquery(question, param=param)
 
 
 async def complete(prompt: str, system: str | None = None, temperature: float = 0.1) -> str:
