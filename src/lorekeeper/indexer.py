@@ -1,17 +1,12 @@
-"""Thin wrapper around LightRAG: build/update the graph from any adapter,
-and run queries.
+"""Thin wrapper around LightRAG: build/update the graph, run graph queries,
+and a direct LLM completion for structured tasks (placement).
 
-LightRAG's import paths move between versions. If an import here fails, run
-`pip show lightrag-hku`, check its README for your version, and adjust ONLY
-this file — it is the single point of contact with the engine.
+LightRAG import paths move between versions; if an import fails, `pip show
+lightrag-hku` and adjust ONLY this file.
 
-NOTE on embeddings (the one gotcha): LightRAG's bundled `ollama_embed` is
-decorated with `@wrap_embedding_func_with_attrs(embedding_dim=1024)` because
-its default model is bge-m3 (1024-dim). We use `nomic-embed-text` (768-dim),
-so we call the UNWRAPPED `ollama_embed.func` and declare 768 on our own
-EmbeddingFunc — otherwise LightRAG validates 768 vectors against 1024 and
-every flush fails. We also pad empty/whitespace chunks, which Ollama would
-otherwise silently drop (breaking the 1:1 text->vector count).
+Embedding note: LightRAG's bundled `ollama_embed` is decorated for bge-m3
+(1024-dim), so we call the unwrapped `.func` and declare our own 768 dim for
+nomic-embed-text, and pad empty chunks Ollama would otherwise drop.
 """
 from __future__ import annotations
 
@@ -32,7 +27,6 @@ async def _build_rag():
 
     async def _embed(texts):
         safe = [t if (t and t.strip()) else " " for t in texts]
-        # .func = the undecorated function (no 1024/bge-m3 wrapper).
         vecs = await ollama_embed.func(
             safe, embed_model=CONFIG.embed_model, host=CONFIG.ollama_host
         )
@@ -48,13 +42,12 @@ async def _build_rag():
             "options": {"num_ctx": CONFIG.num_ctx},
         },
         embedding_func=EmbeddingFunc(
-            embedding_dim=CONFIG.embed_dim,  # 768 for nomic-embed-text
+            embedding_dim=CONFIG.embed_dim,
             max_token_size=8192,
             func=_embed,
         ),
     )
     await rag.initialize_storages()
-    # Newer LightRAG also requires initialising the pipeline-status store:
     try:
         from lightrag.kg.shared_storage import initialize_pipeline_status
 
@@ -101,3 +94,26 @@ async def query(question: str, mode: str = "hybrid") -> str:
 
     rag = await get_rag()
     return await rag.aquery(question, param=QueryParam(mode=mode))
+
+
+async def complete(prompt: str, system: str | None = None, temperature: float = 0.1) -> str:
+    """Direct, non-RAG chat completion against the local Ollama model.
+
+    Used for structured tasks (placement) where we supply the context
+    ourselves rather than retrieving it from the graph.
+    """
+    import ollama
+
+    client = ollama.AsyncClient(host=CONFIG.ollama_host)
+    messages = []
+    if system:
+        messages.append({"role": "system", "content": system})
+    messages.append({"role": "user", "content": prompt})
+    resp = await client.chat(
+        model=CONFIG.llm_model,
+        messages=messages,
+        options={"num_ctx": CONFIG.num_ctx, "temperature": temperature},
+    )
+    message = resp["message"] if isinstance(resp, dict) else resp.message
+    content = message["content"] if isinstance(message, dict) else message.content
+    return content or ""

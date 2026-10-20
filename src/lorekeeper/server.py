@@ -1,8 +1,8 @@
-"""lorekeeper MCP server — exposes the knowledge graph as tools.
+"""lorekeeper MCP server — exposes the knowledge graph as tools (mcp 2.x API).
 
-Uses the mcp 2.x API (MCPServer; formerly FastMCP in 1.x). Transports:
-  - stdio (default): for Claude Code / Claude Desktop.
-  - streamable-http: for the Obsidian plugin (localhost:8765).
+Transports:
+  - stdio (default): Claude Code / Claude Desktop.
+  - streamable-http: the Obsidian plugin (localhost:8765).
 
 Run:
   python -m lorekeeper.server          # stdio
@@ -14,7 +14,7 @@ import argparse
 
 from mcp.server import MCPServer
 
-from . import indexer
+from . import indexer, placement
 from .adapters.obsidian import ObsidianAdapter
 from .config import CONFIG
 
@@ -42,16 +42,9 @@ async def related_notes(text: str, k: int = 10) -> str:
 
 @mcp.tool()
 async def suggest_placement(draft_text: str, title: str = "") -> str:
-    """Given a draft note, suggest where it belongs: folder, filename, and [[links]]."""
-    folders = _vault_folders()
-    prompt = (
-        "You are organising an Obsidian vault. Given the DRAFT note and the existing "
-        "FOLDERS, reply with exactly: (1) the best folder (one of the existing folders, "
-        "or propose a new one with a reason), (2) a kebab-case filename, (3) up to 5 "
-        "existing notes to link as [[wikilinks]].\n\n"
-        f"FOLDERS:\n{folders}\n\nDRAFT (title: {title or 'untitled'}):\n{draft_text}"
-    )
-    return await indexer.query(prompt, mode="hybrid")
+    """Decide where a draft note belongs: folder (existing or a new subfolder),
+    kebab-case filename, matching template, and links grounded in real notes."""
+    return await placement.suggest(draft_text, title)
 
 
 @mcp.tool()
@@ -73,18 +66,6 @@ def graph_stats() -> str:
         if f.is_file():
             lines.append(f"  {f.name}: {f.stat().st_size / 1024:.1f} KiB")
     return "\n".join(lines)
-
-
-def _vault_folders() -> str:
-    root = CONFIG.vault_path
-    if not root.exists():
-        return "(vault path not found)"
-    dirs = sorted(
-        p.relative_to(root).as_posix()
-        for p in root.rglob("*")
-        if p.is_dir() and not any(x in p.parts for x in {".obsidian", ".git", ".smart-env"})
-    )
-    return "\n".join(dirs) or "(no subfolders)"
 
 
 def main():
