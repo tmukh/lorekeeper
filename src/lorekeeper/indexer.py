@@ -126,3 +126,44 @@ async def complete(prompt: str, system: str | None = None, temperature: float = 
     message = resp["message"] if isinstance(resp, dict) else resp.message
     content = message["content"] if isinstance(message, dict) else message.content
     return content or ""
+
+
+def _ref_path(item) -> str | None:
+    if isinstance(item, str):
+        return item
+    if isinstance(item, dict):
+        for k in ("file_path", "reference", "source", "doc_id", "source_id", "id"):
+            v = item.get(k)
+            if isinstance(v, str) and v:
+                return v
+    return None
+
+
+async def query_with_sources(question: str, mode: str = "hybrid", strict: bool = True):
+    """Return (answer, sources) where sources is a list of {title, path} of the
+    notes the retrieval drew from."""
+    from lightrag import QueryParam
+
+    rag = await get_rag()
+    answer = await rag.aquery(
+        question, param=QueryParam(mode=mode, user_prompt=STRICT_GROUNDING if strict else None)
+    )
+    sources: list[dict] = []
+    try:
+        data = await rag.aquery_data(question, param=QueryParam(mode=mode))
+        items = []
+        if isinstance(data, dict):
+            items = data.get("references") or data.get("chunks") or []
+        seen = set()
+        for it in items:
+            fp = _ref_path(it)
+            if not fp or fp == "unknown_source" or fp in seen:
+                continue
+            seen.add(fp)
+            title = fp.rsplit("/", 1)[-1]
+            if title.endswith(".md"):
+                title = title[:-3]
+            sources.append({"title": title, "path": fp})
+    except Exception:
+        pass
+    return answer, sources

@@ -1,18 +1,55 @@
 .lorekeeper-chat { display: flex; flex-direction: column; height: 100%; }
-.lorekeeper-chat .lk-log { flex: 1; overflow-y: auto; padding: 8px; }
-.lorekeeper-chat .lk-msg { margin-bottom: 10px; }
-.lorekeeper-chat .lk-who { font-size: 11px; opacity: 0.6; margin-bottom: 2px; }
+.lorekeeper-chat .lk-log { flex: 1; overflow-y: auto; padding: 12px; display: flex; flex-direction: column; gap: 14px; }
+
+.lorekeeper-chat .lk-msg { display: flex; flex-direction: column; gap: 4px; max-width: 100%; }
+.lorekeeper-chat .lk-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.lorekeeper-chat .lk-who { font-size: 10px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; opacity: 0.5; }
+
 .lorekeeper-chat .lk-text {
-  white-space: pre-wrap;
-  padding: 8px 10px;
-  border-radius: 8px;
+  user-select: text; -webkit-user-select: text;
+  padding: 10px 12px; border-radius: 10px; line-height: 1.5;
   background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  overflow-wrap: anywhere;
 }
-.lorekeeper-chat .lk-you .lk-text { background: var(--background-modifier-hover); }
+.lorekeeper-chat .lk-you { align-items: flex-end; }
+.lorekeeper-chat .lk-you .lk-text {
+  background: var(--interactive-accent); color: var(--text-on-accent);
+  border-color: transparent; max-width: 85%;
+}
+.lorekeeper-chat .lk-markdown > :first-child { margin-top: 0; }
+.lorekeeper-chat .lk-markdown > :last-child { margin-bottom: 0; }
+.lorekeeper-chat .lk-markdown ul, .lorekeeper-chat .lk-markdown ol { margin: 0.4em 0 0.4em 1.1em; padding: 0; }
+
+.lorekeeper-chat .lk-copy {
+  background: transparent; border: none; cursor: pointer; opacity: 0.45;
+  padding: 2px; border-radius: 4px; color: var(--text-muted);
+  display: flex; align-items: center;
+}
+.lorekeeper-chat .lk-copy:hover { opacity: 1; background: var(--background-modifier-hover); }
+.lorekeeper-chat .lk-thinking .lk-text { opacity: 0.6; font-style: italic; }
+
+.lorekeeper-chat .lk-sources { margin-top: 6px; }
+.lorekeeper-chat .lk-sources-label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.5; display: block; margin-bottom: 4px; }
+.lorekeeper-chat .lk-chips { display: flex; flex-wrap: wrap; gap: 5px; }
+.lorekeeper-chat .lk-chip {
+  font-size: 11px; padding: 2px 9px; border-radius: 999px; cursor: pointer;
+  background: var(--background-modifier-hover); color: var(--text-normal);
+  border: 1px solid var(--background-modifier-border); text-decoration: none;
+}
+.lorekeeper-chat .lk-chip:hover { background: var(--interactive-accent); color: var(--text-on-accent); border-color: transparent; }
+
 .lorekeeper-chat .lk-form {
-  display: flex;
-  gap: 6px;
-  padding: 8px;
-  border-top: 1px solid var(--background-modifier-border);
+  display: flex; gap: 6px; padding: 10px;
+  border-top: 1px solid var(--background-modifier-border); background: var(--background-primary);
 }
-.lorekeeper-chat .lk-input { flex: 1; resize: none; }
+.lorekeeper-chat .lk-input {
+  flex: 1; resize: none; border-radius: 8px; padding: 8px 10px; font-family: inherit;
+  border: 1px solid var(--background-modifier-border); background: var(--background-primary); color: var(--text-normal);
+}
+.lorekeeper-chat .lk-input:focus { outline: none; border-color: var(--interactive-accent); }
+.lorekeeper-chat .lk-send {
+  padding: 0 14px; border-radius: 8px; cursor: pointer; font-weight: 600;
+  background: var(--interactive-accent); color: var(--text-on-accent); border: none;
+}
+.lorekeeper-chat .lk-send:hover { background: var(--interactive-accent-hover); }

@@ -1,4 +1,7 @@
-import { App, ItemView, Notice, Plugin, PluginSettingTab, Setting, WorkspaceLeaf, requestUrl } from "obsidian";
+import {
+  App, Component, ItemView, MarkdownRenderer, Notice, Plugin,
+  PluginSettingTab, Setting, WorkspaceLeaf, requestUrl, setIcon,
+} from "obsidian";
 import { spawn, ChildProcess } from "child_process";
 
 interface LoreSettings {
@@ -16,6 +19,9 @@ const DEFAULT_SETTINGS: LoreSettings = {
 };
 
 const VIEW_TYPE = "lorekeeper-chat";
+
+interface Source { title: string; path: string; }
+interface Answer { answer: string; sources: Source[]; }
 
 export default class LorekeeperPlugin extends Plugin {
   settings: LoreSettings = DEFAULT_SETTINGS;
@@ -40,7 +46,6 @@ export default class LorekeeperPlugin extends Plugin {
 
   async startServer() {
     if (this.proc) return;
-    // Reuse an already-running server (e.g. a manual --rest, or Claude Desktop's instance on this port).
     try {
       const h = await requestUrl({ url: `${this.baseUrl()}/health`, method: "GET", throw: false });
       if (h.status === 200) {
@@ -48,7 +53,7 @@ export default class LorekeeperPlugin extends Plugin {
         return;
       }
     } catch (_) {
-      /* not up yet — we'll spawn it */
+      /* not up — spawn below */
     }
     try {
       this.proc = spawn(this.settings.pythonPath, ["-m", "lorekeeper.server", "--rest"], {
@@ -87,7 +92,7 @@ export default class LorekeeperPlugin extends Plugin {
     workspace.revealLeaf(leaf);
   }
 
-  async ask(question: string, mode = "hybrid"): Promise<string> {
+  async ask(question: string, mode = "hybrid"): Promise<Answer> {
     try {
       const res = await requestUrl({
         url: `${this.baseUrl()}/query`,
@@ -96,10 +101,10 @@ export default class LorekeeperPlugin extends Plugin {
         body: JSON.stringify({ question, mode }),
         throw: false,
       });
-      if (res.status >= 400) return `⚠️ server error ${res.status}: ${res.text}`;
-      return res.json?.answer ?? "(no answer)";
+      if (res.status >= 400) return { answer: `⚠️ server error ${res.status}: ${res.text}`, sources: [] };
+      return { answer: res.json?.answer ?? "(no answer)", sources: res.json?.sources ?? [] };
     } catch (e) {
-      return `⚠️ couldn't reach the lorekeeper server at ${this.baseUrl()} — is it running? (${e})`;
+      return { answer: `⚠️ couldn't reach the lorekeeper server at ${this.baseUrl()} — is it running? (${e})`, sources: [] };
     }
   }
 
@@ -117,15 +122,9 @@ class ChatView extends ItemView {
     super(leaf);
     this.plugin = plugin;
   }
-  getViewType() {
-    return VIEW_TYPE;
-  }
-  getDisplayText() {
-    return "Lorekeeper";
-  }
-  getIcon() {
-    return "bot";
-  }
+  getViewType() { return VIEW_TYPE; }
+  getDisplayText() { return "Lorekeeper"; }
+  getIcon() { return "bot"; }
 
   async onOpen() {
     const root = this.containerEl.children[1] as HTMLElement;
@@ -135,27 +134,56 @@ class ChatView extends ItemView {
     const form = root.createDiv({ cls: "lk-form" });
     const input = form.createEl("textarea", {
       cls: "lk-input",
-      attr: { rows: "2", placeholder: "Ask your knowledge graph…  (Enter to send, Shift+Enter for newline)" },
+      attr: { rows: "2", placeholder: "Ask your knowledge graph…  (Enter to send, Shift+Enter = newline)" },
     });
     const send = form.createEl("button", { text: "Ask", cls: "lk-send" });
 
-    const addMsg = (who: "you" | "bot", text: string): HTMLElement => {
-      const m = log.createDiv({ cls: `lk-msg lk-${who}` });
-      m.createDiv({ cls: "lk-who", text: who === "you" ? "You" : "Lorekeeper" });
+    const addUser = (text: string) => {
+      const m = log.createDiv({ cls: "lk-msg lk-you" });
+      m.createDiv({ cls: "lk-who", text: "You" });
       m.createDiv({ cls: "lk-text", text });
       log.scrollTop = log.scrollHeight;
-      return m;
+    };
+
+    const addBot = async (a: Answer) => {
+      const m = log.createDiv({ cls: "lk-msg lk-bot" });
+      const head = m.createDiv({ cls: "lk-head" });
+      head.createSpan({ cls: "lk-who", text: "Lorekeeper" });
+      const copyBtn = head.createEl("button", { cls: "lk-copy", attr: { "aria-label": "Copy answer" } });
+      setIcon(copyBtn, "copy");
+      copyBtn.onclick = async () => {
+        await navigator.clipboard.writeText(a.answer);
+        new Notice("Copied");
+      };
+      const text = m.createDiv({ cls: "lk-text lk-markdown" });
+      await MarkdownRenderer.render(this.plugin.app, a.answer, text, "", this as Component);
+      if (a.sources && a.sources.length) {
+        const src = m.createDiv({ cls: "lk-sources" });
+        src.createSpan({ cls: "lk-sources-label", text: "Sources" });
+        const chips = src.createDiv({ cls: "lk-chips" });
+        for (const s of a.sources) {
+          const chip = chips.createEl("a", { cls: "lk-chip", text: s.title });
+          chip.onclick = (e) => {
+            e.preventDefault();
+            this.plugin.app.workspace.openLinkText(s.path, "", false);
+          };
+        }
+      }
+      log.scrollTop = log.scrollHeight;
     };
 
     const submit = async () => {
       const q = input.value.trim();
       if (!q) return;
-      addMsg("you", q);
+      addUser(q);
       input.value = "";
-      const thinking = addMsg("bot", "…thinking…");
+      const thinking = log.createDiv({ cls: "lk-msg lk-bot lk-thinking" });
+      thinking.createDiv({ cls: "lk-who", text: "Lorekeeper" });
+      thinking.createDiv({ cls: "lk-text", text: "…thinking…" });
+      log.scrollTop = log.scrollHeight;
       const ans = await this.plugin.ask(q);
       thinking.remove();
-      addMsg("bot", ans);
+      await addBot(ans);
     };
 
     send.onclick = submit;
@@ -179,48 +207,15 @@ class LoreSettingTab extends PluginSettingTab {
   display(): void {
     const { containerEl } = this;
     containerEl.empty();
-    new Setting(containerEl)
-      .setName("Python path")
-      .setDesc("Path to the lorekeeper venv's python.exe")
-      .addText((t) =>
-        t.setValue(this.plugin.settings.pythonPath).onChange(async (v) => {
-          this.plugin.settings.pythonPath = v.trim();
-          await this.plugin.saveSettings();
-        })
-      );
-    new Setting(containerEl)
-      .setName("Repo path")
-      .setDesc("The lorekeeper repo folder (used as working dir so .env loads)")
-      .addText((t) =>
-        t.setValue(this.plugin.settings.repoPath).onChange(async (v) => {
-          this.plugin.settings.repoPath = v.trim();
-          await this.plugin.saveSettings();
-        })
-      );
-    new Setting(containerEl)
-      .setName("Server port")
-      .addText((t) =>
-        t.setValue(String(this.plugin.settings.port)).onChange(async (v) => {
-          this.plugin.settings.port = parseInt(v) || 8765;
-          await this.plugin.saveSettings();
-        })
-      );
-    new Setting(containerEl)
-      .setName("Auto-start server with Obsidian")
-      .addToggle((t) =>
-        t.setValue(this.plugin.settings.autostart).onChange(async (v) => {
-          this.plugin.settings.autostart = v;
-          await this.plugin.saveSettings();
-        })
-      );
-    new Setting(containerEl)
-      .setName("Restart server now")
-      .addButton((b) =>
-        b.setButtonText("Restart").onClick(async () => {
-          this.plugin.stopServer();
-          await this.plugin.startServer();
-          new Notice("Lorekeeper server restarting…");
-        })
-      );
+    new Setting(containerEl).setName("Python path").setDesc("Path to the lorekeeper venv's python.exe")
+      .addText((t) => t.setValue(this.plugin.settings.pythonPath).onChange(async (v) => { this.plugin.settings.pythonPath = v.trim(); await this.plugin.saveSettings(); }));
+    new Setting(containerEl).setName("Repo path").setDesc("The lorekeeper repo folder (working dir, so .env loads)")
+      .addText((t) => t.setValue(this.plugin.settings.repoPath).onChange(async (v) => { this.plugin.settings.repoPath = v.trim(); await this.plugin.saveSettings(); }));
+    new Setting(containerEl).setName("Server port")
+      .addText((t) => t.setValue(String(this.plugin.settings.port)).onChange(async (v) => { this.plugin.settings.port = parseInt(v) || 8765; await this.plugin.saveSettings(); }));
+    new Setting(containerEl).setName("Auto-start server with Obsidian")
+      .addToggle((t) => t.setValue(this.plugin.settings.autostart).onChange(async (v) => { this.plugin.settings.autostart = v; await this.plugin.saveSettings(); }));
+    new Setting(containerEl).setName("Restart server now")
+      .addButton((b) => b.setButtonText("Restart").onClick(async () => { this.plugin.stopServer(); await this.plugin.startServer(); new Notice("Lorekeeper server restarting…"); }));
   }
 }

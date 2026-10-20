@@ -1,13 +1,8 @@
 """Plain REST facade for the Obsidian plugin.
 
-The plugin is a browser-like client, so instead of making it speak MCP we
-expose the same placement/query capabilities as simple JSON endpoints on
-localhost. Reuses uvicorn+starlette (already pulled in by mcp[cli]).
-
-Endpoints:
-  GET  /health                      -> {ok, model, vault, indexer}
-  POST /query   {question, mode?}   -> {answer}
-  POST /suggest {draft_text, title?}-> {result}
+  GET  /health                       -> {ok, model, vault, indexer}
+  POST /query   {question, mode?}    -> {answer, sources:[{title,path}]}
+  POST /suggest {draft_text, title?} -> {result}
 """
 from __future__ import annotations
 
@@ -32,8 +27,8 @@ async def _query(request):
     question = (body or {}).get("question", "").strip()
     if not question:
         return JSONResponse({"error": "missing 'question'"}, status_code=400)
-    answer = await indexer.query(question, (body.get("mode") or "hybrid"))
-    return JSONResponse({"answer": answer})
+    answer, sources = await indexer.query_with_sources(question, (body.get("mode") or "hybrid"))
+    return JSONResponse({"answer": answer, "sources": sources})
 
 
 async def _suggest(request):
@@ -51,7 +46,6 @@ def build_app() -> Starlette:
         Route("/query", _query, methods=["POST"]),
         Route("/suggest", _suggest, methods=["POST"]),
     ]
-    # localhost-only, but permissive CORS so the Obsidian renderer is never blocked.
     middleware = [Middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])]
     return Starlette(routes=routes, middleware=middleware)
 

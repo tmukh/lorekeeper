@@ -458,5 +458,49 @@
     "create_time": 1792465444,
     "update_time": 1792465444,
     "_id": "hybrid:query:e08264d1ff69318f5ecb4f20bc7b01f9"
+  },
+  "hybrid:keywords:e182d44030bff7998838b9920049cb2d": {
+    "return": "{\"high_level_keywords\": [\"mcps\", \"knowledge\"], \"low_level_keywords\": [\"mcps\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What do i know about mcps",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "Answer ONLY using the information in the provided Knowledge Base context. Do not use any outside or general knowledge, and do not add background the context does not contain. If the answer is not in the context, reply with exactly: That's not in your notes yet. Prefer citing the note titles you drew from.",
+      "enable_rerank": true
+    },
+    "create_time": 1792466493,
+    "update_time": 1792466493,
+    "_id": "hybrid:keywords:e182d44030bff7998838b9920049cb2d"
+  },
+  "hybrid:query:7b284f36c9cc039ccb9cbe1445c30f41": {
+    "return": "Based on the document chunks you provided, here's what I gathered about MCPs (Model Context Protocols):\n\n1. **Definition**: MCPs are a way for applications to interact with models, such as large language models (LLMs) like Ollama or Claude.\n2. **Functionality**: MCPs enable applications to read and write notes, and even execute code in the context of the model. This allows for more interactive and dynamic interactions between the application and the model.\n3. **Integration**: The document mentions two ways to integrate MCPs:\n\t* **Local REST API**: This involves setting up an Obsidian-specific MCP server that talks to the vault via the Local REST API plugin.\n\t* **Filesystem server**: This involves using a filesystem-based MCP server, such as the `@modelcontextprotocol/server-filesystem` package.\n4. **Configuration**: To set up an MCP server, you need to configure the model and the server settings. This includes specifying the model name, provider (e.g., Ollama or Claude), and base URL.\n5. **Use cases**: MCPs can be used for various applications, such as:\n\t* **Chatbots**: MCPs enable chatbots to interact with models and perform tasks, like answering questions or generating text.\n\t* **Note-taking**: MCPs allow applications to read and write notes in the context of the model, making it easier to organize and access information.\n\t* **Code execution**: MCPs enable code execution in the context of the model, allowing for more dynamic and interactive interactions.\n\nKeep in mind that MCPs are a relatively new and evolving concept, and this summary is based on the information provided in the document chunks. If you have any specific questions or need further clarification, feel free to ask!",
+    "cache_type": "query",
+    "chunk_id": null,
+    "original_prompt": "What do i know about mcps",
+    "queryparam": {
+      "answer_cache_version": "query-answer-cache-v2",
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "hl_keywords": "mcps, knowledge",
+      "ll_keywords": "mcps",
+      "user_prompt": "Answer ONLY using the information in the provided Knowledge Base context. Do not use any outside or general knowledge, and do not add background the context does not contain. If the answer is not in the context, reply with exactly: That's not in your notes yet. Prefer citing the note titles you drew from.",
+      "enable_rerank": true,
+      "enable_content_headings": true
+    },
+    "create_time": 1792466500,
+    "update_time": 1792466500,
+    "_id": "hybrid:query:7b284f36c9cc039ccb9cbe1445c30f41"
   }
 }
