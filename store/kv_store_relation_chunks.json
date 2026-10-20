@@ -1,0 +1,624 @@
+{
+  "Copilot<SEP>Obsidian": {
+    "chunk_ids": [
+      "README.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461320,
+    "update_time": 1792461320,
+    "_id": "Copilot<SEP>Obsidian"
+  },
+  "Obsidian<SEP>Smart Connections": {
+    "chunk_ids": [
+      "README.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461320,
+    "update_time": 1792461320,
+    "_id": "Obsidian<SEP>Smart Connections"
+  },
+  "MCP<SEP>Obsidian": {
+    "chunk_ids": [
+      "README.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461320,
+    "update_time": 1792461320,
+    "_id": "MCP<SEP>Obsidian"
+  },
+  "Hebrew<SEP>Obsidian": {
+    "chunk_ids": [
+      "README.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461320,
+    "update_time": 1792461320,
+    "_id": "Hebrew<SEP>Obsidian"
+  },
+  "Obsidian<SEP>Russian": {
+    "chunk_ids": [
+      "README.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461320,
+    "update_time": 1792461320,
+    "_id": "Obsidian<SEP>Russian"
+  },
+  "Arabic<SEP>Obsidian": {
+    "chunk_ids": [
+      "README.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461320,
+    "update_time": 1792461320,
+    "_id": "Arabic<SEP>Obsidian"
+  },
+  "German<SEP>Obsidian": {
+    "chunk_ids": [
+      "README.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461320,
+    "update_time": 1792461320,
+    "_id": "German<SEP>Obsidian"
+  },
+  "Obsidian<SEP>SETUP.md": {
+    "chunk_ids": [
+      "README.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461320,
+    "update_time": 1792461320,
+    "_id": "Obsidian<SEP>SETUP.md"
+  },
+  "Obsidian<SEP>Setup.md": {
+    "chunk_ids": [
+      "README.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461320,
+    "update_time": 1792461320,
+    "_id": "Obsidian<SEP>Setup.md"
+  },
+  "Obsidian<SEP>system.md": {
+    "chunk_ids": [
+      "README.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461320,
+    "update_time": 1792461320,
+    "_id": "Obsidian<SEP>system.md"
+  },
+  "Obsidian<SEP>Tarik": {
+    "chunk_ids": [
+      "SETUP.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461347,
+    "update_time": 1792461347,
+    "_id": "Obsidian<SEP>Tarik"
+  },
+  "Ollama<SEP>Tarik": {
+    "chunk_ids": [
+      "SETUP.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461347,
+    "update_time": 1792461347,
+    "_id": "Ollama<SEP>Tarik"
+  },
+  "GitHub<SEP>Tarik": {
+    "chunk_ids": [
+      "SETUP.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461347,
+    "update_time": 1792461347,
+    "_id": "GitHub<SEP>Tarik"
+  },
+  "Obsidian<SEP>Ollama": {
+    "chunk_ids": [
+      "SETUP.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461347,
+    "update_time": 1792461347,
+    "_id": "Obsidian<SEP>Ollama"
+  },
+  "Claude Desktop<SEP>Tarik": {
+    "chunk_ids": [
+      "SETUP.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461347,
+    "update_time": 1792461347,
+    "_id": "Claude Desktop<SEP>Tarik"
+  },
+  "Obsidian<SEP>Obsidian Sync": {
+    "chunk_ids": [
+      "SETUP.md-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1792461347,
+    "update_time": 1792461347,
+    "_id": "Obsidian<SEP>Obsidian Sync"
+  },
+  "WSL<SEP>WSL note": {
+    "chunk_ids": [
+      "SETUP.md-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1792461347,
+    "update_time": 1792461347,
+    "_id": "WSL<SEP>WSL note"
+  },
+  "Copilot<SEP>Tarik": {
+    "chunk_ids": [
+      "SETUP.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461347,
+    "update_time": 1792461347,
+    "_id": "Copilot<SEP>Tarik"
+  },
+  "GitHub<SEP>Obsidian": {
+    "chunk_ids": [
+      "SETUP.md-chunk-000",
+      "SETUP.md-chunk-001"
+    ],
+    "count": 2,
+    "create_time": 1792461347,
+    "update_time": 1792461347,
+    "_id": "GitHub<SEP>Obsidian"
+  },
+  "Git<SEP>WSL": {
+    "chunk_ids": [
+      "SETUP.md-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1792461347,
+    "update_time": 1792461347,
+    "_id": "Git<SEP>WSL"
+  },
+  "Obsidian Sync<SEP>vault backup": {
+    "chunk_ids": [
+      "SETUP.md-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1792461347,
+    "update_time": 1792461347,
+    "_id": "Obsidian Sync<SEP>vault backup"
+  },
+  "Obsidian<SEP>WSL note": {
+    "chunk_ids": [
+      "SETUP.md-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1792461347,
+    "update_time": 1792461347,
+    "_id": "Obsidian<SEP>WSL note"
+  },
+  "GitHub<SEP>Syncthing": {
+    "chunk_ids": [
+      "SETUP.md-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1792461347,
+    "update_time": 1792461347,
+    "_id": "GitHub<SEP>Syncthing"
+  },
+  "Claude Code<SEP>Copilot": {
+    "chunk_ids": [
+      "SETUP.md-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1792461347,
+    "update_time": 1792461347,
+    "_id": "Claude Code<SEP>Copilot"
+  },
+  "Claude Desktop<SEP>Obsidian": {
+    "chunk_ids": [
+      "SETUP.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461347,
+    "update_time": 1792461347,
+    "_id": "Claude Desktop<SEP>Obsidian"
+  },
+  "Syncthing<SEP>vault backup": {
+    "chunk_ids": [
+      "SETUP.md-chunk-001"
+    ],
+    "count": 1,
+    "create_time": 1792461347,
+    "update_time": 1792461347,
+    "_id": "Syncthing<SEP>vault backup"
+  },
+  "evtx-analyst<SEP>windows": {
+    "chunk_ids": [
+      "20-Projects/evtx-analyst.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461360,
+    "update_time": 1792461360,
+    "_id": "evtx-analyst<SEP>windows"
+  },
+  "evtx-analyst<SEP>windows-event-ids": {
+    "chunk_ids": [
+      "20-Projects/evtx-analyst.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461360,
+    "update_time": 1792461360,
+    "_id": "evtx-analyst<SEP>windows-event-ids"
+  },
+  "DFIR<SEP>evtx-analyst": {
+    "chunk_ids": [
+      "20-Projects/evtx-analyst.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461360,
+    "update_time": 1792461360,
+    "_id": "DFIR<SEP>evtx-analyst"
+  },
+  "20-Projects<SEP>Templates/project.md": {
+    "chunk_ids": [
+      "20-Projects/_index.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461364,
+    "update_time": 1792461364,
+    "_id": "20-Projects<SEP>Templates/project.md"
+  },
+  "Dataview<SEP>Templates/project.md": {
+    "chunk_ids": [
+      "20-Projects/_index.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461364,
+    "update_time": 1792461364,
+    "_id": "Dataview<SEP>Templates/project.md"
+  },
+  "Languages<SEP>Templates": {
+    "chunk_ids": [
+      "40-Languages/_index.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461376,
+    "update_time": 1792461376,
+    "_id": "Languages<SEP>Templates"
+  },
+  "Hebrew<SEP>Russian": {
+    "chunk_ids": [
+      "40-Languages/_index.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461376,
+    "update_time": 1792461376,
+    "_id": "Hebrew<SEP>Russian"
+  },
+  "Arabic<SEP>German": {
+    "chunk_ids": [
+      "40-Languages/_index.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461376,
+    "update_time": 1792461376,
+    "_id": "Arabic<SEP>German"
+  },
+  "Templates<SEP>vocab.md": {
+    "chunk_ids": [
+      "40-Languages/_index.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461376,
+    "update_time": 1792461376,
+    "_id": "Templates<SEP>vocab.md"
+  },
+  "40-Languages<SEP>Languages": {
+    "chunk_ids": [
+      "40-Languages/_index.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461376,
+    "update_time": 1792461376,
+    "_id": "40-Languages<SEP>Languages"
+  },
+  "Arabic<SEP>Hebrew": {
+    "chunk_ids": [
+      "40-Languages/_index.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461376,
+    "update_time": 1792461376,
+    "_id": "Arabic<SEP>Hebrew"
+  },
+  "Templates<SEP>Vocab and grammar notes": {
+    "chunk_ids": [
+      "40-Languages/_index.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461376,
+    "update_time": 1792461376,
+    "_id": "Templates<SEP>Vocab and grammar notes"
+  },
+  "40-Languages<SEP>_index": {
+    "chunk_ids": [
+      "40-Languages/_index.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461376,
+    "update_time": 1792461376,
+    "_id": "40-Languages<SEP>_index"
+  },
+  "40-Languages<SEP>Templates": {
+    "chunk_ids": [
+      "40-Languages/_index.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461376,
+    "update_time": 1792461376,
+    "_id": "40-Languages<SEP>Templates"
+  },
+  "Security Log<SEP>Windows Event IDs": {
+    "chunk_ids": [
+      "50-Reference/windows-event-ids.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461390,
+    "update_time": 1792461390,
+    "_id": "Security Log<SEP>Windows Event IDs"
+  },
+  "Account<SEP>Process": {
+    "chunk_ids": [
+      "50-Reference/windows-event-ids.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461390,
+    "update_time": 1792461390,
+    "_id": "Account<SEP>Process"
+  },
+  "Anti-Forensics<SEP>Audit Log": {
+    "chunk_ids": [
+      "50-Reference/windows-event-ids.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461390,
+    "update_time": 1792461390,
+    "_id": "Anti-Forensics<SEP>Audit Log"
+  },
+  "Brute Force<SEP>Password Spraying": {
+    "chunk_ids": [
+      "50-Reference/windows-event-ids.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461390,
+    "update_time": 1792461390,
+    "_id": "Brute Force<SEP>Password Spraying"
+  },
+  "System Log<SEP>Windows Event IDs": {
+    "chunk_ids": [
+      "50-Reference/windows-event-ids.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461390,
+    "update_time": 1792461390,
+    "_id": "System Log<SEP>Windows Event IDs"
+  },
+  "Process<SEP>Service": {
+    "chunk_ids": [
+      "50-Reference/windows-event-ids.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461390,
+    "update_time": 1792461390,
+    "_id": "Process<SEP>Service"
+  },
+  "Account<SEP>Audit Log": {
+    "chunk_ids": [
+      "50-Reference/windows-event-ids.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461390,
+    "update_time": 1792461390,
+    "_id": "Account<SEP>Audit Log"
+  },
+  "4624<SEP>4625": {
+    "chunk_ids": [
+      "50-Reference/windows-event-ids.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461390,
+    "update_time": 1792461390,
+    "_id": "4624<SEP>4625"
+  },
+  "Anti-Forensics<SEP>Windows Event IDs": {
+    "chunk_ids": [
+      "50-Reference/windows-event-ids.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461390,
+    "update_time": 1792461390,
+    "_id": "Anti-Forensics<SEP>Windows Event IDs"
+  },
+  "4624<SEP>4672": {
+    "chunk_ids": [
+      "50-Reference/windows-event-ids.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461390,
+    "update_time": 1792461390,
+    "_id": "4624<SEP>4672"
+  },
+  "Password Spraying<SEP>Windows Event IDs": {
+    "chunk_ids": [
+      "50-Reference/windows-event-ids.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461390,
+    "update_time": 1792461390,
+    "_id": "Password Spraying<SEP>Windows Event IDs"
+  },
+  "4624<SEP>4688": {
+    "chunk_ids": [
+      "50-Reference/windows-event-ids.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461390,
+    "update_time": 1792461390,
+    "_id": "4624<SEP>4688"
+  },
+  "Brute Force<SEP>Windows Event IDs": {
+    "chunk_ids": [
+      "50-Reference/windows-event-ids.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461390,
+    "update_time": 1792461390,
+    "_id": "Brute Force<SEP>Windows Event IDs"
+  },
+  "4624<SEP>4720": {
+    "chunk_ids": [
+      "50-Reference/windows-event-ids.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461390,
+    "update_time": 1792461390,
+    "_id": "4624<SEP>4720"
+  },
+  "4624<SEP>7045": {
+    "chunk_ids": [
+      "50-Reference/windows-event-ids.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461390,
+    "update_time": 1792461390,
+    "_id": "4624<SEP>7045"
+  },
+  "1102<SEP>4624": {
+    "chunk_ids": [
+      "50-Reference/windows-event-ids.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461390,
+    "update_time": 1792461390,
+    "_id": "1102<SEP>4624"
+  },
+  "MCP server basics<SEP>windows-event-ids": {
+    "chunk_ids": [
+      "90-Meta/learning-ledger.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461408,
+    "update_time": 1792461408,
+    "_id": "MCP server basics<SEP>windows-event-ids"
+  },
+  "Reverse-Engineering<SEP>Windows logon events (4624/4625)": {
+    "chunk_ids": [
+      "90-Meta/learning-ledger.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461408,
+    "update_time": 1792461408,
+    "_id": "Reverse-Engineering<SEP>Windows logon events (4624/4625)"
+  },
+  "Go<SEP>Goroutines & channels": {
+    "chunk_ids": [
+      "90-Meta/learning-ledger.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461408,
+    "update_time": 1792461408,
+    "_id": "Go<SEP>Goroutines & channels"
+  },
+  "MCP<SEP>MCP server basics": {
+    "chunk_ids": [
+      "90-Meta/learning-ledger.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461408,
+    "update_time": 1792461408,
+    "_id": "MCP<SEP>MCP server basics"
+  },
+  "Windows logon events (4624/4625)<SEP>windows-event-ids": {
+    "chunk_ids": [
+      "90-Meta/learning-ledger.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461408,
+    "update_time": 1792461408,
+    "_id": "Windows logon events (4624/4625)<SEP>windows-event-ids"
+  },
+  "Goroutines & channels<SEP>Reverse-Engineering": {
+    "chunk_ids": [
+      "90-Meta/learning-ledger.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461408,
+    "update_time": 1792461408,
+    "_id": "Goroutines & channels<SEP>Reverse-Engineering"
+  },
+  "Status<SEP>Windows logon events (4624/4625)": {
+    "chunk_ids": [
+      "90-Meta/learning-ledger.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461408,
+    "update_time": 1792461408,
+    "_id": "Status<SEP>Windows logon events (4624/4625)"
+  },
+  "Notes<SEP>Windows logon events (4624/4625)": {
+    "chunk_ids": [
+      "90-Meta/learning-ledger.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461408,
+    "update_time": 1792461408,
+    "_id": "Notes<SEP>Windows logon events (4624/4625)"
+  },
+  "MCP server basics<SEP>Status": {
+    "chunk_ids": [
+      "90-Meta/learning-ledger.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461408,
+    "update_time": 1792461408,
+    "_id": "MCP server basics<SEP>Status"
+  },
+  "Goroutines & channels<SEP>Status": {
+    "chunk_ids": [
+      "90-Meta/learning-ledger.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461408,
+    "update_time": 1792461408,
+    "_id": "Goroutines & channels<SEP>Status"
+  },
+  "Area<SEP>MCP server basics": {
+    "chunk_ids": [
+      "90-Meta/learning-ledger.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461408,
+    "update_time": 1792461408,
+    "_id": "Area<SEP>MCP server basics"
+  },
+  "Goroutines & channels<SEP>Notes": {
+    "chunk_ids": [
+      "90-Meta/learning-ledger.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461408,
+    "update_time": 1792461408,
+    "_id": "Goroutines & channels<SEP>Notes"
+  },
+  "MCP server basics<SEP>Reverse-Engineering": {
+    "chunk_ids": [
+      "90-Meta/learning-ledger.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792461408,
+    "update_time": 1792461408,
+    "_id": "MCP server basics<SEP>Reverse-Engineering"
+  }
+}

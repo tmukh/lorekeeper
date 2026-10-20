@@ -1,0 +1,21 @@
+[project]
+name = "lorekeeper"
+version = "0.1.0"
+description = "Local GraphRAG MCP server over an Obsidian vault — a graph-structured second brain, fully offline."
+requires-python = ">=3.10"
+dependencies = [
+    "lightrag-hku",      # the GraphRAG engine (HKU). Pin once it works: lightrag-hku==<ver>
+    "mcp[cli]>=2,<3",    # MCP server SDK (2.x: MCPServer, formerly FastMCP)
+    "python-dotenv>=1.0",
+    "ollama>=0.3",
+]
+
+[project.scripts]
+lorekeeper = "lorekeeper.server:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

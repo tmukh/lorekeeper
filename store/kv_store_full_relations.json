@@ -1,0 +1,362 @@
+{
+  "README.md": {
+    "relation_pairs": [
+      [
+        "Arabic",
+        "Obsidian"
+      ],
+      [
+        "Copilot",
+        "Obsidian"
+      ],
+      [
+        "German",
+        "Obsidian"
+      ],
+      [
+        "Hebrew",
+        "Obsidian"
+      ],
+      [
+        "MCP",
+        "Obsidian"
+      ],
+      [
+        "Obsidian",
+        "Russian"
+      ],
+      [
+        "Obsidian",
+        "SETUP.md"
+      ],
+      [
+        "Obsidian",
+        "Setup.md"
+      ],
+      [
+        "Obsidian",
+        "Smart Connections"
+      ],
+      [
+        "Obsidian",
+        "system.md"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1792461320,
+    "update_time": 1792461320,
+    "_id": "README.md"
+  },
+  "SETUP.md": {
+    "relation_pairs": [
+      [
+        "Claude Code",
+        "Copilot"
+      ],
+      [
+        "Claude Desktop",
+        "Obsidian"
+      ],
+      [
+        "Claude Desktop",
+        "Tarik"
+      ],
+      [
+        "Copilot",
+        "Tarik"
+      ],
+      [
+        "Git",
+        "WSL"
+      ],
+      [
+        "GitHub",
+        "Obsidian"
+      ],
+      [
+        "GitHub",
+        "Syncthing"
+      ],
+      [
+        "GitHub",
+        "Tarik"
+      ],
+      [
+        "Obsidian",
+        "Obsidian Sync"
+      ],
+      [
+        "Obsidian",
+        "Ollama"
+      ],
+      [
+        "Obsidian",
+        "Tarik"
+      ],
+      [
+        "Obsidian",
+        "WSL note"
+      ],
+      [
+        "Obsidian Sync",
+        "vault backup"
+      ],
+      [
+        "Ollama",
+        "Tarik"
+      ],
+      [
+        "Syncthing",
+        "vault backup"
+      ],
+      [
+        "WSL",
+        "WSL note"
+      ]
+    ],
+    "count": 16,
+    "create_time": 1792461347,
+    "update_time": 1792461347,
+    "_id": "SETUP.md"
+  },
+  "10-Learning/_index.md": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1792461354,
+    "update_time": 1792461354,
+    "_id": "10-Learning/_index.md"
+  },
+  "20-Projects/evtx-analyst.md": {
+    "relation_pairs": [
+      [
+        "DFIR",
+        "evtx-analyst"
+      ],
+      [
+        "evtx-analyst",
+        "windows"
+      ],
+      [
+        "evtx-analyst",
+        "windows-event-ids"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1792461360,
+    "update_time": 1792461360,
+    "_id": "20-Projects/evtx-analyst.md"
+  },
+  "20-Projects/_index.md": {
+    "relation_pairs": [
+      [
+        "20-Projects",
+        "Templates/project.md"
+      ],
+      [
+        "Dataview",
+        "Templates/project.md"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1792461364,
+    "update_time": 1792461364,
+    "_id": "20-Projects/_index.md"
+  },
+  "30-CTF-Writeups/_index.md": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1792461368,
+    "update_time": 1792461368,
+    "_id": "30-CTF-Writeups/_index.md"
+  },
+  "40-Languages/_index.md": {
+    "relation_pairs": [
+      [
+        "40-Languages",
+        "Languages"
+      ],
+      [
+        "40-Languages",
+        "Templates"
+      ],
+      [
+        "40-Languages",
+        "_index"
+      ],
+      [
+        "Arabic",
+        "German"
+      ],
+      [
+        "Arabic",
+        "Hebrew"
+      ],
+      [
+        "Hebrew",
+        "Russian"
+      ],
+      [
+        "Languages",
+        "Templates"
+      ],
+      [
+        "Templates",
+        "Vocab and grammar notes"
+      ],
+      [
+        "Templates",
+        "vocab.md"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1792461376,
+    "update_time": 1792461376,
+    "_id": "40-Languages/_index.md"
+  },
+  "50-Reference/windows-event-ids.md": {
+    "relation_pairs": [
+      [
+        "1102",
+        "4624"
+      ],
+      [
+        "4624",
+        "4625"
+      ],
+      [
+        "4624",
+        "4672"
+      ],
+      [
+        "4624",
+        "4688"
+      ],
+      [
+        "4624",
+        "4720"
+      ],
+      [
+        "4624",
+        "7045"
+      ],
+      [
+        "Account",
+        "Audit Log"
+      ],
+      [
+        "Account",
+        "Process"
+      ],
+      [
+        "Anti-Forensics",
+        "Audit Log"
+      ],
+      [
+        "Anti-Forensics",
+        "Windows Event IDs"
+      ],
+      [
+        "Brute Force",
+        "Password Spraying"
+      ],
+      [
+        "Brute Force",
+        "Windows Event IDs"
+      ],
+      [
+        "Password Spraying",
+        "Windows Event IDs"
+      ],
+      [
+        "Process",
+        "Service"
+      ],
+      [
+        "Security Log",
+        "Windows Event IDs"
+      ],
+      [
+        "System Log",
+        "Windows Event IDs"
+      ]
+    ],
+    "count": 16,
+    "create_time": 1792461390,
+    "update_time": 1792461390,
+    "_id": "50-Reference/windows-event-ids.md"
+  },
+  "50-Reference/_index.md": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1792461396,
+    "update_time": 1792461396,
+    "_id": "50-Reference/_index.md"
+  },
+  "90-Meta/learning-ledger.md": {
+    "relation_pairs": [
+      [
+        "Area",
+        "MCP server basics"
+      ],
+      [
+        "Go",
+        "Goroutines & channels"
+      ],
+      [
+        "Goroutines & channels",
+        "Notes"
+      ],
+      [
+        "Goroutines & channels",
+        "Reverse-Engineering"
+      ],
+      [
+        "Goroutines & channels",
+        "Status"
+      ],
+      [
+        "MCP",
+        "MCP server basics"
+      ],
+      [
+        "MCP server basics",
+        "Reverse-Engineering"
+      ],
+      [
+        "MCP server basics",
+        "Status"
+      ],
+      [
+        "MCP server basics",
+        "windows-event-ids"
+      ],
+      [
+        "Notes",
+        "Windows logon events (4624/4625)"
+      ],
+      [
+        "Reverse-Engineering",
+        "Windows logon events (4624/4625)"
+      ],
+      [
+        "Status",
+        "Windows logon events (4624/4625)"
+      ],
+      [
+        "Windows logon events (4624/4625)",
+        "windows-event-ids"
+      ]
+    ],
+    "count": 13,
+    "create_time": 1792461408,
+    "update_time": 1792461408,
+    "_id": "90-Meta/learning-ledger.md"
+  },
+  "90-Meta/system.md": {
+    "relation_pairs": [],
+    "count": 0,
+    "create_time": 1792461448,
+    "update_time": 1792461448,
+    "_id": "90-Meta/system.md"
+  }
+}

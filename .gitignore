@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.env
+
+# LightRAG graph store — DECISION (docs/DESIGN.md section 7): the desktop indexes and
+# COMMITS the store so the GPU-less laptop can query without re-indexing. So we TRACK it.
+# To switch to per-machine indexing instead, uncomment:
+# store/
+
+# Never commit model blobs
+*.gguf
+
+# Obsidian plugin build output
+obsidian-plugin/main.js
+obsidian-plugin/node_modules/

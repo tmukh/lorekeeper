@@ -1,0 +1,9 @@
+{
+  "id": "lorekeeper",
+  "name": "Lorekeeper",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Chat with your vault's knowledge graph and get placement suggestions, powered by a local lorekeeper MCP server.",
+  "author": "Tarik Abu Mukh",
+  "isDesktopOnly": true
+}
