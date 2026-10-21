@@ -1,29 +1,29 @@
 {
-  "Copilot<SEP>Obsidian": {
-    "chunk_ids": [
-      "README.md-chunk-000"
-    ],
-    "count": 1,
-    "create_time": 1792467612,
-    "update_time": 1792467612,
-    "_id": "Copilot<SEP>Obsidian"
-  },
   "GitHub<SEP>Obsidian": {
     "chunk_ids": [
       "README.md-chunk-000",
       "SETUP.md-chunk-001"
     ],
     "count": 2,
-    "update_time": 1792467644,
+    "update_time": 1792471911,
     "_id": "GitHub<SEP>Obsidian"
+  },
+  "Copilot<SEP>Obsidian": {
+    "chunk_ids": [
+      "README.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792471910,
+    "update_time": 1792471910,
+    "_id": "Copilot<SEP>Obsidian"
   },
   "MCP<SEP>Obsidian": {
     "chunk_ids": [
       "README.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467612,
-    "update_time": 1792467612,
+    "create_time": 1792471910,
+    "update_time": 1792471910,
     "_id": "MCP<SEP>Obsidian"
   },
   "Obsidian<SEP>Smart Connections": {
@@ -31,8 +31,8 @@
       "README.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467612,
-    "update_time": 1792467612,
+    "create_time": 1792471910,
+    "update_time": 1792471910,
     "_id": "Obsidian<SEP>Smart Connections"
   },
   "Hebrew<SEP>Obsidian": {
@@ -40,8 +40,8 @@
       "README.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467612,
-    "update_time": 1792467612,
+    "create_time": 1792471910,
+    "update_time": 1792471910,
     "_id": "Hebrew<SEP>Obsidian"
   },
   "Obsidian<SEP>Russian": {
@@ -49,8 +49,8 @@
       "README.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467612,
-    "update_time": 1792467612,
+    "create_time": 1792471910,
+    "update_time": 1792471910,
     "_id": "Obsidian<SEP>Russian"
   },
   "Arabic<SEP>Obsidian": {
@@ -58,8 +58,8 @@
       "README.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467612,
-    "update_time": 1792467612,
+    "create_time": 1792471910,
+    "update_time": 1792471910,
     "_id": "Arabic<SEP>Obsidian"
   },
   "German<SEP>Obsidian": {
@@ -67,8 +67,8 @@
       "README.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467612,
-    "update_time": 1792467612,
+    "create_time": 1792471910,
+    "update_time": 1792471910,
     "_id": "German<SEP>Obsidian"
   },
   "Obsidian<SEP>Tarik": {
@@ -76,8 +76,8 @@
       "SETUP.md-chunk-001"
     ],
     "count": 1,
-    "create_time": 1792467644,
-    "update_time": 1792467644,
+    "create_time": 1792471911,
+    "update_time": 1792471911,
     "_id": "Obsidian<SEP>Tarik"
   },
   "Obsidian Sync<SEP>Tarik": {
@@ -85,8 +85,8 @@
       "SETUP.md-chunk-001"
     ],
     "count": 1,
-    "create_time": 1792467644,
-    "update_time": 1792467644,
+    "create_time": 1792471911,
+    "update_time": 1792471911,
     "_id": "Obsidian Sync<SEP>Tarik"
   },
   "Syncthing<SEP>Tarik": {
@@ -94,8 +94,8 @@
       "SETUP.md-chunk-001"
     ],
     "count": 1,
-    "create_time": 1792467644,
-    "update_time": 1792467644,
+    "create_time": 1792471911,
+    "update_time": 1792471911,
     "_id": "Syncthing<SEP>Tarik"
   },
   "Obsidian<SEP>Obsidian Sync": {
@@ -103,8 +103,8 @@
       "SETUP.md-chunk-001"
     ],
     "count": 1,
-    "create_time": 1792467644,
-    "update_time": 1792467644,
+    "create_time": 1792471911,
+    "update_time": 1792471911,
     "_id": "Obsidian<SEP>Obsidian Sync"
   },
   "Tarik<SEP>WSL": {
@@ -112,8 +112,8 @@
       "SETUP.md-chunk-001"
     ],
     "count": 1,
-    "create_time": 1792467644,
-    "update_time": 1792467644,
+    "create_time": 1792471911,
+    "update_time": 1792471911,
     "_id": "Tarik<SEP>WSL"
   },
   "Obsidian<SEP>Syncthing": {
@@ -121,8 +121,8 @@
       "SETUP.md-chunk-001"
     ],
     "count": 1,
-    "create_time": 1792467644,
-    "update_time": 1792467644,
+    "create_time": 1792471911,
+    "update_time": 1792471911,
     "_id": "Obsidian<SEP>Syncthing"
   },
   "Claude<SEP>Tarik": {
@@ -130,8 +130,8 @@
       "SETUP.md-chunk-001"
     ],
     "count": 1,
-    "create_time": 1792467644,
-    "update_time": 1792467644,
+    "create_time": 1792471911,
+    "update_time": 1792471911,
     "_id": "Claude<SEP>Tarik"
   },
   "Git<SEP>Obsidian": {
@@ -139,8 +139,8 @@
       "SETUP.md-chunk-001"
     ],
     "count": 1,
-    "create_time": 1792467644,
-    "update_time": 1792467644,
+    "create_time": 1792471911,
+    "update_time": 1792471911,
     "_id": "Git<SEP>Obsidian"
   },
   "Claude Code<SEP>Obsidian": {
@@ -148,8 +148,8 @@
       "SETUP.md-chunk-001"
     ],
     "count": 1,
-    "create_time": 1792467644,
-    "update_time": 1792467644,
+    "create_time": 1792471911,
+    "update_time": 1792471911,
     "_id": "Claude Code<SEP>Obsidian"
   },
   "Git<SEP>Tarik": {
@@ -157,8 +157,8 @@
       "SETUP.md-chunk-001"
     ],
     "count": 1,
-    "create_time": 1792467644,
-    "update_time": 1792467644,
+    "create_time": 1792471911,
+    "update_time": 1792471911,
     "_id": "Git<SEP>Tarik"
   },
   "Obsidian<SEP>WSL": {
@@ -166,8 +166,8 @@
       "SETUP.md-chunk-001"
     ],
     "count": 1,
-    "create_time": 1792467644,
-    "update_time": 1792467644,
+    "create_time": 1792471911,
+    "update_time": 1792471911,
     "_id": "Obsidian<SEP>WSL"
   },
   "Claude Code<SEP>Tarik": {
@@ -175,8 +175,8 @@
       "SETUP.md-chunk-001"
     ],
     "count": 1,
-    "create_time": 1792467644,
-    "update_time": 1792467644,
+    "create_time": 1792471911,
+    "update_time": 1792471911,
     "_id": "Claude Code<SEP>Tarik"
   },
   "Git<SEP>WSL": {
@@ -184,8 +184,8 @@
       "SETUP.md-chunk-001"
     ],
     "count": 1,
-    "create_time": 1792467644,
-    "update_time": 1792467644,
+    "create_time": 1792471911,
+    "update_time": 1792471911,
     "_id": "Git<SEP>WSL"
   },
   "Claude<SEP>Obsidian": {
@@ -193,8 +193,8 @@
       "SETUP.md-chunk-001"
     ],
     "count": 1,
-    "create_time": 1792467644,
-    "update_time": 1792467644,
+    "create_time": 1792471911,
+    "update_time": 1792471911,
     "_id": "Claude<SEP>Obsidian"
   },
   "Concept<SEP>MCP": {
@@ -202,8 +202,8 @@
       "10-Learning/_index.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467654,
-    "update_time": 1792467654,
+    "create_time": 1792471913,
+    "update_time": 1792471913,
     "_id": "Concept<SEP>MCP"
   },
   "_index<SEP>file": {
@@ -211,8 +211,8 @@
       "10-Learning/_index.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467654,
-    "update_time": 1792467654,
+    "create_time": 1792471913,
+    "update_time": 1792471913,
     "_id": "_index<SEP>file"
   },
   "DATAVIEW<SEP>table": {
@@ -220,8 +220,8 @@
       "10-Learning/_index.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467654,
-    "update_time": 1792467654,
+    "create_time": 1792471913,
+    "update_time": 1792471913,
     "_id": "DATAVIEW<SEP>table"
   },
   "Concept<SEP>Reverse-Engineering": {
@@ -229,8 +229,8 @@
       "10-Learning/_index.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467654,
-    "update_time": 1792467654,
+    "create_time": 1792471913,
+    "update_time": 1792471913,
     "_id": "Concept<SEP>Reverse-Engineering"
   },
   "10-Learning<SEP>file": {
@@ -238,8 +238,8 @@
       "10-Learning/_index.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467654,
-    "update_time": 1792467654,
+    "create_time": 1792471913,
+    "update_time": 1792471913,
     "_id": "10-Learning<SEP>file"
   },
   "Concept<SEP>Go": {
@@ -247,8 +247,8 @@
       "10-Learning/_index.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467654,
-    "update_time": 1792467654,
+    "create_time": 1792471913,
+    "update_time": 1792471913,
     "_id": "Concept<SEP>Go"
   },
   "10-Learning<SEP>_index": {
@@ -256,8 +256,8 @@
       "10-Learning/_index.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467654,
-    "update_time": 1792467654,
+    "create_time": 1792471913,
+    "update_time": 1792471913,
     "_id": "10-Learning<SEP>_index"
   },
   "Concept<SEP>DATAVIEW": {
@@ -265,8 +265,8 @@
       "10-Learning/_index.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467654,
-    "update_time": 1792467654,
+    "create_time": 1792471913,
+    "update_time": 1792471913,
     "_id": "Concept<SEP>DATAVIEW"
   },
   "evtx-analyst<SEP>python-evtx": {
@@ -274,8 +274,8 @@
       "20-Projects/evtx-analyst.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467663,
-    "update_time": 1792467663,
+    "create_time": 1792471914,
+    "update_time": 1792471914,
     "_id": "evtx-analyst<SEP>python-evtx"
   },
   "evtx-analyst<SEP>windows-event-ids": {
@@ -283,8 +283,8 @@
       "20-Projects/evtx-analyst.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467663,
-    "update_time": 1792467663,
+    "create_time": 1792471914,
+    "update_time": 1792471914,
     "_id": "evtx-analyst<SEP>windows-event-ids"
   },
   "evtx<SEP>evtx-analyst": {
@@ -292,8 +292,8 @@
       "20-Projects/evtx-analyst.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467663,
-    "update_time": 1792467663,
+    "create_time": 1792471914,
+    "update_time": 1792471914,
     "_id": "evtx<SEP>evtx-analyst"
   },
   "DFIR<SEP>evtx-analyst": {
@@ -301,8 +301,8 @@
       "20-Projects/evtx-analyst.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467663,
-    "update_time": 1792467663,
+    "create_time": 1792471914,
+    "update_time": 1792471914,
     "_id": "DFIR<SEP>evtx-analyst"
   },
   "Windows<SEP>evtx-analyst": {
@@ -310,8 +310,8 @@
       "20-Projects/evtx-analyst.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467663,
-    "update_time": 1792467663,
+    "create_time": 1792471914,
+    "update_time": 1792471914,
     "_id": "Windows<SEP>evtx-analyst"
   },
   "4624<SEP>4625": {
@@ -319,8 +319,8 @@
       "50-Reference/windows-event-ids.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467680,
-    "update_time": 1792467680,
+    "create_time": 1792471915,
+    "update_time": 1792471915,
     "_id": "4624<SEP>4625"
   },
   "4624<SEP>4672": {
@@ -328,8 +328,8 @@
       "50-Reference/windows-event-ids.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467680,
-    "update_time": 1792467680,
+    "create_time": 1792471915,
+    "update_time": 1792471915,
     "_id": "4624<SEP>4672"
   },
   "4624<SEP>4688": {
@@ -337,8 +337,8 @@
       "50-Reference/windows-event-ids.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467680,
-    "update_time": 1792467680,
+    "create_time": 1792471915,
+    "update_time": 1792471915,
     "_id": "4624<SEP>4688"
   },
   "4624<SEP>4720": {
@@ -346,8 +346,8 @@
       "50-Reference/windows-event-ids.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467680,
-    "update_time": 1792467680,
+    "create_time": 1792471915,
+    "update_time": 1792471915,
     "_id": "4624<SEP>4720"
   },
   "4624<SEP>7045": {
@@ -355,8 +355,8 @@
       "50-Reference/windows-event-ids.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467680,
-    "update_time": 1792467680,
+    "create_time": 1792471915,
+    "update_time": 1792471915,
     "_id": "4624<SEP>7045"
   },
   "1102<SEP>4624": {
@@ -364,8 +364,8 @@
       "50-Reference/windows-event-ids.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467680,
-    "update_time": 1792467680,
+    "create_time": 1792471915,
+    "update_time": 1792471915,
     "_id": "1102<SEP>4624"
   },
   "MCP server basics<SEP>Windows logon events (4624/4625)": {
@@ -373,8 +373,8 @@
       "90-Meta/learning-ledger.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467696,
-    "update_time": 1792467696,
+    "create_time": 1792471916,
+    "update_time": 1792471916,
     "_id": "MCP server basics<SEP>Windows logon events (4624/4625)"
   },
   "MCP<SEP>windows-event-ids": {
@@ -382,8 +382,8 @@
       "90-Meta/learning-ledger.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467696,
-    "update_time": 1792467696,
+    "create_time": 1792471916,
+    "update_time": 1792471916,
     "_id": "MCP<SEP>windows-event-ids"
   },
   "Reverse-Engineering<SEP>Windows logon events (4624/4625)": {
@@ -391,8 +391,8 @@
       "90-Meta/learning-ledger.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467696,
-    "update_time": 1792467696,
+    "create_time": 1792471916,
+    "update_time": 1792471916,
     "_id": "Reverse-Engineering<SEP>Windows logon events (4624/4625)"
   },
   "Goroutines & channels<SEP>MCP server basics": {
@@ -400,8 +400,8 @@
       "90-Meta/learning-ledger.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467696,
-    "update_time": 1792467696,
+    "create_time": 1792471916,
+    "update_time": 1792471916,
     "_id": "Goroutines & channels<SEP>MCP server basics"
   },
   "Status<SEP>Windows logon events (4624/4625)": {
@@ -409,8 +409,8 @@
       "90-Meta/learning-ledger.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467696,
-    "update_time": 1792467696,
+    "create_time": 1792471916,
+    "update_time": 1792471916,
     "_id": "Status<SEP>Windows logon events (4624/4625)"
   },
   "MCP server basics<SEP>Reverse-Engineering": {
@@ -418,8 +418,8 @@
       "90-Meta/learning-ledger.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467696,
-    "update_time": 1792467696,
+    "create_time": 1792471916,
+    "update_time": 1792471916,
     "_id": "MCP server basics<SEP>Reverse-Engineering"
   },
   "Last checked<SEP>Status": {
@@ -427,8 +427,8 @@
       "90-Meta/learning-ledger.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467696,
-    "update_time": 1792467696,
+    "create_time": 1792471916,
+    "update_time": 1792471916,
     "_id": "Last checked<SEP>Status"
   },
   "Goroutines & channels<SEP>Reverse-Engineering": {
@@ -436,8 +436,8 @@
       "90-Meta/learning-ledger.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467696,
-    "update_time": 1792467696,
+    "create_time": 1792471916,
+    "update_time": 1792471916,
     "_id": "Goroutines & channels<SEP>Reverse-Engineering"
   },
   "MCP server basics<SEP>Status": {
@@ -445,8 +445,8 @@
       "90-Meta/learning-ledger.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467696,
-    "update_time": 1792467696,
+    "create_time": 1792471916,
+    "update_time": 1792471916,
     "_id": "MCP server basics<SEP>Status"
   },
   "Area<SEP>Reverse-Engineering": {
@@ -454,8 +454,8 @@
       "90-Meta/learning-ledger.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467696,
-    "update_time": 1792467696,
+    "create_time": 1792471916,
+    "update_time": 1792471916,
     "_id": "Area<SEP>Reverse-Engineering"
   },
   "Go<SEP>Goroutines & channels": {
@@ -463,8 +463,8 @@
       "90-Meta/learning-ledger.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467696,
-    "update_time": 1792467696,
+    "create_time": 1792471916,
+    "update_time": 1792471916,
     "_id": "Go<SEP>Goroutines & channels"
   },
   "Notes<SEP>Reverse-Engineering": {
@@ -472,8 +472,8 @@
       "90-Meta/learning-ledger.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467696,
-    "update_time": 1792467696,
+    "create_time": 1792471916,
+    "update_time": 1792471916,
     "_id": "Notes<SEP>Reverse-Engineering"
   },
   "Goroutines & channels<SEP>Status": {
@@ -481,8 +481,8 @@
       "90-Meta/learning-ledger.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467696,
-    "update_time": 1792467696,
+    "create_time": 1792471916,
+    "update_time": 1792471916,
     "_id": "Goroutines & channels<SEP>Status"
   },
   "Last checked<SEP>Reverse-Engineering": {
@@ -490,143 +490,152 @@
       "90-Meta/learning-ledger.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792467696,
-    "update_time": 1792467696,
+    "create_time": 1792471916,
+    "update_time": 1792471916,
     "_id": "Last checked<SEP>Reverse-Engineering"
   },
-  "Investors<SEP>Stock Market": {
+  "First Law<SEP>Zeroth Law": {
     "chunk_ids": [
-      "10-Learning/Finance/20-10-2026.md-chunk-000"
+      "10-Learning/Physics/thermodynamics-laws.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792470831,
-    "update_time": 1792470831,
-    "_id": "Investors<SEP>Stock Market"
+    "create_time": 1792471966,
+    "update_time": 1792471966,
+    "_id": "First Law<SEP>Zeroth Law"
   },
-  "Companies<SEP>Stock Market": {
+  "Second Law<SEP>Third Law": {
     "chunk_ids": [
-      "10-Learning/Finance/20-10-2026.md-chunk-000"
+      "10-Learning/Physics/thermodynamics-laws.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792470831,
-    "update_time": 1792470831,
-    "_id": "Companies<SEP>Stock Market"
+    "create_time": 1792471966,
+    "update_time": 1792471966,
+    "_id": "Second Law<SEP>Third Law"
   },
-  "Exchanges<SEP>Stock Market": {
+  "Absolute Zero<SEP>Third Law": {
     "chunk_ids": [
-      "10-Learning/Finance/20-10-2026.md-chunk-000"
+      "10-Learning/Physics/thermodynamics-laws.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792470831,
-    "update_time": 1792470831,
-    "_id": "Exchanges<SEP>Stock Market"
+    "create_time": 1792471966,
+    "update_time": 1792471966,
+    "_id": "Absolute Zero<SEP>Third Law"
   },
-  "Stock Market<SEP>Supply and Demand": {
+  "Second Law<SEP>Zeroth Law": {
     "chunk_ids": [
-      "10-Learning/Finance/20-10-2026.md-chunk-000"
+      "10-Learning/Physics/thermodynamics-laws.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792470831,
-    "update_time": 1792470831,
-    "_id": "Stock Market<SEP>Supply and Demand"
+    "create_time": 1792471966,
+    "update_time": 1792471966,
+    "_id": "Second Law<SEP>Zeroth Law"
   },
-  "Exchanges<SEP>Stock Exchanges": {
+  "Entropy<SEP>Second Law": {
     "chunk_ids": [
-      "10-Learning/Finance/20-10-2026.md-chunk-000"
+      "10-Learning/Physics/thermodynamics-laws.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792470831,
-    "update_time": 1792470831,
-    "_id": "Exchanges<SEP>Stock Exchanges"
+    "create_time": 1792471966,
+    "update_time": 1792471966,
+    "_id": "Entropy<SEP>Second Law"
   },
-  "Returns<SEP>Stock Market": {
+  "First Law<SEP>Second Law": {
     "chunk_ids": [
-      "10-Learning/Finance/20-10-2026.md-chunk-000"
+      "10-Learning/Physics/thermodynamics-laws.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792470831,
-    "update_time": 1792470831,
-    "_id": "Returns<SEP>Stock Market"
+    "create_time": 1792471966,
+    "update_time": 1792471966,
+    "_id": "First Law<SEP>Second Law"
   },
-  "Investopedia<SEP>Stock Market": {
+  "Entropy<SEP>Zeroth Law": {
     "chunk_ids": [
-      "10-Learning/Finance/20-10-2026.md-chunk-000"
+      "10-Learning/Physics/thermodynamics-laws.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792470831,
-    "update_time": 1792470831,
-    "_id": "Investopedia<SEP>Stock Market"
+    "create_time": 1792471966,
+    "update_time": 1792471966,
+    "_id": "Entropy<SEP>Zeroth Law"
   },
-  "HSBC<SEP>Stock Market": {
+  "Entropy<SEP>First Law": {
     "chunk_ids": [
-      "10-Learning/Finance/20-10-2026.md-chunk-000"
+      "10-Learning/Physics/thermodynamics-laws.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792470831,
-    "update_time": 1792470831,
-    "_id": "HSBC<SEP>Stock Market"
+    "create_time": 1792471966,
+    "update_time": 1792471966,
+    "_id": "Entropy<SEP>First Law"
   },
-  "Fidelity<SEP>Stock Market": {
+  "Entropy<SEP>Third Law": {
     "chunk_ids": [
-      "10-Learning/Finance/20-10-2026.md-chunk-000"
+      "10-Learning/Physics/thermodynamics-laws.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792470831,
-    "update_time": 1792470831,
-    "_id": "Fidelity<SEP>Stock Market"
+    "create_time": 1792471966,
+    "update_time": 1792471966,
+    "_id": "Entropy<SEP>Third Law"
   },
-  "S&P 500<SEP>Stock Market": {
+  "Pomodoro Technique<SEP>Pomodoros": {
     "chunk_ids": [
-      "10-Learning/Finance/20-10-2026.md-chunk-000"
+      "00-Inbox/untitled-3.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792470831,
-    "update_time": 1792470831,
-    "_id": "S&P 500<SEP>Stock Market"
+    "create_time": 1792576492,
+    "update_time": 1792576492,
+    "_id": "Pomodoro Technique<SEP>Pomodoros"
   },
-  "Dow Jones Industrial Average<SEP>Stock Market": {
+  "Breaks<SEP>Pomodoros": {
     "chunk_ids": [
-      "10-Learning/Finance/20-10-2026.md-chunk-000"
+      "00-Inbox/untitled-3.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792470831,
-    "update_time": 1792470831,
-    "_id": "Dow Jones Industrial Average<SEP>Stock Market"
+    "create_time": 1792576492,
+    "update_time": 1792576492,
+    "_id": "Breaks<SEP>Pomodoros"
   },
-  "Heat<SEP>Thermodynamics": {
+  "Francesco Cirillo<SEP>Pomodoro Technique": {
     "chunk_ids": [
-      "10-Learning/Physics/thermodynamics.md-chunk-000"
+      "00-Inbox/untitled-3.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792470838,
-    "update_time": 1792470838,
-    "_id": "Heat<SEP>Thermodynamics"
+    "create_time": 1792576492,
+    "update_time": 1792576492,
+    "_id": "Francesco Cirillo<SEP>Pomodoro Technique"
   },
-  "Thermodynamics<SEP>Work": {
+  "Kitchen timer<SEP>Pomodoro Technique": {
     "chunk_ids": [
-      "10-Learning/Physics/thermodynamics.md-chunk-000"
+      "00-Inbox/untitled-3.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792470838,
-    "update_time": 1792470838,
-    "_id": "Thermodynamics<SEP>Work"
+    "create_time": 1792576492,
+    "update_time": 1792576492,
+    "_id": "Kitchen timer<SEP>Pomodoro Technique"
   },
-  "Energy<SEP>Thermodynamics": {
+  "Pomodoro Technique<SEP>Video": {
     "chunk_ids": [
-      "10-Learning/Physics/thermodynamics.md-chunk-000"
+      "00-Inbox/untitled-3.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792470838,
-    "update_time": 1792470838,
-    "_id": "Energy<SEP>Thermodynamics"
+    "create_time": 1792576492,
+    "update_time": 1792576492,
+    "_id": "Pomodoro Technique<SEP>Video"
   },
-  "System<SEP>Thermodynamics": {
+  "Francesco Cirillo<SEP>Kitchen timer": {
     "chunk_ids": [
-      "10-Learning/Physics/thermodynamics.md-chunk-000"
+      "00-Inbox/untitled-3.md-chunk-000"
     ],
     "count": 1,
-    "create_time": 1792470838,
-    "update_time": 1792470838,
-    "_id": "System<SEP>Thermodynamics"
+    "create_time": 1792576492,
+    "update_time": 1792576492,
+    "_id": "Francesco Cirillo<SEP>Kitchen timer"
+  },
+  "Francesco Cirillo<SEP>Video": {
+    "chunk_ids": [
+      "00-Inbox/untitled-3.md-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1792576492,
+    "update_time": 1792576492,
+    "_id": "Francesco Cirillo<SEP>Video"
   }
 }

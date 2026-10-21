@@ -1,113 +1,4 @@
 {
-  "README.md": {
-    "status": "processed",
-    "content_summary": "# README\n\n# obsidian-vault\n\nMy personal knowledge vault: Obsidian, versioned with git, AI-searchable, synced through GitHub.\n\n## Philosophy: capture, don't curate\n\n- **Everything lands in `00-Inbox/` first.** Don't stop to decide where something goes...",
-    "content_length": 1500,
-    "created_at": "2026-10-20T03:39:49.377179+00:00",
-    "updated_at": "2026-10-20T03:40:14.416521+00:00",
-    "file_path": "README.md",
-    "track_id": "insert_20261020_053949_607bcf1f",
-    "content_hash": "8e5b6fa591cbebbe5c4d2245e111536c",
-    "metadata": {
-      "parse_start_time": 1792467589,
-      "parse_stage_skipped": true,
-      "parse_format": "raw",
-      "parse_engine": "legacy",
-      "analyzing_start_time": 1792467589,
-      "analyzing_stage_skipped": true,
-      "kg_write_state": "graph_mutation_started",
-      "process_start_time": 1792467589,
-      "process_end_time": 1792467614,
-      "chunk_method": "legacy_chunking_func",
-      "chunk_opts": "size=1200, split_only=False, overlap=100"
-    },
-    "chunks_count": 1,
-    "chunks_list": [
-      "README.md-chunk-000"
-    ]
-  },
-  "SETUP.md": {
-    "status": "processed",
-    "content_summary": "# SETUP\n\n# SETUP: notes for future me\n\n- **Location (Windows):** `C:\\Users\\tarik\\projects\\obsidian-vault`\n- **Location (WSL):** `/mnt/c/Users/tarik/projects/obsidian-vault`\n- **Remote:** `git@github.com:tmukh/obsidian-vault.git` (private)\n- **Apps:**...",
-    "content_length": 5418,
-    "created_at": "2026-10-20T03:40:14.424309+00:00",
-    "updated_at": "2026-10-20T03:40:46.265268+00:00",
-    "file_path": "SETUP.md",
-    "track_id": "insert_20261020_054014_7dd72986",
-    "content_hash": "be091328c2e018bce49d18bdf34b9c21",
-    "metadata": {
-      "parse_start_time": 1792467614,
-      "parse_stage_skipped": true,
-      "parse_format": "raw",
-      "parse_engine": "legacy",
-      "analyzing_start_time": 1792467614,
-      "analyzing_stage_skipped": true,
-      "kg_write_state": "graph_mutation_started",
-      "process_start_time": 1792467614,
-      "process_end_time": 1792467646,
-      "chunk_method": "legacy_chunking_func",
-      "chunk_opts": "size=1200, split_only=False, overlap=100"
-    },
-    "chunks_count": 2,
-    "chunks_list": [
-      "SETUP.md-chunk-000",
-      "SETUP.md-chunk-001"
-    ]
-  },
-  "10-Learning/_index.md": {
-    "status": "processed",
-    "content_summary": "# _index\n\n# Learning\n\nConcept notes. Subfolders: MCP, Reverse-Engineering, Go.\n\n```dataview\nTABLE file.mtime AS \"Modified\"\nFROM \"10-Learning\"\nWHERE file.name != \"_index\"\nSORT file.mtime DESC\n```",
-    "content_length": 194,
-    "created_at": "2026-10-20T03:40:46.276737+00:00",
-    "updated_at": "2026-10-20T03:40:55.195482+00:00",
-    "file_path": "_index.md",
-    "track_id": "insert_20261020_054046_045eb524",
-    "content_hash": "49ca582b817d13c748307842c145400f",
-    "metadata": {
-      "parse_start_time": 1792467646,
-      "parse_stage_skipped": true,
-      "parse_format": "raw",
-      "parse_engine": "legacy",
-      "analyzing_start_time": 1792467646,
-      "analyzing_stage_skipped": true,
-      "kg_write_state": "graph_mutation_started",
-      "process_start_time": 1792467646,
-      "process_end_time": 1792467655,
-      "chunk_method": "legacy_chunking_func",
-      "chunk_opts": "size=1200, split_only=False, overlap=100"
-    },
-    "chunks_count": 1,
-    "chunks_list": [
-      "10-Learning/_index.md-chunk-000"
-    ]
-  },
-  "20-Projects/evtx-analyst.md": {
-    "status": "processed",
-    "content_summary": "# evtx-analyst\n\n# evtx-analyst\n\n## Goal\nA tool to parse Windows `.evtx` logs and surface suspicious activity (failed/successful logons, privilege use, new services, log clearing).\n\n## Why\nPractise DFIR and Windows internals. Feeds [[windows-event-ids...",
-    "content_length": 539,
-    "created_at": "2026-10-20T03:40:55.198325+00:00",
-    "updated_at": "2026-10-20T03:41:04.321194+00:00",
-    "file_path": "evtx-analyst.md",
-    "track_id": "insert_20261020_054055_7db747dd",
-    "content_hash": "4ed94677506bb92c9e0d04d0055c9d91",
-    "metadata": {
-      "parse_start_time": 1792467655,
-      "parse_stage_skipped": true,
-      "parse_format": "raw",
-      "parse_engine": "legacy",
-      "analyzing_start_time": 1792467655,
-      "analyzing_stage_skipped": true,
-      "kg_write_state": "graph_mutation_started",
-      "process_start_time": 1792467655,
-      "process_end_time": 1792467664,
-      "chunk_method": "legacy_chunking_func",
-      "chunk_opts": "size=1200, split_only=False, overlap=100"
-    },
-    "chunks_count": 1,
-    "chunks_list": [
-      "20-Projects/evtx-analyst.md-chunk-000"
-    ]
-  },
   "dup-ebf0e787e8042cd8453ffc89a5142d4d": {
     "status": "failed",
     "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
@@ -162,33 +53,6 @@
       "original_track_id": "insert_20261020_054046_045eb524"
     }
   },
-  "50-Reference/windows-event-ids.md": {
-    "status": "processed",
-    "content_summary": "# windows-event-ids\n\n# Windows Event IDs\n\n| ID | Log | Meaning | Why it matters |\n|---|---|---|---|\n| 4624 | Security | An account successfully logged on | Check Logon Type (2 interactive, 3 network, 10 RDP) |\n| 4625 | Security | An account failed to...",
-    "content_length": 1019,
-    "created_at": "2026-10-20T03:41:04.339705+00:00",
-    "updated_at": "2026-10-20T03:41:21.604716+00:00",
-    "file_path": "windows-event-ids.md",
-    "track_id": "insert_20261020_054104_8024ba94",
-    "content_hash": "0acd7f15f2844ac2dd1f120748a3917e",
-    "metadata": {
-      "parse_start_time": 1792467664,
-      "parse_stage_skipped": true,
-      "parse_format": "raw",
-      "parse_engine": "legacy",
-      "analyzing_start_time": 1792467664,
-      "analyzing_stage_skipped": true,
-      "kg_write_state": "graph_mutation_started",
-      "process_start_time": 1792467664,
-      "process_end_time": 1792467681,
-      "chunk_method": "legacy_chunking_func",
-      "chunk_opts": "size=1200, split_only=False, overlap=100"
-    },
-    "chunks_count": 1,
-    "chunks_list": [
-      "50-Reference/windows-event-ids.md-chunk-000"
-    ]
-  },
   "dup-ec2455a9e2c2352eb36c4228c8f39dd3": {
     "status": "failed",
     "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
@@ -206,60 +70,6 @@
       "original_doc_id": "10-Learning/_index.md",
       "original_track_id": "insert_20261020_054046_045eb524"
     }
-  },
-  "90-Meta/learning-ledger.md": {
-    "status": "processed",
-    "content_summary": "# learning-ledger\n\n# Learning ledger\n\nStatus: `new` → `used` → `confident`\n\n| Concept | Area | Status | Last checked | Notes |\n|---|---|---|---|---|\n| MCP server basics | MCP | new | 2026-10-19 | |\n| Windows logon events (4624/4625) | Reverse-Enginee...",
-    "content_length": 355,
-    "created_at": "2026-10-20T03:41:21.610822+00:00",
-    "updated_at": "2026-10-20T03:41:37.799776+00:00",
-    "file_path": "learning-ledger.md",
-    "track_id": "insert_20261020_054121_0d519150",
-    "content_hash": "998d89cd703b5d7369b8b979e7b0cdf6",
-    "metadata": {
-      "parse_start_time": 1792467681,
-      "parse_stage_skipped": true,
-      "parse_format": "raw",
-      "parse_engine": "legacy",
-      "analyzing_start_time": 1792467681,
-      "analyzing_stage_skipped": true,
-      "kg_write_state": "graph_mutation_started",
-      "process_start_time": 1792467681,
-      "process_end_time": 1792467697,
-      "chunk_method": "legacy_chunking_func",
-      "chunk_opts": "size=1200, split_only=False, overlap=100"
-    },
-    "chunks_count": 1,
-    "chunks_list": [
-      "90-Meta/learning-ledger.md-chunk-000"
-    ]
-  },
-  "90-Meta/system.md": {
-    "status": "processed",
-    "content_summary": "# system\n\n# System: how this vault works\n\n## Rule zero: capture, don't curate\nCapture beats organisation. If deciding where a note goes costs friction, it goes in `00-Inbox/`.\nDon't garden the graph: no reorganising, no link polishing, no tag systems...",
-    "content_length": 1374,
-    "created_at": "2026-10-20T03:41:37.802743+00:00",
-    "updated_at": "2026-10-20T03:41:54.360368+00:00",
-    "file_path": "system.md",
-    "track_id": "insert_20261020_054137_887e5d6f",
-    "content_hash": "084b1eb89231c4b9ff368e269544c327",
-    "metadata": {
-      "parse_start_time": 1792467697,
-      "parse_stage_skipped": true,
-      "parse_format": "raw",
-      "parse_engine": "legacy",
-      "analyzing_start_time": 1792467697,
-      "analyzing_stage_skipped": true,
-      "kg_write_state": "graph_mutation_started",
-      "process_start_time": 1792467697,
-      "process_end_time": 1792467714,
-      "chunk_method": "legacy_chunking_func",
-      "chunk_opts": "size=1200, split_only=False, overlap=100"
-    },
-    "chunks_count": 1,
-    "chunks_list": [
-      "90-Meta/system.md-chunk-000"
-    ]
   },
   "dup-80c00948af4a8f0872781f63aebdf812": {
     "status": "failed",
@@ -459,58 +269,1526 @@
       "original_track_id": "insert_20261020_054137_887e5d6f"
     }
   },
-  "10-Learning/Finance/20-10-2026.md": {
-    "status": "processed",
-    "content_summary": "# 20-10-2026\n\n# 20-10-2026\n\nThe stock market is a global network of exchanges and trading venues where investors buy and sell shares of publicly traded companies. [[1](https://www.hsbc.co.uk/investments/what-is-the-stock-market/), [2](https://www.fid...",
-    "content_length": 2985,
-    "created_at": "2026-10-20T04:33:34.488223+00:00",
-    "updated_at": "2026-10-20T04:33:52.472819+00:00",
-    "file_path": "20-10-2026.md",
-    "track_id": "insert_20261020_063334_f889da37",
-    "content_hash": "c609f33ed2fee5a83b8ef346d924f3b7",
+  "dup-ab3c3a21a332e4efd11b4bf184904b81": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: README.md",
+    "content_length": 1500,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:46:51.150119+00:00",
+    "updated_at": "2026-10-20T04:46:51.150124+00:00",
+    "file_path": "README.md",
+    "track_id": "insert_20261020_064651_fbd02f18",
+    "error_msg": "File name already exists. Original doc_id: README.md, Status: processed",
     "metadata": {
-      "parse_start_time": 1792470814,
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "README.md",
+      "original_track_id": "insert_20261020_053949_607bcf1f"
+    }
+  },
+  "dup-3c2194039b0df16163f139873e461b4c": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: SETUP.md",
+    "content_length": 5418,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:46:51.153875+00:00",
+    "updated_at": "2026-10-20T04:46:51.153879+00:00",
+    "file_path": "SETUP.md",
+    "track_id": "insert_20261020_064651_41a1f0f1",
+    "error_msg": "File name already exists. Original doc_id: SETUP.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "SETUP.md",
+      "original_track_id": "insert_20261020_054014_7dd72986"
+    }
+  },
+  "dup-0a4ca4ea1d3c8f2a85842b1be85ee2df": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 194,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:46:51.156620+00:00",
+    "updated_at": "2026-10-20T04:46:51.156624+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_064651_19b6281d",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_054046_045eb524"
+    }
+  },
+  "dup-e7ba71259a85a7b60287c07312172451": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 20-Projects/evtx-analyst.md",
+    "content_length": 539,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:46:51.159232+00:00",
+    "updated_at": "2026-10-20T04:46:51.159235+00:00",
+    "file_path": "evtx-analyst.md",
+    "track_id": "insert_20261020_064651_1250e64d",
+    "error_msg": "File name already exists. Original doc_id: 20-Projects/evtx-analyst.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "20-Projects/evtx-analyst.md",
+      "original_track_id": "insert_20261020_054055_7db747dd"
+    }
+  },
+  "dup-608299a185840c49304b7dfcb822c31a": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 191,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:46:51.161592+00:00",
+    "updated_at": "2026-10-20T04:46:51.161596+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_064651_61c8a877",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_054046_045eb524"
+    }
+  },
+  "dup-b4612c87ddf7f63981320b5621adbc40": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 207,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:46:51.164562+00:00",
+    "updated_at": "2026-10-20T04:46:51.164567+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_064651_17e87c5f",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_054046_045eb524"
+    }
+  },
+  "dup-dc26398a07e5337720c3c9c00bad11db": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 239,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:46:51.167139+00:00",
+    "updated_at": "2026-10-20T04:46:51.167143+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_064651_887e3c40",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_054046_045eb524"
+    }
+  },
+  "dup-1c4ddd23f095f177d86301ba175d70f1": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 50-Reference/windows-event-ids.md",
+    "content_length": 1019,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:46:51.170105+00:00",
+    "updated_at": "2026-10-20T04:46:51.170109+00:00",
+    "file_path": "windows-event-ids.md",
+    "track_id": "insert_20261020_064651_6c83f49f",
+    "error_msg": "File name already exists. Original doc_id: 50-Reference/windows-event-ids.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "50-Reference/windows-event-ids.md",
+      "original_track_id": "insert_20261020_054104_8024ba94"
+    }
+  },
+  "dup-257f3701d44eec135e4d368b91fee361": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 171,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:46:51.172608+00:00",
+    "updated_at": "2026-10-20T04:46:51.172612+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_064651_637408af",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_054046_045eb524"
+    }
+  },
+  "dup-744aeb62b4174b65ff643494e77e2040": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 90-Meta/learning-ledger.md",
+    "content_length": 355,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:46:51.175214+00:00",
+    "updated_at": "2026-10-20T04:46:51.175217+00:00",
+    "file_path": "learning-ledger.md",
+    "track_id": "insert_20261020_064651_6a652f32",
+    "error_msg": "File name already exists. Original doc_id: 90-Meta/learning-ledger.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "90-Meta/learning-ledger.md",
+      "original_track_id": "insert_20261020_054121_0d519150"
+    }
+  },
+  "dup-802a01a730bce07624f642adbef774c2": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 90-Meta/system.md",
+    "content_length": 1374,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:46:51.177958+00:00",
+    "updated_at": "2026-10-20T04:46:51.177961+00:00",
+    "file_path": "system.md",
+    "track_id": "insert_20261020_064651_a1a98e2b",
+    "error_msg": "File name already exists. Original doc_id: 90-Meta/system.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "90-Meta/system.md",
+      "original_track_id": "insert_20261020_054137_887e5d6f"
+    }
+  },
+  "dup-1938808f873d22200b992ab3579c229c": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/Finance/20-10-2026.md",
+    "content_length": 2985,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:46:51.181315+00:00",
+    "updated_at": "2026-10-20T04:46:51.181318+00:00",
+    "file_path": "20-10-2026.md",
+    "track_id": "insert_20261020_064651_d34b1ec5",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/Finance/20-10-2026.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/Finance/20-10-2026.md",
+      "original_track_id": "insert_20261020_063334_f889da37"
+    }
+  },
+  "dup-c616c9739be99ea24abc2cb05fe98d9e": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/Physics/thermodynamics.md",
+    "content_length": 1887,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:46:51.184242+00:00",
+    "updated_at": "2026-10-20T04:46:51.184246+00:00",
+    "file_path": "thermodynamics.md",
+    "track_id": "insert_20261020_064651_a4ab79d1",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/Physics/thermodynamics.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/Physics/thermodynamics.md",
+      "original_track_id": "insert_20261020_063352_39e75767"
+    }
+  },
+  "dup-215a79a0cebe28fbffccaa7651fe93bb": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: README.md",
+    "content_length": 1500,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:47:14.136376+00:00",
+    "updated_at": "2026-10-20T04:47:14.136379+00:00",
+    "file_path": "README.md",
+    "track_id": "insert_20261020_064714_e5de8a39",
+    "error_msg": "File name already exists. Original doc_id: README.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "README.md",
+      "original_track_id": "insert_20261020_053949_607bcf1f"
+    }
+  },
+  "dup-cc9695d2c612afe4af19bfbcbb63713e": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: SETUP.md",
+    "content_length": 5418,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:47:14.140050+00:00",
+    "updated_at": "2026-10-20T04:47:14.140054+00:00",
+    "file_path": "SETUP.md",
+    "track_id": "insert_20261020_064714_9e541115",
+    "error_msg": "File name already exists. Original doc_id: SETUP.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "SETUP.md",
+      "original_track_id": "insert_20261020_054014_7dd72986"
+    }
+  },
+  "dup-b85af50fbb20b43037825c25836de20b": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 194,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:47:14.142967+00:00",
+    "updated_at": "2026-10-20T04:47:14.142970+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_064714_c50c736c",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_054046_045eb524"
+    }
+  },
+  "dup-ac7fc9de3308d0fc3e7ccc38ff7f9b33": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 20-Projects/evtx-analyst.md",
+    "content_length": 539,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:47:14.145630+00:00",
+    "updated_at": "2026-10-20T04:47:14.145634+00:00",
+    "file_path": "evtx-analyst.md",
+    "track_id": "insert_20261020_064714_704d83e7",
+    "error_msg": "File name already exists. Original doc_id: 20-Projects/evtx-analyst.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "20-Projects/evtx-analyst.md",
+      "original_track_id": "insert_20261020_054055_7db747dd"
+    }
+  },
+  "dup-c1d9a1220864daeb89e21cd517fb5e9f": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 191,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:47:14.148408+00:00",
+    "updated_at": "2026-10-20T04:47:14.148411+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_064714_9b05806b",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_054046_045eb524"
+    }
+  },
+  "dup-db16c48567b2e2f3487654cebb768d50": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 207,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:47:14.151306+00:00",
+    "updated_at": "2026-10-20T04:47:14.151309+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_064714_f2d6d871",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_054046_045eb524"
+    }
+  },
+  "dup-464c31b5e3ec162e8b64bdfb457f5237": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 239,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:47:14.153792+00:00",
+    "updated_at": "2026-10-20T04:47:14.153795+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_064714_05c81d13",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_054046_045eb524"
+    }
+  },
+  "dup-9349b49688a50d1ba2fea39efc0fe0f9": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 50-Reference/windows-event-ids.md",
+    "content_length": 1019,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:47:14.156397+00:00",
+    "updated_at": "2026-10-20T04:47:14.156400+00:00",
+    "file_path": "windows-event-ids.md",
+    "track_id": "insert_20261020_064714_3014274a",
+    "error_msg": "File name already exists. Original doc_id: 50-Reference/windows-event-ids.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "50-Reference/windows-event-ids.md",
+      "original_track_id": "insert_20261020_054104_8024ba94"
+    }
+  },
+  "dup-9b6a6e8702ad23a370b5e94b644fc1a1": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 171,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:47:14.158854+00:00",
+    "updated_at": "2026-10-20T04:47:14.158857+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_064714_cbdbe5c2",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_054046_045eb524"
+    }
+  },
+  "dup-85a5e70e99dd9242b744286b78b8ace1": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 90-Meta/learning-ledger.md",
+    "content_length": 355,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:47:14.169409+00:00",
+    "updated_at": "2026-10-20T04:47:14.169413+00:00",
+    "file_path": "learning-ledger.md",
+    "track_id": "insert_20261020_064714_5c514191",
+    "error_msg": "File name already exists. Original doc_id: 90-Meta/learning-ledger.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "90-Meta/learning-ledger.md",
+      "original_track_id": "insert_20261020_054121_0d519150"
+    }
+  },
+  "dup-b1eeb86c773c7eab3fc62067ae35c155": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 90-Meta/system.md",
+    "content_length": 1374,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:47:14.172068+00:00",
+    "updated_at": "2026-10-20T04:47:14.172072+00:00",
+    "file_path": "system.md",
+    "track_id": "insert_20261020_064714_abef447d",
+    "error_msg": "File name already exists. Original doc_id: 90-Meta/system.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "90-Meta/system.md",
+      "original_track_id": "insert_20261020_054137_887e5d6f"
+    }
+  },
+  "dup-465d8369783ae0d90e97bf561de5f6bd": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/Finance/20-10-2026.md",
+    "content_length": 2985,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:47:14.175588+00:00",
+    "updated_at": "2026-10-20T04:47:14.175591+00:00",
+    "file_path": "20-10-2026.md",
+    "track_id": "insert_20261020_064714_1d6ec6ac",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/Finance/20-10-2026.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/Finance/20-10-2026.md",
+      "original_track_id": "insert_20261020_063334_f889da37"
+    }
+  },
+  "dup-6af5a3e1bc4db0dab069e9f64380900c": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/Physics/thermodynamics.md",
+    "content_length": 1887,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:47:14.178730+00:00",
+    "updated_at": "2026-10-20T04:47:14.178734+00:00",
+    "file_path": "thermodynamics.md",
+    "track_id": "insert_20261020_064714_d579bf3a",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/Physics/thermodynamics.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/Physics/thermodynamics.md",
+      "original_track_id": "insert_20261020_063352_39e75767"
+    }
+  },
+  "dup-5fc1e8eab897adc949e5c2d1bd5e494d": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: README.md",
+    "content_length": 1500,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:48:35.541971+00:00",
+    "updated_at": "2026-10-20T04:48:35.541975+00:00",
+    "file_path": "README.md",
+    "track_id": "insert_20261020_064835_88f00b99",
+    "error_msg": "File name already exists. Original doc_id: README.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "README.md",
+      "original_track_id": "insert_20261020_053949_607bcf1f"
+    }
+  },
+  "dup-fdb834eb4b2bf6d3c959236f32845697": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: SETUP.md",
+    "content_length": 5418,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:48:35.545802+00:00",
+    "updated_at": "2026-10-20T04:48:35.545805+00:00",
+    "file_path": "SETUP.md",
+    "track_id": "insert_20261020_064835_06b2776a",
+    "error_msg": "File name already exists. Original doc_id: SETUP.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "SETUP.md",
+      "original_track_id": "insert_20261020_054014_7dd72986"
+    }
+  },
+  "dup-2e5b1492ade06356020459c72f705cd5": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 194,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:48:35.549152+00:00",
+    "updated_at": "2026-10-20T04:48:35.549155+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_064835_bb08d882",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_054046_045eb524"
+    }
+  },
+  "dup-6bad54ed3c0509ef4eb9993cc2581e4e": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 20-Projects/evtx-analyst.md",
+    "content_length": 539,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:48:35.552041+00:00",
+    "updated_at": "2026-10-20T04:48:35.552045+00:00",
+    "file_path": "evtx-analyst.md",
+    "track_id": "insert_20261020_064835_da98d8ff",
+    "error_msg": "File name already exists. Original doc_id: 20-Projects/evtx-analyst.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "20-Projects/evtx-analyst.md",
+      "original_track_id": "insert_20261020_054055_7db747dd"
+    }
+  },
+  "dup-538f35b4b8b4e458c156f15464bcd38f": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 191,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:48:35.554813+00:00",
+    "updated_at": "2026-10-20T04:48:35.554816+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_064835_54387eb8",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_054046_045eb524"
+    }
+  },
+  "dup-4e8a9fb846d54757ca8afea6a67cecf4": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 207,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:48:35.557810+00:00",
+    "updated_at": "2026-10-20T04:48:35.557813+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_064835_81d196c2",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_054046_045eb524"
+    }
+  },
+  "dup-4d28a303ee09de8e791f67cc7ab0a51d": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 239,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:48:35.560837+00:00",
+    "updated_at": "2026-10-20T04:48:35.560840+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_064835_fe659f30",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_054046_045eb524"
+    }
+  },
+  "dup-b19c9bf445305c8140190a28810c4f75": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 50-Reference/windows-event-ids.md",
+    "content_length": 1019,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:48:35.563822+00:00",
+    "updated_at": "2026-10-20T04:48:35.563826+00:00",
+    "file_path": "windows-event-ids.md",
+    "track_id": "insert_20261020_064835_dcee0369",
+    "error_msg": "File name already exists. Original doc_id: 50-Reference/windows-event-ids.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "50-Reference/windows-event-ids.md",
+      "original_track_id": "insert_20261020_054104_8024ba94"
+    }
+  },
+  "dup-4cd4bc0a66d791964b9db4d67edca8da": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 171,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:48:35.566656+00:00",
+    "updated_at": "2026-10-20T04:48:35.566660+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_064835_f9bea276",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_054046_045eb524"
+    }
+  },
+  "dup-1e31a336910c8eaa1ea40d561fa0d931": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 90-Meta/learning-ledger.md",
+    "content_length": 355,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:48:35.569552+00:00",
+    "updated_at": "2026-10-20T04:48:35.569555+00:00",
+    "file_path": "learning-ledger.md",
+    "track_id": "insert_20261020_064835_fdb45684",
+    "error_msg": "File name already exists. Original doc_id: 90-Meta/learning-ledger.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "90-Meta/learning-ledger.md",
+      "original_track_id": "insert_20261020_054121_0d519150"
+    }
+  },
+  "dup-789db042de916ae2b7e8844576992900": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 90-Meta/system.md",
+    "content_length": 1374,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:48:35.572835+00:00",
+    "updated_at": "2026-10-20T04:48:35.572840+00:00",
+    "file_path": "system.md",
+    "track_id": "insert_20261020_064835_4383b705",
+    "error_msg": "File name already exists. Original doc_id: 90-Meta/system.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "90-Meta/system.md",
+      "original_track_id": "insert_20261020_054137_887e5d6f"
+    }
+  },
+  "dup-0bfcb875501d039154bf774f0555ffb6": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/Finance/20-10-2026.md",
+    "content_length": 2985,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:48:35.577211+00:00",
+    "updated_at": "2026-10-20T04:48:35.577214+00:00",
+    "file_path": "20-10-2026.md",
+    "track_id": "insert_20261020_064835_4d52da48",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/Finance/20-10-2026.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/Finance/20-10-2026.md",
+      "original_track_id": "insert_20261020_063334_f889da37"
+    }
+  },
+  "dup-d6e8cab00e8c2e39eab14941a0da9d6c": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/Physics/thermodynamics.md",
+    "content_length": 1887,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:48:35.580558+00:00",
+    "updated_at": "2026-10-20T04:48:35.580561+00:00",
+    "file_path": "thermodynamics.md",
+    "track_id": "insert_20261020_064835_7ac3cf87",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/Physics/thermodynamics.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/Physics/thermodynamics.md",
+      "original_track_id": "insert_20261020_063352_39e75767"
+    }
+  },
+  "dup-3c6c07c61424972662f2e911a75f12f9": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: README.md",
+    "content_length": 1500,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:49:07.048480+00:00",
+    "updated_at": "2026-10-20T04:49:07.048485+00:00",
+    "file_path": "README.md",
+    "track_id": "insert_20261020_064907_89666b29",
+    "error_msg": "File name already exists. Original doc_id: README.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "README.md",
+      "original_track_id": "insert_20261020_053949_607bcf1f"
+    }
+  },
+  "dup-a3347e698d5290e5c3b7c270cf84de32": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: SETUP.md",
+    "content_length": 5418,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:49:07.053267+00:00",
+    "updated_at": "2026-10-20T04:49:07.053271+00:00",
+    "file_path": "SETUP.md",
+    "track_id": "insert_20261020_064907_eb91324d",
+    "error_msg": "File name already exists. Original doc_id: SETUP.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "SETUP.md",
+      "original_track_id": "insert_20261020_054014_7dd72986"
+    }
+  },
+  "dup-56f3c3509b854b95b3378248c087770f": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 194,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:49:07.057964+00:00",
+    "updated_at": "2026-10-20T04:49:07.057967+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_064907_44c9ca25",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_054046_045eb524"
+    }
+  },
+  "dup-c2466c1f12c147c1ba8850fd9ccd246b": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 20-Projects/evtx-analyst.md",
+    "content_length": 539,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:49:07.061201+00:00",
+    "updated_at": "2026-10-20T04:49:07.061204+00:00",
+    "file_path": "evtx-analyst.md",
+    "track_id": "insert_20261020_064907_9c853e60",
+    "error_msg": "File name already exists. Original doc_id: 20-Projects/evtx-analyst.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "20-Projects/evtx-analyst.md",
+      "original_track_id": "insert_20261020_054055_7db747dd"
+    }
+  },
+  "dup-bdbcc716f8950c5e6b48c30654012ff9": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 191,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:49:07.064877+00:00",
+    "updated_at": "2026-10-20T04:49:07.064881+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_064907_fef306a5",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_054046_045eb524"
+    }
+  },
+  "dup-721b020763b0ac326f8bb2386f57c6f7": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 207,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:49:07.069590+00:00",
+    "updated_at": "2026-10-20T04:49:07.069596+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_064907_fd73222d",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_054046_045eb524"
+    }
+  },
+  "dup-557daab4a909afa25b60c0314fc92719": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 239,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:49:07.073780+00:00",
+    "updated_at": "2026-10-20T04:49:07.073784+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_064907_9347b645",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_054046_045eb524"
+    }
+  },
+  "dup-8e012d64971b5d7f7ed9ffde5f938cba": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 50-Reference/windows-event-ids.md",
+    "content_length": 1019,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:49:07.077810+00:00",
+    "updated_at": "2026-10-20T04:49:07.077815+00:00",
+    "file_path": "windows-event-ids.md",
+    "track_id": "insert_20261020_064907_b1120b33",
+    "error_msg": "File name already exists. Original doc_id: 50-Reference/windows-event-ids.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "50-Reference/windows-event-ids.md",
+      "original_track_id": "insert_20261020_054104_8024ba94"
+    }
+  },
+  "dup-714ffa1be092c1755dc96064751473bd": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 171,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:49:07.081231+00:00",
+    "updated_at": "2026-10-20T04:49:07.081235+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_064907_f50e26c2",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_054046_045eb524"
+    }
+  },
+  "dup-246882212f51fa56ac9e368b015fa8d7": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 90-Meta/learning-ledger.md",
+    "content_length": 355,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:49:07.084711+00:00",
+    "updated_at": "2026-10-20T04:49:07.084714+00:00",
+    "file_path": "learning-ledger.md",
+    "track_id": "insert_20261020_064907_1e14fffe",
+    "error_msg": "File name already exists. Original doc_id: 90-Meta/learning-ledger.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "90-Meta/learning-ledger.md",
+      "original_track_id": "insert_20261020_054121_0d519150"
+    }
+  },
+  "dup-17c84aca7a38f460e2ad14e37c7c088e": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 90-Meta/system.md",
+    "content_length": 1374,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:49:07.088159+00:00",
+    "updated_at": "2026-10-20T04:49:07.088162+00:00",
+    "file_path": "system.md",
+    "track_id": "insert_20261020_064907_9bd06cd6",
+    "error_msg": "File name already exists. Original doc_id: 90-Meta/system.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "90-Meta/system.md",
+      "original_track_id": "insert_20261020_054137_887e5d6f"
+    }
+  },
+  "dup-cb3fb4b4647a0856401f398c26ff9527": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/Finance/20-10-2026.md",
+    "content_length": 2985,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:49:07.092250+00:00",
+    "updated_at": "2026-10-20T04:49:07.092255+00:00",
+    "file_path": "20-10-2026.md",
+    "track_id": "insert_20261020_064907_207b48a1",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/Finance/20-10-2026.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/Finance/20-10-2026.md",
+      "original_track_id": "insert_20261020_063334_f889da37"
+    }
+  },
+  "dup-10267b413d03dccaceb0b2536b5ecd90": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/Finance/20-10-2026.md",
+    "content_length": 88,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:49:07.095803+00:00",
+    "updated_at": "2026-10-20T04:49:07.095806+00:00",
+    "file_path": "20-10-2026.md",
+    "track_id": "insert_20261020_064907_5297121e",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/Finance/20-10-2026.md, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/Finance/20-10-2026.md",
+      "original_track_id": "insert_20261020_063334_f889da37"
+    }
+  },
+  "dup-8842b5f5605cbae1271cd6b5b54df1bb": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/Physics/thermodynamics.md",
+    "content_length": 1887,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:49:07.099150+00:00",
+    "updated_at": "2026-10-20T04:49:07.099153+00:00",
+    "file_path": "thermodynamics.md",
+    "track_id": "insert_20261020_064907_cdb6e897",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/Physics/thermodynamics.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/Physics/thermodynamics.md",
+      "original_track_id": "insert_20261020_063352_39e75767"
+    }
+  },
+  "dup-90a63055cfb9a957f0562f0407938655": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: README.md",
+    "content_length": 1500,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:49:42.166913+00:00",
+    "updated_at": "2026-10-20T04:49:42.166919+00:00",
+    "file_path": "README.md",
+    "track_id": "insert_20261020_064942_b69a7d56",
+    "error_msg": "File name already exists. Original doc_id: README.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "README.md",
+      "original_track_id": "insert_20261020_053949_607bcf1f"
+    }
+  },
+  "dup-9cc028b2485840cbcd219d65fac37568": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: SETUP.md",
+    "content_length": 5418,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:49:42.171271+00:00",
+    "updated_at": "2026-10-20T04:49:42.171275+00:00",
+    "file_path": "SETUP.md",
+    "track_id": "insert_20261020_064942_37981f2d",
+    "error_msg": "File name already exists. Original doc_id: SETUP.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "SETUP.md",
+      "original_track_id": "insert_20261020_054014_7dd72986"
+    }
+  },
+  "dup-c3ca0e23a603a3b03c4547084478fe34": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 194,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:49:42.175279+00:00",
+    "updated_at": "2026-10-20T04:49:42.175282+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_064942_19115bab",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_054046_045eb524"
+    }
+  },
+  "dup-868b6a43377f42bd0028159cc73b53e7": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 20-Projects/evtx-analyst.md",
+    "content_length": 539,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:49:42.179159+00:00",
+    "updated_at": "2026-10-20T04:49:42.179162+00:00",
+    "file_path": "evtx-analyst.md",
+    "track_id": "insert_20261020_064942_cfee0d0b",
+    "error_msg": "File name already exists. Original doc_id: 20-Projects/evtx-analyst.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "20-Projects/evtx-analyst.md",
+      "original_track_id": "insert_20261020_054055_7db747dd"
+    }
+  },
+  "dup-7976c85c321222d2325b16cfe6b4f314": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 191,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:49:42.182549+00:00",
+    "updated_at": "2026-10-20T04:49:42.182552+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_064942_fbedc8cd",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_054046_045eb524"
+    }
+  },
+  "dup-3ef94f2e07e177e7dea4dbfd370b4e62": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 207,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:49:42.189816+00:00",
+    "updated_at": "2026-10-20T04:49:42.189820+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_064942_324891fc",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_054046_045eb524"
+    }
+  },
+  "dup-fe3f880d7309163e3688fa7094600c8e": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 239,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:49:42.193399+00:00",
+    "updated_at": "2026-10-20T04:49:42.193403+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_064942_5dc90884",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_054046_045eb524"
+    }
+  },
+  "dup-cf0d3d264f94b70649778db5a6295783": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 50-Reference/windows-event-ids.md",
+    "content_length": 1019,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:49:42.197042+00:00",
+    "updated_at": "2026-10-20T04:49:42.197045+00:00",
+    "file_path": "windows-event-ids.md",
+    "track_id": "insert_20261020_064942_fb04d447",
+    "error_msg": "File name already exists. Original doc_id: 50-Reference/windows-event-ids.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "50-Reference/windows-event-ids.md",
+      "original_track_id": "insert_20261020_054104_8024ba94"
+    }
+  },
+  "dup-303526f680484edf0a58c9ba260f2b21": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 171,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:49:42.200272+00:00",
+    "updated_at": "2026-10-20T04:49:42.200275+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_064942_6b0424f3",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_054046_045eb524"
+    }
+  },
+  "dup-1c910752301f1f0b326eee528b73a177": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 90-Meta/learning-ledger.md",
+    "content_length": 355,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:49:42.203686+00:00",
+    "updated_at": "2026-10-20T04:49:42.203689+00:00",
+    "file_path": "learning-ledger.md",
+    "track_id": "insert_20261020_064942_c1e690ee",
+    "error_msg": "File name already exists. Original doc_id: 90-Meta/learning-ledger.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "90-Meta/learning-ledger.md",
+      "original_track_id": "insert_20261020_054121_0d519150"
+    }
+  },
+  "dup-66756803d90665c3323ccad084ad6f32": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 90-Meta/system.md",
+    "content_length": 1374,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:49:42.206981+00:00",
+    "updated_at": "2026-10-20T04:49:42.206984+00:00",
+    "file_path": "system.md",
+    "track_id": "insert_20261020_064942_a37b23d7",
+    "error_msg": "File name already exists. Original doc_id: 90-Meta/system.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "90-Meta/system.md",
+      "original_track_id": "insert_20261020_054137_887e5d6f"
+    }
+  },
+  "dup-69466d239e910d63551144dbd83a7614": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/Finance/20-10-2026.md",
+    "content_length": 2985,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:49:42.210969+00:00",
+    "updated_at": "2026-10-20T04:49:42.210972+00:00",
+    "file_path": "20-10-2026.md",
+    "track_id": "insert_20261020_064942_569aee8b",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/Finance/20-10-2026.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/Finance/20-10-2026.md",
+      "original_track_id": "insert_20261020_063334_f889da37"
+    }
+  },
+  "dup-0e7eec40436947587b9cb4b68f03bc15": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/Finance/20-10-2026.md",
+    "content_length": 133,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:49:42.214685+00:00",
+    "updated_at": "2026-10-20T04:49:42.214688+00:00",
+    "file_path": "20-10-2026.md",
+    "track_id": "insert_20261020_064942_14de8679",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/Finance/20-10-2026.md, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/Finance/20-10-2026.md",
+      "original_track_id": "insert_20261020_063334_f889da37"
+    }
+  },
+  "dup-7d6de16c18ba9a1369160d1f5a757605": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/Physics/thermodynamics.md",
+    "content_length": 1887,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:49:42.217946+00:00",
+    "updated_at": "2026-10-20T04:49:42.217949+00:00",
+    "file_path": "thermodynamics.md",
+    "track_id": "insert_20261020_064942_9ce2eb3a",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/Physics/thermodynamics.md, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/Physics/thermodynamics.md",
+      "original_track_id": "insert_20261020_063352_39e75767"
+    }
+  },
+  "README.md": {
+    "status": "processed",
+    "content_summary": "# README\n\n# obsidian-vault\n\nMy personal knowledge vault: Obsidian, versioned with git, AI-searchable, synced through GitHub.\n\n## Philosophy: capture, don't curate\n\n- **Everything lands in `00-Inbox/` first.** Don't stop to decide where something goes...",
+    "content_length": 1500,
+    "created_at": "2026-10-20T04:51:50.487514+00:00",
+    "updated_at": "2026-10-20T04:51:51.449545+00:00",
+    "file_path": "README.md",
+    "track_id": "insert_20261020_065150_131c8ab1",
+    "content_hash": "8e5b6fa591cbebbe5c4d2245e111536c",
+    "metadata": {
+      "parse_start_time": 1792471910,
       "parse_stage_skipped": true,
       "parse_format": "raw",
       "parse_engine": "legacy",
-      "analyzing_start_time": 1792470814,
+      "analyzing_start_time": 1792471910,
       "analyzing_stage_skipped": true,
       "kg_write_state": "graph_mutation_started",
-      "process_start_time": 1792470814,
-      "process_end_time": 1792470832,
+      "process_start_time": 1792471910,
+      "process_end_time": 1792471911,
       "chunk_method": "legacy_chunking_func",
       "chunk_opts": "size=1200, split_only=False, overlap=100"
     },
     "chunks_count": 1,
     "chunks_list": [
-      "10-Learning/Finance/20-10-2026.md-chunk-000"
+      "README.md-chunk-000"
     ]
   },
-  "10-Learning/Physics/thermodynamics.md": {
+  "SETUP.md": {
     "status": "processed",
-    "content_summary": "# thermodynamics\n\n# thermodynamics\n\n## In one sentence\n\n## How it works\n\n## Example\n\n## Gotchas\n\n## Flashcards\n<!-- front::back -->\n\n## Sources\n\n\n## Related\n- [[system]]",
-    "content_length": 169,
-    "created_at": "2026-10-20T04:33:52.475558+00:00",
-    "updated_at": "2026-10-20T04:33:59.101471+00:00",
-    "file_path": "thermodynamics.md",
-    "track_id": "insert_20261020_063352_39e75767",
-    "content_hash": "94841b89a7f7c66abcb325ff9dc62a91",
+    "content_summary": "# SETUP\n\n# SETUP: notes for future me\n\n- **Location (Windows):** `C:\\Users\\tarik\\projects\\obsidian-vault`\n- **Location (WSL):** `/mnt/c/Users/tarik/projects/obsidian-vault`\n- **Remote:** `git@github.com:tmukh/obsidian-vault.git` (private)\n- **Apps:**...",
+    "content_length": 5418,
+    "created_at": "2026-10-20T04:51:51.940617+00:00",
+    "updated_at": "2026-10-20T04:51:53.430486+00:00",
+    "file_path": "SETUP.md",
+    "track_id": "insert_20261020_065151_02b7db3b",
+    "content_hash": "be091328c2e018bce49d18bdf34b9c21",
     "metadata": {
-      "parse_start_time": 1792470832,
+      "parse_start_time": 1792471911,
       "parse_stage_skipped": true,
       "parse_format": "raw",
       "parse_engine": "legacy",
-      "analyzing_start_time": 1792470832,
+      "analyzing_start_time": 1792471911,
       "analyzing_stage_skipped": true,
       "kg_write_state": "graph_mutation_started",
-      "process_start_time": 1792470832,
-      "process_end_time": 1792470839,
+      "process_start_time": 1792471911,
+      "process_end_time": 1792471913,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 2,
+    "chunks_list": [
+      "SETUP.md-chunk-000",
+      "SETUP.md-chunk-001"
+    ]
+  },
+  "10-Learning/_index.md": {
+    "status": "processed",
+    "content_summary": "# _index\n\n# Learning\n\nConcept notes. Subfolders: MCP, Reverse-Engineering, Go.\n\n```dataview\nTABLE file.mtime AS \"Modified\"\nFROM \"10-Learning\"\nWHERE file.name != \"_index\"\nSORT file.mtime DESC\n```",
+    "content_length": 194,
+    "created_at": "2026-10-20T04:51:53.693680+00:00",
+    "updated_at": "2026-10-20T04:51:54.336784+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_065153_a3a92547",
+    "content_hash": "49ca582b817d13c748307842c145400f",
+    "metadata": {
+      "parse_start_time": 1792471913,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1792471913,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1792471913,
+      "process_end_time": 1792471914,
       "chunk_method": "legacy_chunking_func",
       "chunk_opts": "size=1200, split_only=False, overlap=100"
     },
     "chunks_count": 1,
     "chunks_list": [
-      "10-Learning/Physics/thermodynamics.md-chunk-000"
+      "10-Learning/_index.md-chunk-000"
+    ]
+  },
+  "20-Projects/evtx-analyst.md": {
+    "status": "processed",
+    "content_summary": "# evtx-analyst\n\n# evtx-analyst\n\n## Goal\nA tool to parse Windows `.evtx` logs and surface suspicious activity (failed/successful logons, privilege use, new services, log clearing).\n\n## Why\nPractise DFIR and Windows internals. Feeds [[windows-event-ids...",
+    "content_length": 539,
+    "created_at": "2026-10-20T04:51:54.590921+00:00",
+    "updated_at": "2026-10-20T04:51:55.220770+00:00",
+    "file_path": "evtx-analyst.md",
+    "track_id": "insert_20261020_065154_dddd4876",
+    "content_hash": "4ed94677506bb92c9e0d04d0055c9d91",
+    "metadata": {
+      "parse_start_time": 1792471914,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1792471914,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1792471914,
+      "process_end_time": 1792471915,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "20-Projects/evtx-analyst.md-chunk-000"
+    ]
+  },
+  "dup-faa4943d9482418cc61de73409090796": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 191,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:51:55.225150+00:00",
+    "updated_at": "2026-10-20T04:51:55.225154+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_065155_4ce811a9",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_065153_a3a92547"
+    }
+  },
+  "dup-9030cd2d8f8f223de855f959543100df": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 207,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:51:55.229163+00:00",
+    "updated_at": "2026-10-20T04:51:55.229166+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_065155_29309751",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_065153_a3a92547"
+    }
+  },
+  "dup-fec3161aa93f8066a415ba0eecffe399": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 239,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:51:55.234086+00:00",
+    "updated_at": "2026-10-20T04:51:55.234090+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_065155_4fd9e731",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_065153_a3a92547"
+    }
+  },
+  "50-Reference/windows-event-ids.md": {
+    "status": "processed",
+    "content_summary": "# windows-event-ids\n\n# Windows Event IDs\n\n| ID | Log | Meaning | Why it matters |\n|---|---|---|---|\n| 4624 | Security | An account successfully logged on | Check Logon Type (2 interactive, 3 network, 10 RDP) |\n| 4625 | Security | An account failed to...",
+    "content_length": 1019,
+    "created_at": "2026-10-20T04:51:55.477662+00:00",
+    "updated_at": "2026-10-20T04:51:56.418285+00:00",
+    "file_path": "windows-event-ids.md",
+    "track_id": "insert_20261020_065155_5e521722",
+    "content_hash": "0acd7f15f2844ac2dd1f120748a3917e",
+    "metadata": {
+      "parse_start_time": 1792471915,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1792471915,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1792471915,
+      "process_end_time": 1792471916,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "50-Reference/windows-event-ids.md-chunk-000"
+    ]
+  },
+  "dup-6b690a178d16b8325116468bf122a518": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE:filename] Original document: 10-Learning/_index.md",
+    "content_length": 171,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-20T04:51:56.422766+00:00",
+    "updated_at": "2026-10-20T04:51:56.422771+00:00",
+    "file_path": "_index.md",
+    "track_id": "insert_20261020_065156_e434d5ac",
+    "error_msg": "File name already exists. Original doc_id: 10-Learning/_index.md, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "duplicate_kind": "filename",
+      "original_doc_id": "10-Learning/_index.md",
+      "original_track_id": "insert_20261020_065153_a3a92547"
+    }
+  },
+  "90-Meta/learning-ledger.md": {
+    "status": "processed",
+    "content_summary": "# learning-ledger\n\n# Learning ledger\n\nStatus: `new` → `used` → `confident`\n\n| Concept | Area | Status | Last checked | Notes |\n|---|---|---|---|---|\n| MCP server basics | MCP | new | 2026-10-19 | |\n| Windows logon events (4624/4625) | Reverse-Enginee...",
+    "content_length": 355,
+    "created_at": "2026-10-20T04:51:56.698951+00:00",
+    "updated_at": "2026-10-20T04:51:57.774457+00:00",
+    "file_path": "learning-ledger.md",
+    "track_id": "insert_20261020_065156_c1677a70",
+    "content_hash": "998d89cd703b5d7369b8b979e7b0cdf6",
+    "metadata": {
+      "parse_start_time": 1792471916,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1792471916,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1792471916,
+      "process_end_time": 1792471917,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "90-Meta/learning-ledger.md-chunk-000"
+    ]
+  },
+  "90-Meta/system.md": {
+    "status": "processed",
+    "content_summary": "# system\n\n# System: how this vault works\n\n## Rule zero: capture, don't curate\nCapture beats organisation. If deciding where a note goes costs friction, it goes in `00-Inbox/`.\nDon't garden the graph: no reorganising, no link polishing, no tag systems...",
+    "content_length": 1374,
+    "created_at": "2026-10-20T04:51:57.838466+00:00",
+    "updated_at": "2026-10-20T04:51:58.524895+00:00",
+    "file_path": "system.md",
+    "track_id": "insert_20261020_065157_4b9726ab",
+    "content_hash": "084b1eb89231c4b9ff368e269544c327",
+    "metadata": {
+      "parse_start_time": 1792471917,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1792471917,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1792471917,
+      "process_end_time": 1792471918,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "90-Meta/system.md-chunk-000"
+    ]
+  },
+  "10-Learning/Physics/thermodynamics-laws.md": {
+    "status": "processed",
+    "content_summary": "# thermodynamics-laws\n\n# thermodynamics-laws\n\n## In one sentence\nThere are three laws of thermodynamics\n- **Zeroth Law:** If two systems are each in thermal equilibrium with a third system, they are also in thermal equilibrium with each other. This f...",
+    "content_length": 1233,
+    "created_at": "2026-10-20T04:52:29.244348+00:00",
+    "updated_at": "2026-10-20T04:52:47.158597+00:00",
+    "file_path": "thermodynamics-laws.md",
+    "track_id": "insert_20261020_065229_ead3155e",
+    "content_hash": "19b0ad6d66de5490c44ce279f1131fe5",
+    "metadata": {
+      "parse_start_time": 1792471949,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1792471949,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1792471949,
+      "process_end_time": 1792471967,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "10-Learning/Physics/thermodynamics-laws.md-chunk-000"
+    ]
+  },
+  "00-Inbox/untitled-3.md": {
+    "status": "processed",
+    "content_summary": "# untitled-3\n\n# untitled-3\n\nTrying a new focus method from a video. You work in 25-minute blocks called pomodoros, then take a 5-minute break.\nAfter four pomodoros you take a longer break of 15 to 30 minutes. Francesco Cirillo came up with it in the ...",
+    "content_length": 306,
+    "created_at": "2026-10-21T09:54:39.706868+00:00",
+    "updated_at": "2026-10-21T09:54:53.468840+00:00",
+    "file_path": "untitled-3.md",
+    "track_id": "insert_20261021_115439_98088d8b",
+    "content_hash": "0e075fbabe0f24a6796b3c6556e12e76",
+    "metadata": {
+      "parse_start_time": 1792576479,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1792576479,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1792576479,
+      "process_end_time": 1792576493,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "00-Inbox/untitled-3.md-chunk-000"
     ]
   }
 }

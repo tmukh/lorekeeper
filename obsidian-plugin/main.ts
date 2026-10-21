@@ -20,7 +20,7 @@ const DEFAULT_SETTINGS: LoreSettings = {
 const VIEW_TYPE = "lorekeeper-chat";
 
 interface Source { title: string; path: string; }
-interface Answer { answer: string; sources: Source[]; }
+interface Answer { answer: string; sources: Source[]; status?: string; }
 interface Plan {
   folder: string; folder_exists: boolean; is_new: boolean;
   filename: string; template: string | null;
@@ -100,7 +100,21 @@ export default class LorekeeperPlugin extends Plugin {
     }
   }
 
-  stopServer() { if (this.proc) { this.proc.kill(); this.proc = null; } }
+  /** Stop the server and WAIT until the port is free. Asks the server to exit itself
+   *  (/shutdown) because on Windows proc.kill() only kills the venv launcher and leaves
+   *  the real python serving the old code; that also stops servers from an earlier
+   *  Obsidian session that this.proc no longer points at. */
+  async stopServer() {
+    try { await requestUrl({ url: `${this.baseUrl()}/shutdown`, method: "POST", throw: false }); } catch (_) { /* not running */ }
+    if (this.proc) { this.proc.kill(); this.proc = null; }
+    for (let i = 0; i < 40; i++) {
+      try {
+        const h = await requestUrl({ url: `${this.baseUrl()}/health`, method: "GET", throw: false });
+        if (h.status !== 200) return;
+      } catch (_) { return; }
+      await new Promise((r) => setTimeout(r, 250));
+    }
+  }
 
   async activateView() {
     const { workspace } = this.app;
@@ -121,7 +135,7 @@ export default class LorekeeperPlugin extends Plugin {
         body: JSON.stringify({ question, mode }), throw: false,
       });
       if (res.status >= 400) return { answer: `⚠️ server error ${res.status}: ${res.text}`, sources: [] };
-      return { answer: res.json?.answer ?? "(no answer)", sources: res.json?.sources ?? [] };
+      return { answer: res.json?.answer ?? "(no answer)", sources: res.json?.sources ?? [], status: res.json?.status };
     } catch (e) {
       return { answer: `⚠️ couldn't reach the lorekeeper server at ${this.baseUrl()} — is it running? (${e})`, sources: [] };
     }
@@ -282,7 +296,8 @@ class ChatView extends ItemView {
       await MarkdownRenderer.render(this.plugin.app, a.answer, text, "", this as Component);
       if (a.sources && a.sources.length) {
         const src = m.createDiv({ cls: "lk-sources" });
-        src.createSpan({ cls: "lk-sources-label", text: "Sources" });
+        // topic_only: the note is about the subject but did not answer the question
+        src.createSpan({ cls: "lk-sources-label", text: a.status === "topic_only" ? "Related note" : "Sources" });
         const chips = src.createDiv({ cls: "lk-chips" });
         for (const s of a.sources) {
           const chip = chips.createEl("a", { cls: "lk-chip", text: s.title });
@@ -381,6 +396,6 @@ class LoreSettingTab extends PluginSettingTab {
     new Setting(containerEl).setName("Auto-start server with Obsidian")
       .addToggle((t) => t.setValue(this.plugin.settings.autostart).onChange(async (v) => { this.plugin.settings.autostart = v; await this.plugin.saveSettings(); }));
     new Setting(containerEl).setName("Restart server now")
-      .addButton((b) => b.setButtonText("Restart").onClick(async () => { this.plugin.stopServer(); await this.plugin.startServer(); new Notice("Lorekeeper server restarting…"); }));
+      .addButton((b) => b.setButtonText("Restart").onClick(async () => { await this.plugin.stopServer(); await this.plugin.startServer(); new Notice("Lorekeeper server restarting…"); }));
   }
 }

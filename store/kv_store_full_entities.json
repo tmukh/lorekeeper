@@ -15,8 +15,8 @@
       "system.md"
     ],
     "count": 12,
-    "create_time": 1792467612,
-    "update_time": 1792467612,
+    "create_time": 1792471910,
+    "update_time": 1792471910,
     "_id": "README.md"
   },
   "SETUP.md": {
@@ -47,8 +47,8 @@
       "tarik"
     ],
     "count": 24,
-    "create_time": 1792467644,
-    "update_time": 1792467644,
+    "create_time": 1792471911,
+    "update_time": 1792471911,
     "_id": "SETUP.md"
   },
   "10-Learning/_index.md": {
@@ -64,8 +64,8 @@
       "table"
     ],
     "count": 9,
-    "create_time": 1792467654,
-    "update_time": 1792467654,
+    "create_time": 1792471913,
+    "update_time": 1792471913,
     "_id": "10-Learning/_index.md"
   },
   "20-Projects/evtx-analyst.md": {
@@ -78,8 +78,8 @@
       "windows-event-ids"
     ],
     "count": 6,
-    "create_time": 1792467663,
-    "update_time": 1792467663,
+    "create_time": 1792471914,
+    "update_time": 1792471914,
     "_id": "20-Projects/evtx-analyst.md"
   },
   "50-Reference/windows-event-ids.md": {
@@ -104,8 +104,8 @@
       "Windows Event IDs"
     ],
     "count": 18,
-    "create_time": 1792467680,
-    "update_time": 1792467680,
+    "create_time": 1792471915,
+    "update_time": 1792471915,
     "_id": "50-Reference/windows-event-ids.md"
   },
   "90-Meta/learning-ledger.md": {
@@ -123,8 +123,8 @@
       "windows-event-ids"
     ],
     "count": 11,
-    "create_time": 1792467696,
-    "update_time": 1792467696,
+    "create_time": 1792471916,
+    "update_time": 1792471916,
     "_id": "90-Meta/learning-ledger.md"
   },
   "90-Meta/system.md": {
@@ -143,42 +143,38 @@
       "system"
     ],
     "count": 12,
-    "create_time": 1792467713,
-    "update_time": 1792467713,
+    "create_time": 1792471917,
+    "update_time": 1792471917,
     "_id": "90-Meta/system.md"
   },
-  "10-Learning/Finance/20-10-2026.md": {
+  "10-Learning/Physics/thermodynamics-laws.md": {
     "entity_names": [
-      "Brokerages",
-      "Companies",
-      "Dow Jones Industrial Average",
-      "Exchanges",
-      "Fidelity",
-      "HSBC",
-      "Investopedia",
-      "Investors",
-      "Returns",
-      "S&P 500",
-      "Stock Exchanges",
-      "Stock Market",
-      "Supply and Demand"
+      "Absolute Zero",
+      "Entropy",
+      "First Law",
+      "Second Law",
+      "Thermodynamics Laws",
+      "Third Law",
+      "YouTube",
+      "Zeroth Law"
     ],
-    "count": 13,
-    "create_time": 1792470831,
-    "update_time": 1792470831,
-    "_id": "10-Learning/Finance/20-10-2026.md"
+    "count": 8,
+    "create_time": 1792471966,
+    "update_time": 1792471966,
+    "_id": "10-Learning/Physics/thermodynamics-laws.md"
   },
-  "10-Learning/Physics/thermodynamics.md": {
+  "00-Inbox/untitled-3.md": {
     "entity_names": [
-      "Energy",
-      "Heat",
-      "System",
-      "Thermodynamics",
-      "Work"
+      "Breaks",
+      "Francesco Cirillo",
+      "Kitchen timer",
+      "Pomodoro Technique",
+      "Pomodoros",
+      "Video"
     ],
-    "count": 5,
-    "create_time": 1792470838,
-    "update_time": 1792470838,
-    "_id": "10-Learning/Physics/thermodynamics.md"
+    "count": 6,
+    "create_time": 1792576492,
+    "update_time": 1792576492,
+    "_id": "00-Inbox/untitled-3.md"
   }
 }

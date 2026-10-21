@@ -1,9 +1,11 @@
 """Plain REST facade for the Obsidian plugin.
 
   GET  /health                       -> {ok, model, vault, indexer}
-  POST /query   {question, mode?}    -> {answer, sources:[{title,path}]}
+  POST /query   {question, mode?}    -> {status, answer, sources:[{title,path}]}
+                                        status: full | partial | topic_only | none
   POST /suggest {draft_text, title?} -> {result, plan:{...}}
   POST /reindex                      -> {indexed}
+  POST /shutdown                     -> {ok}  (exits this process; used by the plugin's Restart)
 """
 from __future__ import annotations
 
@@ -27,8 +29,8 @@ async def _query(request):
     question = (body or {}).get("question", "").strip()
     if not question:
         return JSONResponse({"error": "missing 'question'"}, status_code=400)
-    answer, sources = await indexer.query_with_sources(question, (body.get("mode") or "hybrid"))
-    return JSONResponse({"answer": answer, "sources": sources})
+    r = await indexer.answer(question, (body.get("mode") or "hybrid"), debug=bool(body.get("debug")))
+    return JSONResponse(r)  # {status, answer, sources}
 
 
 async def _suggest(request):
@@ -45,12 +47,24 @@ async def _reindex(request):
     return JSONResponse({"indexed": n})
 
 
+async def _shutdown(request):
+    """Exit this server process. The plugin calls this on Restart/unload because on
+    Windows killing the venv's python.exe launcher leaves the real interpreter
+    running, still serving the OLD code on the port."""
+    import asyncio
+    import os
+
+    asyncio.get_running_loop().call_later(0.3, os._exit, 0)
+    return JSONResponse({"ok": True})
+
+
 def build_app() -> Starlette:
     routes = [
         Route("/health", _health, methods=["GET"]),
         Route("/query", _query, methods=["POST"]),
         Route("/suggest", _suggest, methods=["POST"]),
         Route("/reindex", _reindex, methods=["POST"]),
+        Route("/shutdown", _shutdown, methods=["POST"]),
     ]
     middleware = [Middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])]
     return Starlette(routes=routes, middleware=middleware)

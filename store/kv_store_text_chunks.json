@@ -9,8 +9,8 @@
       "default:extract:f292c7e6e3cf04a6ab226f50c01395f4",
       "default:extract:e3c8a7a75bd3a90307cec70e86da6fe5"
     ],
-    "create_time": 1792467589,
-    "update_time": 1792467612,
+    "create_time": 1792471910,
+    "update_time": 1792471910,
     "_id": "README.md-chunk-000"
   },
   "SETUP.md-chunk-000": {
@@ -23,8 +23,8 @@
       "default:extract:b241e1d3ee4403904c2c23f77dd33779",
       "default:extract:1c7cf12f922e649db75981b7b3abee7c"
     ],
-    "create_time": 1792467614,
-    "update_time": 1792467644,
+    "create_time": 1792471911,
+    "update_time": 1792471911,
     "_id": "SETUP.md-chunk-000"
   },
   "SETUP.md-chunk-001": {
@@ -37,8 +37,8 @@
       "default:extract:d5090dc9928de5596a8bea60f661ef81",
       "default:extract:e8c83d0fef4d8401dc4b0ce246a13dff"
     ],
-    "create_time": 1792467614,
-    "update_time": 1792467638,
+    "create_time": 1792471911,
+    "update_time": 1792471911,
     "_id": "SETUP.md-chunk-001"
   },
   "10-Learning/_index.md-chunk-000": {
@@ -51,8 +51,8 @@
       "default:extract:c0945b185defcb6fa8d3aab26a1898a2",
       "default:extract:6606a5868f9320159c985c2e28451d3b"
     ],
-    "create_time": 1792467646,
-    "update_time": 1792467654,
+    "create_time": 1792471913,
+    "update_time": 1792471913,
     "_id": "10-Learning/_index.md-chunk-000"
   },
   "20-Projects/evtx-analyst.md-chunk-000": {
@@ -65,8 +65,8 @@
       "default:extract:52fade2ad78ae42b3f60a980b480f879",
       "default:extract:59ef2e1138c17eec505571ad20cbcb19"
     ],
-    "create_time": 1792467655,
-    "update_time": 1792467663,
+    "create_time": 1792471914,
+    "update_time": 1792471914,
     "_id": "20-Projects/evtx-analyst.md-chunk-000"
   },
   "50-Reference/windows-event-ids.md-chunk-000": {
@@ -79,8 +79,8 @@
       "default:extract:3cde836a12da3c5a6c161691167bb129",
       "default:extract:d074b5b1ef32d4b6208182a619edb635"
     ],
-    "create_time": 1792467664,
-    "update_time": 1792467680,
+    "create_time": 1792471915,
+    "update_time": 1792471915,
     "_id": "50-Reference/windows-event-ids.md-chunk-000"
   },
   "90-Meta/learning-ledger.md-chunk-000": {
@@ -93,8 +93,8 @@
       "default:extract:f74bcd925475caa87fe404238caef182",
       "default:extract:555c53cda8ebf154840de1d6df45b0ec"
     ],
-    "create_time": 1792467681,
-    "update_time": 1792467696,
+    "create_time": 1792471916,
+    "update_time": 1792471916,
     "_id": "90-Meta/learning-ledger.md-chunk-000"
   },
   "90-Meta/system.md-chunk-000": {
@@ -107,36 +107,36 @@
       "default:extract:15645de4a8bd3ae4569dd9bb428738cb",
       "default:extract:7fdd317b27e869591ec9f657790c181d"
     ],
-    "create_time": 1792467697,
-    "update_time": 1792467713,
+    "create_time": 1792471917,
+    "update_time": 1792471917,
     "_id": "90-Meta/system.md-chunk-000"
   },
-  "10-Learning/Finance/20-10-2026.md-chunk-000": {
-    "tokens": 744,
-    "content": "# 20-10-2026\n\n# 20-10-2026\n\nThe stock market is a global network of exchanges and trading venues where investors buy and sell shares of publicly traded companies. [[1](https://www.hsbc.co.uk/investments/what-is-the-stock-market/), [2](https://www.fidelity.com/learning-center/smart-money/what-is-the-stock-market)]\n\nYou can learn more about its core structure and principles through [Investopedia](https://www.investopedia.com/terms/s/stockmarket.asp). [[1](https://www.investopedia.com/terms/s/stockmarket.asp)]\n\nHow It Works\n\n- **Ownership:** Buying a stock means you purchase a small piece of ownership (a share) in a company. [[1](https://www.manulife.com/ca/en/personal/insights/market-insights/what-s-the-stock-market-and-why-is-it-important-), [2](https://www.investopedia.com/terms/s/stockmarket.asp)]\n- **Raising Capital:** Companies list their shares publicly through an Initial Public Offering (IPO) to raise money to grow their business. [[1](https://www.td.com/ca/en/investing/direct-investing/articles/what-is-stock-market), [2](https://www.youtube.com/watch?v=dMOcrLMfDFM)]\n- **Secondary Market:** Most daily trading happens between investors buying and selling existing shares from one another rather than from the company itself. [[1](https://www.nbc.ca/en/direct-brokerage/learning-centre/understanding-stock-market/stock-market-basics/what-is-stock-market.html), [2](https://www.youtube.com/watch?v=dMOcrLMfDFM)]\n- **Supply and Demand:** Share prices move up or down based on company performance, economic news, and how many people want to buy or sell. [[1](https://www.hsbc.co.uk/investments/what-is-the-stock-market/), [2](https://www.youtube.com/watch?v=dMOcrLMfDFM)]\n- **Returns:** Investors can make money through **dividends** (cash payments from company profits) or **price appreciation** (selling a stock for more than they paid). [[1](https://www.bcu.ac.uk/blog/accounting-finance-and-economics/what-is-the-stock-market), [2](https://www.fidelity.com/learning-center/smart-money/what-is-the-stock-market)]\n\nMajor Components\n\n- **Stock Exchanges:** Organized marketplaces where trades take place, such as the New York Stock Exchange (NYSE), Nasdaq, and the London Stock Exchange (LSE). [[1](https://www.fidelity.com/learning-center/smart-money/what-is-the-stock-market), [2](https://www.bcu.ac.uk/blog/accounting-finance-and-economics/what-is-the-stock-market)]\n- **Market Indexes:** Tools like the **S&P 500** or the **Dow Jones Industrial Average** track groups of large companies to show the overall health of the market. [[1](https://www.neamb.com/retirement-planning/understanding-the-stock-market-a-beginners-guide), [2](https://www.fidelity.com/learning-center/smart-money/what-is-the-stock-market)]\n- **Brokerages:** Accounts or platforms that everyday people use to place buy and sell orders on exchanges. [[1](https://www.investopedia.com/terms/s/stockmarket.asp), [2](https://www.fidelity.com/learning-center/smart-money/what-is-the-stock-market)]",
+  "10-Learning/Physics/thermodynamics-laws.md-chunk-000": {
+    "tokens": 312,
+    "content": "# thermodynamics-laws\n\n# thermodynamics-laws\n\n## In one sentence\nThere are three laws of thermodynamics\n- **Zeroth Law:** If two systems are each in thermal equilibrium with a third system, they are also in thermal equilibrium with each other. This forms the basis for measuring temperature. [[1](https://www.youtube.com/watch?v=CF0xfttIUDE&t=47)]\n\n- **First Law (Conservation of Energy):** Energy cannot be created or destroyed; it can only change form or transfer from one place to another. The total energy in a closed system stays constant. [[1](https://www.youtube.com/watch?v=CF0xfttIUDE&t=47)]\n\n- **Second Law:** Heat cannot spontaneously flow from a colder object to a hotter object. Over time, usable energy degrades, and the total entropy (disorder) of an isolated system always increases. [[1](https://www.youtube.com/watch?v=CF0xfttIUDE&t=47)]\n\n- **Third Law:** As a system's temperature approaches absolute zero (\\(0 \\text{ K}\\) or \\(-273.15^{\\circ }\\text{C}\\)), its entropy drops to a minimum, and molecular motion nearly stops. Absolute zero can never be completely reached. [[1](https://www.youtube.com/watch?v=CF0xfttIUDE&t=47)]\n## How it works\n\n## Example\n\n## Gotchas\n\n## Flashcards\n<!-- front::back -->\n\n## Sources",
     "chunk_order_index": 0,
-    "full_doc_id": "10-Learning/Finance/20-10-2026.md",
-    "file_path": "20-10-2026.md",
+    "full_doc_id": "10-Learning/Physics/thermodynamics-laws.md",
+    "file_path": "thermodynamics-laws.md",
     "llm_cache_list": [
-      "default:extract:349c9b4ec65be43f986dbbb4d62feb7a",
-      "default:extract:4d5090d8b24ade639129a8213dcde412"
+      "default:extract:98c0dc706e0fdcdef773823e71c50472",
+      "default:extract:751b7c7f6fa1ebd826019dea229d758f"
     ],
-    "create_time": 1792470814,
-    "update_time": 1792470831,
-    "_id": "10-Learning/Finance/20-10-2026.md-chunk-000"
+    "create_time": 1792471949,
+    "update_time": 1792471966,
+    "_id": "10-Learning/Physics/thermodynamics-laws.md-chunk-000"
   },
-  "10-Learning/Physics/thermodynamics.md-chunk-000": {
-    "tokens": 44,
-    "content": "# thermodynamics\n\n# thermodynamics\n\n## In one sentence\n\n## How it works\n\n## Example\n\n## Gotchas\n\n## Flashcards\n<!-- front::back -->\n\n## Sources\n\n\n## Related\n- [[system]]",
+  "00-Inbox/untitled-3.md-chunk-000": {
+    "tokens": 82,
+    "content": "# untitled-3\n\n# untitled-3\n\nTrying a new focus method from a video. You work in 25-minute blocks called pomodoros, then take a 5-minute break.\nAfter four pomodoros you take a longer break of 15 to 30 minutes. Francesco Cirillo came up with it in the late 1980s,\nnamed after his tomato-shaped kitchen timer.",
     "chunk_order_index": 0,
-    "full_doc_id": "10-Learning/Physics/thermodynamics.md",
-    "file_path": "thermodynamics.md",
+    "full_doc_id": "00-Inbox/untitled-3.md",
+    "file_path": "untitled-3.md",
     "llm_cache_list": [
-      "default:extract:6ad571153307793b1c8de01f5942acbd",
-      "default:extract:1029617cd2ce23950955c7af08c5f122"
+      "default:extract:3ee764c7383e08570acd35801609d64e",
+      "default:extract:3df48724449248aba00d718381ff196c"
     ],
-    "create_time": 1792470832,
-    "update_time": 1792470838,
-    "_id": "10-Learning/Physics/thermodynamics.md-chunk-000"
+    "create_time": 1792576479,
+    "update_time": 1792576492,
+    "_id": "00-Inbox/untitled-3.md-chunk-000"
   }
 }

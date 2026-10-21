@@ -458,5 +458,465 @@
     "create_time": 1792471369,
     "update_time": 1792471369,
     "_id": "hybrid:keywords:422059aa76cb08a4b4e14c78f8d6a22d"
+  },
+  "hybrid:keywords:cf0f8896cc7c57f5550b67247241166e": {
+    "return": "{\"high_level_keywords\": [\"thermodynamics\", \"laws\", \"applications\"], \"low_level_keywords\": [\"laws of thermodynamics\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What do we use the laws of thermodynamics for?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1792471596,
+    "update_time": 1792471596,
+    "_id": "hybrid:keywords:cf0f8896cc7c57f5550b67247241166e"
+  },
+  "hybrid:keywords:dd6f460863387a59cb32f5592a17299b": {
+    "return": "{\"high_level_keywords\": [\"thermodynamics\"], \"low_level_keywords\": [\"third law\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Whats the third law of thermodynamics?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1792471607,
+    "update_time": 1792471607,
+    "_id": "hybrid:keywords:dd6f460863387a59cb32f5592a17299b"
+  },
+  "hybrid:keywords:3150915d045099f972b1811b986c7888": {
+    "return": "{\"high_level_keywords\": [\"thermodynamics\", \"application\"], \"low_level_keywords\": [\"use\", \"for\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "what do we use thermodynamics for?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1792471627,
+    "update_time": 1792471627,
+    "_id": "hybrid:keywords:3150915d045099f972b1811b986c7888"
+  },
+  "hybrid:keywords:f61291bdd8e23e2f56ddfa5e001acc8c": {
+    "return": "{\"high_level_keywords\": [\"cats\", \"meow\", \"behavior\"], \"low_level_keywords\": [\"meow\", \"mew\", \"feline\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "why do cats meow?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1792471755,
+    "update_time": 1792471755,
+    "_id": "hybrid:keywords:f61291bdd8e23e2f56ddfa5e001acc8c"
+  },
+  "hybrid:keywords:b49acd56ef7821cf8309da27d765b217": {
+    "return": "{\"high_level_keywords\": [\"reasons\", \"meowing\", \"cats\"], \"low_level_keywords\": [\"cats\", \"meow\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "due to what do cats meow?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1792471794,
+    "update_time": 1792471794,
+    "_id": "hybrid:keywords:b49acd56ef7821cf8309da27d765b217"
+  },
+  "default:extract:1594d8f9f1b375caf29040ab256db4d1": {
+    "return": "entity<|#|>thermodynamics-laws<|#|>Concept<|#|>Thermodynamics laws are fundamental principles governing the behavior of energy and its interactions with matter.\nentity<|#|>thermodynamics-laws<|#|>Concept<|#|>Thermodynamics laws are fundamental principles governing the behavior of energy and its interactions with matter.\nentity<|#|>In one sentence<|#|>Other<|#|>In one sentence is a section title in the input text.\nentity<|#|>How it works<|#|>Other<|#|>How it works is a section title in the input text.\nentity<|#|>Example<|#|>Other<|#|>Example is a section title in the input text.\nentity<|#|>Gotchas<|#|>Other<|#|>Gotchas is a section title in the input text.\nentity<|#|>Flashcards<|#|>Other<|#|>Flashcards is a section title in the input text.\nentity<|#|>thermodynamics-laws<|#|>Concept<|#|>Thermodynamics laws are fundamental principles governing the behavior of energy and its interactions with matter.\nrelation<|#|>thermodynamics-laws<|#|>In one sentence<|#|>Relationship keywords<|#|>explains\nrelation<|#|>thermodynamics-laws<|#|>How it works<|#|>Relationship keywords<|#|>describes\nrelation<|#|>thermodynamics-laws<|#|>Example<|#|>Relationship keywords<|#|>illustrates\nrelation<|#|>thermodynamics-laws<|#|>Gotchas<|#|>Relationship keywords<|#|>cautions\nrelation<|#|>thermodynamics-laws<|#|>Flashcards<|#|>Relationship keywords<|#|>utilizes\n<|COMPLETE|>",
+    "cache_type": "extract",
+    "chunk_id": "10-Learning/Physics/thermodynamics-laws.md-chunk-000",
+    "original_prompt": "---Task---\nExtract entities and relationships from the `---Input Text---` section below.\n\n---Instructions---\n1. **Strict Adherence to Format:** Strictly adhere to all format requirements for entity and relationship lists, including output order, field delimiters, and proper noun handling, as specified in the system prompt.\n2. **Quantity Limits:** In this response, output at most 100 total rows and at most 40 entity rows. Output fewer rows if fewer high-value items are present. Only output relationship rows whose source and target entities are both included in this response.\n3. **Output Content Only:** Output *only* the extracted list of entities and relationships. Do not include any introductory or concluding remarks, explanations, or additional text before or after the list.\n4. **Completion Signal:** Output `<|COMPLETE|>` as the final line after all relevant entities and relationships have been extracted and presented. If the row limit is reached, output `<|COMPLETE|>` immediately after the last allowed row.\n5. **Output Language:** Ensure the output language is English. Proper nouns (e.g., personal names, place names, organization names) must be kept in their original language and not translated.\n\n---Input Text---\n```\n# thermodynamics-laws\n\n# thermodynamics-laws\n\n## In one sentence\n\n## How it works\n\n## Example\n\n## Gotchas\n\n## Flashcards\n<!-- front::back -->\n\n## Sources\n```\n\n---Output---\n---Role---\nYou are a Knowledge Graph Specialist responsible for extracting entities and relationships from the `---Input Text---` section of user prompt.\n\n---Instructions---\n1. **Entity Extraction:**\n  - Identify clearly defined and meaningful entities only in the current user prompt's fenced `---Input Text---` section.\n  - For each entity, extract:\n    - `entity_name`: The name of the entity. If the entity name is case-insensitive, capitalize the first letter of each significant word (title case). Ensure **consistent naming** across the entire extraction process.\n    - `entity_type`: Categorize the entity using the type guidance provided in the `---Entity Types---` section below. If none of the provided entity types apply, classify it as `Other`.\n    - `entity_description`: Provide a concise yet comprehensive description of the entity's attributes and activities, based *solely* on the information present in the input text.\n\n2. **Relationship Extraction:**\n  - Identify direct, clearly stated, and meaningful relationships between previously extracted entities.\n  - If a single statement describes a relationship involving more than two entities, decompose it into multiple binary relationships.\n  - For each binary relationship, extract:\n    - `source_entity`: The name of the source entity. Ensure **consistent naming** with entity extraction. Capitalize the first letter of each significant word (title case) if the name is case-insensitive.\n    - `target_entity`: The name of the target entity. Ensure **consistent naming** with entity extraction. Capitalize the first letter of each significant word (title case) if the name is case-insensitive.\n    - `relationship_keywords`: One or more high-level keywords summarizing the relationship. Multiple keywords within this field must be separated by a comma `,`. **DO NOT use `<|#|>` for separating multiple keywords within this field.**\n    - `relationship_description`: A concise explanation of the nature of the relationship between the source and target entities.\n\n3. **Record Types:**\n  - `entity` is used only for entity rows and those rows always contain exactly 4 tuple parts total.\n  - `relation` is used only for relationship rows and those rows always contain exactly 5 tuple parts total.\n  - A row with two entity names plus relationship keywords and a relationship description must start with `relation`, never `entity`.\n  - After the last entity row, switch prefixes to `relation` for every relationship row.\n\n4. **Output Format:**\n  - Entity row: `entity<|#|>entity_name<|#|>entity_type<|#|>entity_description`\n  - Relation row: `relation<|#|>source_entity<|#|>target_entity<|#|>relationship_keywords<|#|>relationship_description`\n  - Wrong: `entity<|#|><source_entity><|#|><target_entity><|#|><relationship_keywords><|#|><relationship_description>`\n  - Correct: `relation<|#|><source_entity><|#|><target_entity><|#|><relationship_keywords><|#|><relationship_description>`\n\n5. **Delimiter Usage:**\n  - The `<|#|>` is a complete, atomic marker and **must not be filled with content**. It serves strictly as a field separator.\n  - Incorrect: `entity<|#|><entity_name><|entity_type|><entity_description>`\n  - Correct: `entity<|#|><entity_name><|#|><entity_type><|#|><entity_description>`\n\n6. **Output Order & Deduplication:**\n  - Output all extracted entities first, followed by all extracted relationships.\n  - Output at most 100 total rows across entities and relationships in this response.\n  - Output at most 40 entity rows in this response.\n  - Output fewer rows if fewer high-value items are present. Do not try to fill the limit.\n  - Only output relationship rows whose source and target entities are both included in the selected entity rows for this response.\n  - If the limit is reached, stop adding new rows immediately and output `<|COMPLETE|>`.\n  - Treat all relationships as **undirected** unless explicitly stated otherwise. Swapping the source and target entities for an undirected relationship does not constitute a new relationship.\n  - Avoid outputting duplicate relationships.\n  - Within the list of relationships, output the relationships that are **most significant** to the core meaning of the input text first.\n\n7. **Context & Language:**\n  - If the user prompt contains a `---Section Context---` section, it gives the document's section hierarchy (e.g. `h1 → h2 → h3`) that the input text belongs to. Use it **only as background** to disambiguate references and ground entity and relationship descriptions in the correct context. **Do NOT** extract entities or relationships from the section heading text itself, and do not mention the headings unless they also appear in the input text.\n  - Ensure all entity names and descriptions are written in the **third person**.\n  - Explicitly name the subject or object; **avoid using pronouns** such as `this article`, `this paper`, `our company`, `I`, `you`, and `he/she`.\n  - The entire output (entity names, keywords, and descriptions) must be written in `English`.\n  - Proper nouns (e.g., personal names, place names, organization names) should be retained in their original language if a proper, widely accepted translation is not available or would cause ambiguity.\n\n8. **Output Format Template Safety:**\n  - The `---Output Format Template---` section contains output format templates only. It is never source text.\n  - Do not extract, infer, or copy entities or relationships from the output format template.\n  - Angle-bracket tokens such as `<entity_name>` are placeholders. Replace them with values extracted from the current `---Input Text---` section and never output the placeholders literally.\n\n9. **Completion Signal:** Output the literal string `<|COMPLETE|>` only after all entities and relationships have been completely extracted and outputted.\n\n---Entity Types---\nClassify each entity using one of the following types. If no type fits, use `Other`.\n\n- Person: Human individuals, real or fictional\n- Creature: Non-human living beings (animals, mythical beings, etc.)\n- Organization: Companies, institutions, government bodies, groups\n- Location: Geographic places (cities, countries, buildings, regions)\n- Event: Occurrences, incidents, ceremonies, meetings\n- Concept: Abstract ideas, theories, principles, beliefs\n- Method: Procedures, techniques, algorithms, workflows\n- Content: Creative or informational works (books, articles, films, reports)\n- Data: Quantitative or structured information (statistics, datasets, measurements)\n- Artifact: Physical or digital objects created by humans (tools, software, devices)\n- NaturalObject: Natural non-living objects (minerals, celestial bodies, chemical compounds)\n\n---Output Format Template---\nThe following content is an output format template only. It is not source text and must never be used as extraction content.\n\nentity<|#|><entity_name><|#|><entity_type><|#|><entity_description>\nrelation<|#|><source_entity><|#|><target_entity><|#|><relationship_keywords><|#|><relationship_description>\n<|COMPLETE|>",
+    "queryparam": null,
+    "create_time": 1792471925,
+    "update_time": 1792471925,
+    "_id": "default:extract:1594d8f9f1b375caf29040ab256db4d1"
+  },
+  "default:extract:c5cc62f163c4e66d488602702ee2cadd": {
+    "return": "entity<|#|>thermodynamics<|#|>Concept<|#|>Thermodynamics is the branch of physics that deals with the relationships between heat, work, and energy.\nrelation<|#|>thermodynamics-laws<|#|>thermodynamics<|#|>Relationship keywords<|#|>includes\nrelation<|#|>thermodynamics-laws<|#|>thermodynamics<|#|>Relationship keywords<|#|>encompasses\nrelation<|#|>thermodynamics-laws<|#|>thermodynamics<|#|>Relationship keywords<|#|>involves\n<|COMPLETE|>",
+    "cache_type": "extract",
+    "chunk_id": "10-Learning/Physics/thermodynamics-laws.md-chunk-000",
+    "original_prompt": "---Task---\nBased on the last extraction task, identify and extract any missed or incorrectly formatted entities and relationships from the input text.\n\n---Instructions---\n1. **Strict Adherence to System Format:** Strictly adhere to all format requirements for entity and relationship lists, including output order, field delimiters, and proper noun handling, as specified in the system instructions.\n2. **Focus on Corrections/Additions:**\n  - **Do NOT** re-output entities and relationships that were **correctly and fully** extracted in the last task.\n  - If an entity or relationship was **missed** in the last task, extract and output it now according to the system format.\n  - If an entity or relationship was **truncated, had missing fields, or was otherwise incorrectly formatted** in the last task, re-output the *corrected and complete* version in the specified format.\n  - Any corrected relationship row must be emitted with the literal `relation` prefix, never `entity`.\n3. **Quantity Limits:** In this response, output at most 100 total rows and at most 40 entity rows. Output fewer rows if fewer high-value corrections or additions remain. A relationship row may reference entities that were already extracted correctly in the previous response. Do not re-output those entities unless they were missing or need correction.\n4. **Output Content Only:** Output *only* the extracted list of entities and relationships. Do not include any introductory or concluding remarks, explanations, or additional text before or after the list.\n5. **Completion Signal:** Output `<|COMPLETE|>` as the final line after all relevant missing or corrected entities and relationships have been extracted and presented. If the row limit is reached, output `<|COMPLETE|>` immediately after the last allowed row.\n6. **Output Language:** Ensure the output language is English. Proper nouns (e.g., personal names, place names, organization names) must be kept in their original language and not translated.\n\n---Output---\n---Role---\nYou are a Knowledge Graph Specialist responsible for extracting entities and relationships from the `---Input Text---` section of user prompt.\n\n---Instructions---\n1. **Entity Extraction:**\n  - Identify clearly defined and meaningful entities only in the current user prompt's fenced `---Input Text---` section.\n  - For each entity, extract:\n    - `entity_name`: The name of the entity. If the entity name is case-insensitive, capitalize the first letter of each significant word (title case). Ensure **consistent naming** across the entire extraction process.\n    - `entity_type`: Categorize the entity using the type guidance provided in the `---Entity Types---` section below. If none of the provided entity types apply, classify it as `Other`.\n    - `entity_description`: Provide a concise yet comprehensive description of the entity's attributes and activities, based *solely* on the information present in the input text.\n\n2. **Relationship Extraction:**\n  - Identify direct, clearly stated, and meaningful relationships between previously extracted entities.\n  - If a single statement describes a relationship involving more than two entities, decompose it into multiple binary relationships.\n  - For each binary relationship, extract:\n    - `source_entity`: The name of the source entity. Ensure **consistent naming** with entity extraction. Capitalize the first letter of each significant word (title case) if the name is case-insensitive.\n    - `target_entity`: The name of the target entity. Ensure **consistent naming** with entity extraction. Capitalize the first letter of each significant word (title case) if the name is case-insensitive.\n    - `relationship_keywords`: One or more high-level keywords summarizing the relationship. Multiple keywords within this field must be separated by a comma `,`. **DO NOT use `<|#|>` for separating multiple keywords within this field.**\n    - `relationship_description`: A concise explanation of the nature of the relationship between the source and target entities.\n\n3. **Record Types:**\n  - `entity` is used only for entity rows and those rows always contain exactly 4 tuple parts total.\n  - `relation` is used only for relationship rows and those rows always contain exactly 5 tuple parts total.\n  - A row with two entity names plus relationship keywords and a relationship description must start with `relation`, never `entity`.\n  - After the last entity row, switch prefixes to `relation` for every relationship row.\n\n4. **Output Format:**\n  - Entity row: `entity<|#|>entity_name<|#|>entity_type<|#|>entity_description`\n  - Relation row: `relation<|#|>source_entity<|#|>target_entity<|#|>relationship_keywords<|#|>relationship_description`\n  - Wrong: `entity<|#|><source_entity><|#|><target_entity><|#|><relationship_keywords><|#|><relationship_description>`\n  - Correct: `relation<|#|><source_entity><|#|><target_entity><|#|><relationship_keywords><|#|><relationship_description>`\n\n5. **Delimiter Usage:**\n  - The `<|#|>` is a complete, atomic marker and **must not be filled with content**. It serves strictly as a field separator.\n  - Incorrect: `entity<|#|><entity_name><|entity_type|><entity_description>`\n  - Correct: `entity<|#|><entity_name><|#|><entity_type><|#|><entity_description>`\n\n6. **Output Order & Deduplication:**\n  - Output all extracted entities first, followed by all extracted relationships.\n  - Output at most 100 total rows across entities and relationships in this response.\n  - Output at most 40 entity rows in this response.\n  - Output fewer rows if fewer high-value items are present. Do not try to fill the limit.\n  - Only output relationship rows whose source and target entities are both included in the selected entity rows for this response.\n  - If the limit is reached, stop adding new rows immediately and output `<|COMPLETE|>`.\n  - Treat all relationships as **undirected** unless explicitly stated otherwise. Swapping the source and target entities for an undirected relationship does not constitute a new relationship.\n  - Avoid outputting duplicate relationships.\n  - Within the list of relationships, output the relationships that are **most significant** to the core meaning of the input text first.\n\n7. **Context & Language:**\n  - If the user prompt contains a `---Section Context---` section, it gives the document's section hierarchy (e.g. `h1 → h2 → h3`) that the input text belongs to. Use it **only as background** to disambiguate references and ground entity and relationship descriptions in the correct context. **Do NOT** extract entities or relationships from the section heading text itself, and do not mention the headings unless they also appear in the input text.\n  - Ensure all entity names and descriptions are written in the **third person**.\n  - Explicitly name the subject or object; **avoid using pronouns** such as `this article`, `this paper`, `our company`, `I`, `you`, and `he/she`.\n  - The entire output (entity names, keywords, and descriptions) must be written in `English`.\n  - Proper nouns (e.g., personal names, place names, organization names) should be retained in their original language if a proper, widely accepted translation is not available or would cause ambiguity.\n\n8. **Output Format Template Safety:**\n  - The `---Output Format Template---` section contains output format templates only. It is never source text.\n  - Do not extract, infer, or copy entities or relationships from the output format template.\n  - Angle-bracket tokens such as `<entity_name>` are placeholders. Replace them with values extracted from the current `---Input Text---` section and never output the placeholders literally.\n\n9. **Completion Signal:** Output the literal string `<|COMPLETE|>` only after all entities and relationships have been completely extracted and outputted.\n\n---Entity Types---\nClassify each entity using one of the following types. If no type fits, use `Other`.\n\n- Person: Human individuals, real or fictional\n- Creature: Non-human living beings (animals, mythical beings, etc.)\n- Organization: Companies, institutions, government bodies, groups\n- Location: Geographic places (cities, countries, buildings, regions)\n- Event: Occurrences, incidents, ceremonies, meetings\n- Concept: Abstract ideas, theories, principles, beliefs\n- Method: Procedures, techniques, algorithms, workflows\n- Content: Creative or informational works (books, articles, films, reports)\n- Data: Quantitative or structured information (statistics, datasets, measurements)\n- Artifact: Physical or digital objects created by humans (tools, software, devices)\n- NaturalObject: Natural non-living objects (minerals, celestial bodies, chemical compounds)\n\n---Output Format Template---\nThe following content is an output format template only. It is not source text and must never be used as extraction content.\n\nentity<|#|><entity_name><|#|><entity_type><|#|><entity_description>\nrelation<|#|><source_entity><|#|><target_entity><|#|><relationship_keywords><|#|><relationship_description>\n<|COMPLETE|>\n[{\"role\": \"user\", \"content\": \"---Task---\\nExtract entities and relationships from the `---Input Text---` section below.\\n\\n---Instructions---\\n1. **Strict Adherence to Format:** Strictly adhere to all format requirements for entity and relationship lists, including output order, field delimiters, and proper noun handling, as specified in the system prompt.\\n2. **Quantity Limits:** In this response, output at most 100 total rows and at most 40 entity rows. Output fewer rows if fewer high-value items are present. Only output relationship rows whose source and target entities are both included in this response.\\n3. **Output Content Only:** Output *only* the extracted list of entities and relationships. Do not include any introductory or concluding remarks, explanations, or additional text before or after the list.\\n4. **Completion Signal:** Output `<|COMPLETE|>` as the final line after all relevant entities and relationships have been extracted and presented. If the row limit is reached, output `<|COMPLETE|>` immediately after the last allowed row.\\n5. **Output Language:** Ensure the output language is English. Proper nouns (e.g., personal names, place names, organization names) must be kept in their original language and not translated.\\n\\n---Input Text---\\n```\\n# thermodynamics-laws\\n\\n# thermodynamics-laws\\n\\n## In one sentence\\n\\n## How it works\\n\\n## Example\\n\\n## Gotchas\\n\\n## Flashcards\\n<!-- front::back -->\\n\\n## Sources\\n```\\n\\n---Output---\"}, {\"role\": \"assistant\", \"content\": \"entity<|#|>thermodynamics-laws<|#|>Concept<|#|>Thermodynamics laws are fundamental principles governing the behavior of energy and its interactions with matter.\\nentity<|#|>thermodynamics-laws<|#|>Concept<|#|>Thermodynamics laws are fundamental principles governing the behavior of energy and its interactions with matter.\\nentity<|#|>In one sentence<|#|>Other<|#|>In one sentence is a section title in the input text.\\nentity<|#|>How it works<|#|>Other<|#|>How it works is a section title in the input text.\\nentity<|#|>Example<|#|>Other<|#|>Example is a section title in the input text.\\nentity<|#|>Gotchas<|#|>Other<|#|>Gotchas is a section title in the input text.\\nentity<|#|>Flashcards<|#|>Other<|#|>Flashcards is a section title in the input text.\\nentity<|#|>thermodynamics-laws<|#|>Concept<|#|>Thermodynamics laws are fundamental principles governing the behavior of energy and its interactions with matter.\\nrelation<|#|>thermodynamics-laws<|#|>In one sentence<|#|>Relationship keywords<|#|>explains\\nrelation<|#|>thermodynamics-laws<|#|>How it works<|#|>Relationship keywords<|#|>describes\\nrelation<|#|>thermodynamics-laws<|#|>Example<|#|>Relationship keywords<|#|>illustrates\\nrelation<|#|>thermodynamics-laws<|#|>Gotchas<|#|>Relationship keywords<|#|>cautions\\nrelation<|#|>thermodynamics-laws<|#|>Flashcards<|#|>Relationship keywords<|#|>utilizes\\n<|COMPLETE|>\"}]",
+    "queryparam": null,
+    "create_time": 1792471927,
+    "update_time": 1792471927,
+    "_id": "default:extract:c5cc62f163c4e66d488602702ee2cadd"
+  },
+  "default:extract:98c0dc706e0fdcdef773823e71c50472": {
+    "return": "entity<|#|>Thermodynamics Laws<|#|>Concept<|#|>Thermodynamics laws are the three fundamental principles that describe the relationships between heat, work, and energy in a system.\nentity<|#|>Zeroth Law<|#|>Concept<|#|>The zeroth law states that if two systems are each in thermal equilibrium with a third system, they are also in thermal equilibrium with each other.\nentity<|#|>First Law<|#|>Concept<|#|>The first law, or conservation of energy, states that energy cannot be created or destroyed, only changed in form or transferred from one place to another.\nentity<|#|>Second Law<|#|>Concept<|#|>The second law states that heat cannot spontaneously flow from a colder object to a hotter object, and that the total entropy of an isolated system always increases over time.\nentity<|#|>Third Law<|#|>Concept<|#|>The third law states that as a system's temperature approaches absolute zero, its entropy drops to a minimum, and molecular motion nearly stops.\nentity<|#|>Absolute Zero<|#|>NaturalObject<|#|>Absolute zero is the theoretical temperature at which all molecular motion ceases, defined as 0 Kelvin (-273.15°C).\nentity<|#|>Entropy<|#|>Concept<|#|>Entropy is a measure of the disorder or randomness of a system.\nrelation<|#|>Zeroth Law<|#|>First Law<|#|>equivalence<|#|>relates to\nrelation<|#|>First Law<|#|>Second Law<|#|>transfer<|#|>describes how energy is transferred\nrelation<|#|>Second Law<|#|>Third Law<|#|>limits<|#|>explains why absolute zero can never be reached\nrelation<|#|>Zeroth Law<|#|>Second Law<|#|>equilibrium<|#|>describes the state of thermal equilibrium\nrelation<|#|>Second Law<|#|>Entropy<|#|>increase<|#|>explains the concept of entropy increase\nrelation<|#|>Third Law<|#|>Absolute Zero<|#|>approach<|#|>describes the approach to absolute zero\n\n<|COMPLETE|>",
+    "cache_type": "extract",
+    "chunk_id": "10-Learning/Physics/thermodynamics-laws.md-chunk-000",
+    "original_prompt": "---Task---\nExtract entities and relationships from the `---Input Text---` section below.\n\n---Instructions---\n1. **Strict Adherence to Format:** Strictly adhere to all format requirements for entity and relationship lists, including output order, field delimiters, and proper noun handling, as specified in the system prompt.\n2. **Quantity Limits:** In this response, output at most 100 total rows and at most 40 entity rows. Output fewer rows if fewer high-value items are present. Only output relationship rows whose source and target entities are both included in this response.\n3. **Output Content Only:** Output *only* the extracted list of entities and relationships. Do not include any introductory or concluding remarks, explanations, or additional text before or after the list.\n4. **Completion Signal:** Output `<|COMPLETE|>` as the final line after all relevant entities and relationships have been extracted and presented. If the row limit is reached, output `<|COMPLETE|>` immediately after the last allowed row.\n5. **Output Language:** Ensure the output language is English. Proper nouns (e.g., personal names, place names, organization names) must be kept in their original language and not translated.\n\n---Input Text---\n```\n# thermodynamics-laws\n\n# thermodynamics-laws\n\n## In one sentence\nThere are three laws of thermodynamics\n- **Zeroth Law:** If two systems are each in thermal equilibrium with a third system, they are also in thermal equilibrium with each other. This forms the basis for measuring temperature. [[1](https://www.youtube.com/watch?v=CF0xfttIUDE&t=47)]\n\n- **First Law (Conservation of Energy):** Energy cannot be created or destroyed; it can only change form or transfer from one place to another. The total energy in a closed system stays constant. [[1](https://www.youtube.com/watch?v=CF0xfttIUDE&t=47)]\n\n- **Second Law:** Heat cannot spontaneously flow from a colder object to a hotter object. Over time, usable energy degrades, and the total entropy (disorder) of an isolated system always increases. [[1](https://www.youtube.com/watch?v=CF0xfttIUDE&t=47)]\n\n- **Third Law:** As a system's temperature approaches absolute zero (\\(0 \\text{ K}\\) or \\(-273.15^{\\circ }\\text{C}\\)), its entropy drops to a minimum, and molecular motion nearly stops. Absolute zero can never be completely reached. [[1](https://www.youtube.com/watch?v=CF0xfttIUDE&t=47)]\n## How it works\n\n## Example\n\n## Gotchas\n\n## Flashcards\n<!-- front::back -->\n\n## Sources\n```\n\n---Output---\n---Role---\nYou are a Knowledge Graph Specialist responsible for extracting entities and relationships from the `---Input Text---` section of user prompt.\n\n---Instructions---\n1. **Entity Extraction:**\n  - Identify clearly defined and meaningful entities only in the current user prompt's fenced `---Input Text---` section.\n  - For each entity, extract:\n    - `entity_name`: The name of the entity. If the entity name is case-insensitive, capitalize the first letter of each significant word (title case). Ensure **consistent naming** across the entire extraction process.\n    - `entity_type`: Categorize the entity using the type guidance provided in the `---Entity Types---` section below. If none of the provided entity types apply, classify it as `Other`.\n    - `entity_description`: Provide a concise yet comprehensive description of the entity's attributes and activities, based *solely* on the information present in the input text.\n\n2. **Relationship Extraction:**\n  - Identify direct, clearly stated, and meaningful relationships between previously extracted entities.\n  - If a single statement describes a relationship involving more than two entities, decompose it into multiple binary relationships.\n  - For each binary relationship, extract:\n    - `source_entity`: The name of the source entity. Ensure **consistent naming** with entity extraction. Capitalize the first letter of each significant word (title case) if the name is case-insensitive.\n    - `target_entity`: The name of the target entity. Ensure **consistent naming** with entity extraction. Capitalize the first letter of each significant word (title case) if the name is case-insensitive.\n    - `relationship_keywords`: One or more high-level keywords summarizing the relationship. Multiple keywords within this field must be separated by a comma `,`. **DO NOT use `<|#|>` for separating multiple keywords within this field.**\n    - `relationship_description`: A concise explanation of the nature of the relationship between the source and target entities.\n\n3. **Record Types:**\n  - `entity` is used only for entity rows and those rows always contain exactly 4 tuple parts total.\n  - `relation` is used only for relationship rows and those rows always contain exactly 5 tuple parts total.\n  - A row with two entity names plus relationship keywords and a relationship description must start with `relation`, never `entity`.\n  - After the last entity row, switch prefixes to `relation` for every relationship row.\n\n4. **Output Format:**\n  - Entity row: `entity<|#|>entity_name<|#|>entity_type<|#|>entity_description`\n  - Relation row: `relation<|#|>source_entity<|#|>target_entity<|#|>relationship_keywords<|#|>relationship_description`\n  - Wrong: `entity<|#|><source_entity><|#|><target_entity><|#|><relationship_keywords><|#|><relationship_description>`\n  - Correct: `relation<|#|><source_entity><|#|><target_entity><|#|><relationship_keywords><|#|><relationship_description>`\n\n5. **Delimiter Usage:**\n  - The `<|#|>` is a complete, atomic marker and **must not be filled with content**. It serves strictly as a field separator.\n  - Incorrect: `entity<|#|><entity_name><|entity_type|><entity_description>`\n  - Correct: `entity<|#|><entity_name><|#|><entity_type><|#|><entity_description>`\n\n6. **Output Order & Deduplication:**\n  - Output all extracted entities first, followed by all extracted relationships.\n  - Output at most 100 total rows across entities and relationships in this response.\n  - Output at most 40 entity rows in this response.\n  - Output fewer rows if fewer high-value items are present. Do not try to fill the limit.\n  - Only output relationship rows whose source and target entities are both included in the selected entity rows for this response.\n  - If the limit is reached, stop adding new rows immediately and output `<|COMPLETE|>`.\n  - Treat all relationships as **undirected** unless explicitly stated otherwise. Swapping the source and target entities for an undirected relationship does not constitute a new relationship.\n  - Avoid outputting duplicate relationships.\n  - Within the list of relationships, output the relationships that are **most significant** to the core meaning of the input text first.\n\n7. **Context & Language:**\n  - If the user prompt contains a `---Section Context---` section, it gives the document's section hierarchy (e.g. `h1 → h2 → h3`) that the input text belongs to. Use it **only as background** to disambiguate references and ground entity and relationship descriptions in the correct context. **Do NOT** extract entities or relationships from the section heading text itself, and do not mention the headings unless they also appear in the input text.\n  - Ensure all entity names and descriptions are written in the **third person**.\n  - Explicitly name the subject or object; **avoid using pronouns** such as `this article`, `this paper`, `our company`, `I`, `you`, and `he/she`.\n  - The entire output (entity names, keywords, and descriptions) must be written in `English`.\n  - Proper nouns (e.g., personal names, place names, organization names) should be retained in their original language if a proper, widely accepted translation is not available or would cause ambiguity.\n\n8. **Output Format Template Safety:**\n  - The `---Output Format Template---` section contains output format templates only. It is never source text.\n  - Do not extract, infer, or copy entities or relationships from the output format template.\n  - Angle-bracket tokens such as `<entity_name>` are placeholders. Replace them with values extracted from the current `---Input Text---` section and never output the placeholders literally.\n\n9. **Completion Signal:** Output the literal string `<|COMPLETE|>` only after all entities and relationships have been completely extracted and outputted.\n\n---Entity Types---\nClassify each entity using one of the following types. If no type fits, use `Other`.\n\n- Person: Human individuals, real or fictional\n- Creature: Non-human living beings (animals, mythical beings, etc.)\n- Organization: Companies, institutions, government bodies, groups\n- Location: Geographic places (cities, countries, buildings, regions)\n- Event: Occurrences, incidents, ceremonies, meetings\n- Concept: Abstract ideas, theories, principles, beliefs\n- Method: Procedures, techniques, algorithms, workflows\n- Content: Creative or informational works (books, articles, films, reports)\n- Data: Quantitative or structured information (statistics, datasets, measurements)\n- Artifact: Physical or digital objects created by humans (tools, software, devices)\n- NaturalObject: Natural non-living objects (minerals, celestial bodies, chemical compounds)\n\n---Output Format Template---\nThe following content is an output format template only. It is not source text and must never be used as extraction content.\n\nentity<|#|><entity_name><|#|><entity_type><|#|><entity_description>\nrelation<|#|><source_entity><|#|><target_entity><|#|><relationship_keywords><|#|><relationship_description>\n<|COMPLETE|>",
+    "queryparam": null,
+    "create_time": 1792471956,
+    "update_time": 1792471956,
+    "_id": "default:extract:98c0dc706e0fdcdef773823e71c50472"
+  },
+  "default:extract:751b7c7f6fa1ebd826019dea229d758f": {
+    "return": "entity<|#|>Thermodynamics Laws<|#|>Concept<|#|>Thermodynamics laws are the three fundamental principles that describe the relationships between heat, work, and energy in a system.\nentity<|#|>Zeroth Law<|#|>Concept<|#|>The zeroth law states that if two systems are each in thermal equilibrium with a third system, they are also in thermal equilibrium with each other.\nentity<|#|>First Law<|#|>Concept<|#|>The first law, or conservation of energy, states that energy cannot be created or destroyed, only changed in form or transferred from one place to another.\nentity<|#|>Second Law<|#|>Concept<|#|>The second law states that heat cannot spontaneously flow from a colder object to a hotter object, and that the total entropy of an isolated system always increases over time.\nentity<|#|>Third Law<|#|>Concept<|#|>The third law states that as a system's temperature approaches absolute zero, its entropy drops to a minimum, and molecular motion nearly stops.\nentity<|#|>Absolute Zero<|#|>NaturalObject<|#|>Absolute zero is the theoretical temperature at which all molecular motion ceases, defined as 0 Kelvin (-273.15°C).\nentity<|#|>Entropy<|#|>Concept<|#|>Entropy is a measure of the disorder or randomness of a system.\nrelation<|#|>Zeroth Law<|#|>First Law<|#|>equivalence<|#|>relates to\nrelation<|#|>First Law<|#|>Second Law<|#|>transfer<|#|>describes how energy is transferred\nrelation<|#|>Second Law<|#|>Third Law<|#|>limits<|#|>explains why absolute zero can never be reached\nrelation<|#|>Zeroth Law<|#|>Second Law<|#|>equilibrium<|#|>describes the state of thermal equilibrium\nrelation<|#|>Second Law<|#|>Entropy<|#|>increase<|#|>explains the concept of entropy increase\nrelation<|#|>Third Law<|#|>Absolute Zero<|#|>approach<|#|>describes the approach to absolute zero\nentity<|#|>YouTube<|#|>Content<|#|>YouTube is a video-sharing platform where users can upload and share videos.\nrelation<|#|>Zeroth Law<|#|>Entropy<|#|>increase<|#|>relates to\nrelation<|#|>First Law<|#|>Entropy<|#|>increase<|#|>describes how energy is related to entropy\nrelation<|#|>Second Law<|#|>Entropy<|#|>increase<|#|>explains the concept of entropy increase\nrelation<|#|>Third Law<|#|>Entropy<|#|>minimum<|#|>describes the minimum entropy at absolute zero\n\n<|COMPLETE|>",
+    "cache_type": "extract",
+    "chunk_id": "10-Learning/Physics/thermodynamics-laws.md-chunk-000",
+    "original_prompt": "---Task---\nBased on the last extraction task, identify and extract any missed or incorrectly formatted entities and relationships from the input text.\n\n---Instructions---\n1. **Strict Adherence to System Format:** Strictly adhere to all format requirements for entity and relationship lists, including output order, field delimiters, and proper noun handling, as specified in the system instructions.\n2. **Focus on Corrections/Additions:**\n  - **Do NOT** re-output entities and relationships that were **correctly and fully** extracted in the last task.\n  - If an entity or relationship was **missed** in the last task, extract and output it now according to the system format.\n  - If an entity or relationship was **truncated, had missing fields, or was otherwise incorrectly formatted** in the last task, re-output the *corrected and complete* version in the specified format.\n  - Any corrected relationship row must be emitted with the literal `relation` prefix, never `entity`.\n3. **Quantity Limits:** In this response, output at most 100 total rows and at most 40 entity rows. Output fewer rows if fewer high-value corrections or additions remain. A relationship row may reference entities that were already extracted correctly in the previous response. Do not re-output those entities unless they were missing or need correction.\n4. **Output Content Only:** Output *only* the extracted list of entities and relationships. Do not include any introductory or concluding remarks, explanations, or additional text before or after the list.\n5. **Completion Signal:** Output `<|COMPLETE|>` as the final line after all relevant missing or corrected entities and relationships have been extracted and presented. If the row limit is reached, output `<|COMPLETE|>` immediately after the last allowed row.\n6. **Output Language:** Ensure the output language is English. Proper nouns (e.g., personal names, place names, organization names) must be kept in their original language and not translated.\n\n---Output---\n---Role---\nYou are a Knowledge Graph Specialist responsible for extracting entities and relationships from the `---Input Text---` section of user prompt.\n\n---Instructions---\n1. **Entity Extraction:**\n  - Identify clearly defined and meaningful entities only in the current user prompt's fenced `---Input Text---` section.\n  - For each entity, extract:\n    - `entity_name`: The name of the entity. If the entity name is case-insensitive, capitalize the first letter of each significant word (title case). Ensure **consistent naming** across the entire extraction process.\n    - `entity_type`: Categorize the entity using the type guidance provided in the `---Entity Types---` section below. If none of the provided entity types apply, classify it as `Other`.\n    - `entity_description`: Provide a concise yet comprehensive description of the entity's attributes and activities, based *solely* on the information present in the input text.\n\n2. **Relationship Extraction:**\n  - Identify direct, clearly stated, and meaningful relationships between previously extracted entities.\n  - If a single statement describes a relationship involving more than two entities, decompose it into multiple binary relationships.\n  - For each binary relationship, extract:\n    - `source_entity`: The name of the source entity. Ensure **consistent naming** with entity extraction. Capitalize the first letter of each significant word (title case) if the name is case-insensitive.\n    - `target_entity`: The name of the target entity. Ensure **consistent naming** with entity extraction. Capitalize the first letter of each significant word (title case) if the name is case-insensitive.\n    - `relationship_keywords`: One or more high-level keywords summarizing the relationship. Multiple keywords within this field must be separated by a comma `,`. **DO NOT use `<|#|>` for separating multiple keywords within this field.**\n    - `relationship_description`: A concise explanation of the nature of the relationship between the source and target entities.\n\n3. **Record Types:**\n  - `entity` is used only for entity rows and those rows always contain exactly 4 tuple parts total.\n  - `relation` is used only for relationship rows and those rows always contain exactly 5 tuple parts total.\n  - A row with two entity names plus relationship keywords and a relationship description must start with `relation`, never `entity`.\n  - After the last entity row, switch prefixes to `relation` for every relationship row.\n\n4. **Output Format:**\n  - Entity row: `entity<|#|>entity_name<|#|>entity_type<|#|>entity_description`\n  - Relation row: `relation<|#|>source_entity<|#|>target_entity<|#|>relationship_keywords<|#|>relationship_description`\n  - Wrong: `entity<|#|><source_entity><|#|><target_entity><|#|><relationship_keywords><|#|><relationship_description>`\n  - Correct: `relation<|#|><source_entity><|#|><target_entity><|#|><relationship_keywords><|#|><relationship_description>`\n\n5. **Delimiter Usage:**\n  - The `<|#|>` is a complete, atomic marker and **must not be filled with content**. It serves strictly as a field separator.\n  - Incorrect: `entity<|#|><entity_name><|entity_type|><entity_description>`\n  - Correct: `entity<|#|><entity_name><|#|><entity_type><|#|><entity_description>`\n\n6. **Output Order & Deduplication:**\n  - Output all extracted entities first, followed by all extracted relationships.\n  - Output at most 100 total rows across entities and relationships in this response.\n  - Output at most 40 entity rows in this response.\n  - Output fewer rows if fewer high-value items are present. Do not try to fill the limit.\n  - Only output relationship rows whose source and target entities are both included in the selected entity rows for this response.\n  - If the limit is reached, stop adding new rows immediately and output `<|COMPLETE|>`.\n  - Treat all relationships as **undirected** unless explicitly stated otherwise. Swapping the source and target entities for an undirected relationship does not constitute a new relationship.\n  - Avoid outputting duplicate relationships.\n  - Within the list of relationships, output the relationships that are **most significant** to the core meaning of the input text first.\n\n7. **Context & Language:**\n  - If the user prompt contains a `---Section Context---` section, it gives the document's section hierarchy (e.g. `h1 → h2 → h3`) that the input text belongs to. Use it **only as background** to disambiguate references and ground entity and relationship descriptions in the correct context. **Do NOT** extract entities or relationships from the section heading text itself, and do not mention the headings unless they also appear in the input text.\n  - Ensure all entity names and descriptions are written in the **third person**.\n  - Explicitly name the subject or object; **avoid using pronouns** such as `this article`, `this paper`, `our company`, `I`, `you`, and `he/she`.\n  - The entire output (entity names, keywords, and descriptions) must be written in `English`.\n  - Proper nouns (e.g., personal names, place names, organization names) should be retained in their original language if a proper, widely accepted translation is not available or would cause ambiguity.\n\n8. **Output Format Template Safety:**\n  - The `---Output Format Template---` section contains output format templates only. It is never source text.\n  - Do not extract, infer, or copy entities or relationships from the output format template.\n  - Angle-bracket tokens such as `<entity_name>` are placeholders. Replace them with values extracted from the current `---Input Text---` section and never output the placeholders literally.\n\n9. **Completion Signal:** Output the literal string `<|COMPLETE|>` only after all entities and relationships have been completely extracted and outputted.\n\n---Entity Types---\nClassify each entity using one of the following types. If no type fits, use `Other`.\n\n- Person: Human individuals, real or fictional\n- Creature: Non-human living beings (animals, mythical beings, etc.)\n- Organization: Companies, institutions, government bodies, groups\n- Location: Geographic places (cities, countries, buildings, regions)\n- Event: Occurrences, incidents, ceremonies, meetings\n- Concept: Abstract ideas, theories, principles, beliefs\n- Method: Procedures, techniques, algorithms, workflows\n- Content: Creative or informational works (books, articles, films, reports)\n- Data: Quantitative or structured information (statistics, datasets, measurements)\n- Artifact: Physical or digital objects created by humans (tools, software, devices)\n- NaturalObject: Natural non-living objects (minerals, celestial bodies, chemical compounds)\n\n---Output Format Template---\nThe following content is an output format template only. It is not source text and must never be used as extraction content.\n\nentity<|#|><entity_name><|#|><entity_type><|#|><entity_description>\nrelation<|#|><source_entity><|#|><target_entity><|#|><relationship_keywords><|#|><relationship_description>\n<|COMPLETE|>\n[{\"role\": \"user\", \"content\": \"---Task---\\nExtract entities and relationships from the `---Input Text---` section below.\\n\\n---Instructions---\\n1. **Strict Adherence to Format:** Strictly adhere to all format requirements for entity and relationship lists, including output order, field delimiters, and proper noun handling, as specified in the system prompt.\\n2. **Quantity Limits:** In this response, output at most 100 total rows and at most 40 entity rows. Output fewer rows if fewer high-value items are present. Only output relationship rows whose source and target entities are both included in this response.\\n3. **Output Content Only:** Output *only* the extracted list of entities and relationships. Do not include any introductory or concluding remarks, explanations, or additional text before or after the list.\\n4. **Completion Signal:** Output `<|COMPLETE|>` as the final line after all relevant entities and relationships have been extracted and presented. If the row limit is reached, output `<|COMPLETE|>` immediately after the last allowed row.\\n5. **Output Language:** Ensure the output language is English. Proper nouns (e.g., personal names, place names, organization names) must be kept in their original language and not translated.\\n\\n---Input Text---\\n```\\n# thermodynamics-laws\\n\\n# thermodynamics-laws\\n\\n## In one sentence\\nThere are three laws of thermodynamics\\n- **Zeroth Law:** If two systems are each in thermal equilibrium with a third system, they are also in thermal equilibrium with each other. This forms the basis for measuring temperature. [[1](https://www.youtube.com/watch?v=CF0xfttIUDE&t=47)]\\n\\n- **First Law (Conservation of Energy):** Energy cannot be created or destroyed; it can only change form or transfer from one place to another. The total energy in a closed system stays constant. [[1](https://www.youtube.com/watch?v=CF0xfttIUDE&t=47)]\\n\\n- **Second Law:** Heat cannot spontaneously flow from a colder object to a hotter object. Over time, usable energy degrades, and the total entropy (disorder) of an isolated system always increases. [[1](https://www.youtube.com/watch?v=CF0xfttIUDE&t=47)]\\n\\n- **Third Law:** As a system's temperature approaches absolute zero (\\\\(0 \\\\text{ K}\\\\) or \\\\(-273.15^{\\\\circ }\\\\text{C}\\\\)), its entropy drops to a minimum, and molecular motion nearly stops. Absolute zero can never be completely reached. [[1](https://www.youtube.com/watch?v=CF0xfttIUDE&t=47)]\\n## How it works\\n\\n## Example\\n\\n## Gotchas\\n\\n## Flashcards\\n<!-- front::back -->\\n\\n## Sources\\n```\\n\\n---Output---\"}, {\"role\": \"assistant\", \"content\": \"entity<|#|>Thermodynamics Laws<|#|>Concept<|#|>Thermodynamics laws are the three fundamental principles that describe the relationships between heat, work, and energy in a system.\\nentity<|#|>Zeroth Law<|#|>Concept<|#|>The zeroth law states that if two systems are each in thermal equilibrium with a third system, they are also in thermal equilibrium with each other.\\nentity<|#|>First Law<|#|>Concept<|#|>The first law, or conservation of energy, states that energy cannot be created or destroyed, only changed in form or transferred from one place to another.\\nentity<|#|>Second Law<|#|>Concept<|#|>The second law states that heat cannot spontaneously flow from a colder object to a hotter object, and that the total entropy of an isolated system always increases over time.\\nentity<|#|>Third Law<|#|>Concept<|#|>The third law states that as a system's temperature approaches absolute zero, its entropy drops to a minimum, and molecular motion nearly stops.\\nentity<|#|>Absolute Zero<|#|>NaturalObject<|#|>Absolute zero is the theoretical temperature at which all molecular motion ceases, defined as 0 Kelvin (-273.15°C).\\nentity<|#|>Entropy<|#|>Concept<|#|>Entropy is a measure of the disorder or randomness of a system.\\nrelation<|#|>Zeroth Law<|#|>First Law<|#|>equivalence<|#|>relates to\\nrelation<|#|>First Law<|#|>Second Law<|#|>transfer<|#|>describes how energy is transferred\\nrelation<|#|>Second Law<|#|>Third Law<|#|>limits<|#|>explains why absolute zero can never be reached\\nrelation<|#|>Zeroth Law<|#|>Second Law<|#|>equilibrium<|#|>describes the state of thermal equilibrium\\nrelation<|#|>Second Law<|#|>Entropy<|#|>increase<|#|>explains the concept of entropy increase\\nrelation<|#|>Third Law<|#|>Absolute Zero<|#|>approach<|#|>describes the approach to absolute zero\\n\\n<|COMPLETE|>\"}]",
+    "queryparam": null,
+    "create_time": 1792471966,
+    "update_time": 1792471966,
+    "_id": "default:extract:751b7c7f6fa1ebd826019dea229d758f"
+  },
+  "hybrid:keywords:a966e01638a3d1a15d7e50f27ea700b2": {
+    "return": "{\"high_level_keywords\": [\"laws of thermodynamics\", \"thermodynamics\"], \"low_level_keywords\": [\"laws\", \"thermodyanmics\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "How many laws of thermodyanmics are there?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1792472083,
+    "update_time": 1792472083,
+    "_id": "hybrid:keywords:a966e01638a3d1a15d7e50f27ea700b2"
+  },
+  "hybrid:keywords:71ee02e86d8094203725adb84ca69e47": {
+    "return": "{\"high_level_keywords\": [\"thermodynamics\", \"laws\"], \"low_level_keywords\": [\"thermodyanmics\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "what are the thermodyanmics laws?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1792472094,
+    "update_time": 1792472094,
+    "_id": "hybrid:keywords:71ee02e86d8094203725adb84ca69e47"
+  },
+  "hybrid:keywords:a3ed35a47b562ea7294ef5ea4362b19f": {
+    "return": "{\"high_level_keywords\": [\"stock market\"], \"low_level_keywords\": []}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "what is the stock market?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1792472119,
+    "update_time": 1792472119,
+    "_id": "hybrid:keywords:a3ed35a47b562ea7294ef5ea4362b19f"
+  },
+  "hybrid:keywords:c775c6770b24e2c8c0da772a95145c28": {
+    "return": "{\"high_level_keywords\": [\"stock market\"], \"low_level_keywords\": [\"stock market\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "what is the stock market",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1792575475,
+    "update_time": 1792575475,
+    "_id": "hybrid:keywords:c775c6770b24e2c8c0da772a95145c28"
+  },
+  "hybrid:keywords:027e69d1d2295675b1afc1bad84f64d8": {
+    "return": "{\"high_level_keywords\": [\"thermodynamics\", \"laws\"], \"low_level_keywords\": [\"thermodynamics\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "what are the thermodynamics laws",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1792575481,
+    "update_time": 1792575481,
+    "_id": "hybrid:keywords:027e69d1d2295675b1afc1bad84f64d8"
+  },
+  "local:keywords:ac5ee2e5aa2920a62681ad9372394418": {
+    "return": "{\"high_level_keywords\": [\"stock market\"], \"low_level_keywords\": [\"notes\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "List up to 5 notes most related to the following, each with a one-line reason:\n\nstock market",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1792575604,
+    "update_time": 1792575604,
+    "_id": "local:keywords:ac5ee2e5aa2920a62681ad9372394418"
+  },
+  "local:keywords:97908c59c1ac0bb929fae67fb306e080": {
+    "return": "{\"high_level_keywords\": [\"thermodynamics\", \"laws\"], \"low_level_keywords\": [\"notes\", \"reason\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "List up to 5 notes most related to the following, each with a one-line reason:\n\nthermodynamics laws",
+    "queryparam": {
+      "mode": "local",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1792575609,
+    "update_time": 1792575609,
+    "_id": "local:keywords:97908c59c1ac0bb929fae67fb306e080"
+  },
+  "hybrid:keywords:1ecb695df2e7a92e44feaf3910b1b3af": {
+    "return": "{\"high_level_keywords\": [\"entropy\", \"Second Law of thermodynamics\"], \"low_level_keywords\": [\"entropy\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What does the Second Law of thermodynamics say about entropy?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1792575677,
+    "update_time": 1792575677,
+    "_id": "hybrid:keywords:1ecb695df2e7a92e44feaf3910b1b3af"
+  },
+  "hybrid:keywords:e8550d6484d4b7270a3a97c8fecf91a2": {
+    "return": "{\"high_level_keywords\": [\"stock market\"], \"low_level_keywords\": []}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What is the stock market?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1792576470,
+    "update_time": 1792576470,
+    "_id": "hybrid:keywords:e8550d6484d4b7270a3a97c8fecf91a2"
+  },
+  "default:extract:3ee764c7383e08570acd35801609d64e": {
+    "return": "entity<|#|>Francesco Cirillo<|#|>Person<|#|>Francesco Cirillo is the Italian creator of the Pomodoro Technique.\nentity<|#|>Pomodoro Technique<|#|>Method<|#|>The Pomodoro Technique is a time management method developed by Francesco Cirillo.\nentity<|#|>Pomodoros<|#|>Method<|#|>Pomodoros are 25-minute blocks of time used in the Pomodoro Technique.\nrelation<|#|>Pomodoro Technique<|#|>Pomodoros<|#|>Blocks of time, Breaks<|#|>The Pomodoro Technique uses Pomodoros, which are 25-minute blocks of time, alternating with breaks.\nrelation<|#|>Francesco Cirillo<|#|>Pomodoro Technique<|#|>Development, Creator<|#|>Francesco Cirillo developed the Pomodoro Technique.\nrelation<|#|>Francesco Cirillo<|#|>Kitchen timer<|#|>Object, Association<|#|>Francesco Cirillo's kitchen timer inspired the name \"Pomodoro Technique\".\nrelation<|#|>Pomodoro Technique<|#|>Kitchen timer<|#|>Association, Inspiration<|#|>The Pomodoro Technique is named after Francesco Cirillo's kitchen timer.\n<|COMPLETE|>",
+    "cache_type": "extract",
+    "chunk_id": "00-Inbox/untitled-3.md-chunk-000",
+    "original_prompt": "---Task---\nExtract entities and relationships from the `---Input Text---` section below.\n\n---Instructions---\n1. **Strict Adherence to Format:** Strictly adhere to all format requirements for entity and relationship lists, including output order, field delimiters, and proper noun handling, as specified in the system prompt.\n2. **Quantity Limits:** In this response, output at most 100 total rows and at most 40 entity rows. Output fewer rows if fewer high-value items are present. Only output relationship rows whose source and target entities are both included in this response.\n3. **Output Content Only:** Output *only* the extracted list of entities and relationships. Do not include any introductory or concluding remarks, explanations, or additional text before or after the list.\n4. **Completion Signal:** Output `<|COMPLETE|>` as the final line after all relevant entities and relationships have been extracted and presented. If the row limit is reached, output `<|COMPLETE|>` immediately after the last allowed row.\n5. **Output Language:** Ensure the output language is English. Proper nouns (e.g., personal names, place names, organization names) must be kept in their original language and not translated.\n\n---Input Text---\n```\n# untitled-3\n\n# untitled-3\n\nTrying a new focus method from a video. You work in 25-minute blocks called pomodoros, then take a 5-minute break.\nAfter four pomodoros you take a longer break of 15 to 30 minutes. Francesco Cirillo came up with it in the late 1980s,\nnamed after his tomato-shaped kitchen timer.\n```\n\n---Output---\n---Role---\nYou are a Knowledge Graph Specialist responsible for extracting entities and relationships from the `---Input Text---` section of user prompt.\n\n---Instructions---\n1. **Entity Extraction:**\n  - Identify clearly defined and meaningful entities only in the current user prompt's fenced `---Input Text---` section.\n  - For each entity, extract:\n    - `entity_name`: The name of the entity. If the entity name is case-insensitive, capitalize the first letter of each significant word (title case). Ensure **consistent naming** across the entire extraction process.\n    - `entity_type`: Categorize the entity using the type guidance provided in the `---Entity Types---` section below. If none of the provided entity types apply, classify it as `Other`.\n    - `entity_description`: Provide a concise yet comprehensive description of the entity's attributes and activities, based *solely* on the information present in the input text.\n\n2. **Relationship Extraction:**\n  - Identify direct, clearly stated, and meaningful relationships between previously extracted entities.\n  - If a single statement describes a relationship involving more than two entities, decompose it into multiple binary relationships.\n  - For each binary relationship, extract:\n    - `source_entity`: The name of the source entity. Ensure **consistent naming** with entity extraction. Capitalize the first letter of each significant word (title case) if the name is case-insensitive.\n    - `target_entity`: The name of the target entity. Ensure **consistent naming** with entity extraction. Capitalize the first letter of each significant word (title case) if the name is case-insensitive.\n    - `relationship_keywords`: One or more high-level keywords summarizing the relationship. Multiple keywords within this field must be separated by a comma `,`. **DO NOT use `<|#|>` for separating multiple keywords within this field.**\n    - `relationship_description`: A concise explanation of the nature of the relationship between the source and target entities.\n\n3. **Record Types:**\n  - `entity` is used only for entity rows and those rows always contain exactly 4 tuple parts total.\n  - `relation` is used only for relationship rows and those rows always contain exactly 5 tuple parts total.\n  - A row with two entity names plus relationship keywords and a relationship description must start with `relation`, never `entity`.\n  - After the last entity row, switch prefixes to `relation` for every relationship row.\n\n4. **Output Format:**\n  - Entity row: `entity<|#|>entity_name<|#|>entity_type<|#|>entity_description`\n  - Relation row: `relation<|#|>source_entity<|#|>target_entity<|#|>relationship_keywords<|#|>relationship_description`\n  - Wrong: `entity<|#|><source_entity><|#|><target_entity><|#|><relationship_keywords><|#|><relationship_description>`\n  - Correct: `relation<|#|><source_entity><|#|><target_entity><|#|><relationship_keywords><|#|><relationship_description>`\n\n5. **Delimiter Usage:**\n  - The `<|#|>` is a complete, atomic marker and **must not be filled with content**. It serves strictly as a field separator.\n  - Incorrect: `entity<|#|><entity_name><|entity_type|><entity_description>`\n  - Correct: `entity<|#|><entity_name><|#|><entity_type><|#|><entity_description>`\n\n6. **Output Order & Deduplication:**\n  - Output all extracted entities first, followed by all extracted relationships.\n  - Output at most 100 total rows across entities and relationships in this response.\n  - Output at most 40 entity rows in this response.\n  - Output fewer rows if fewer high-value items are present. Do not try to fill the limit.\n  - Only output relationship rows whose source and target entities are both included in the selected entity rows for this response.\n  - If the limit is reached, stop adding new rows immediately and output `<|COMPLETE|>`.\n  - Treat all relationships as **undirected** unless explicitly stated otherwise. Swapping the source and target entities for an undirected relationship does not constitute a new relationship.\n  - Avoid outputting duplicate relationships.\n  - Within the list of relationships, output the relationships that are **most significant** to the core meaning of the input text first.\n\n7. **Context & Language:**\n  - If the user prompt contains a `---Section Context---` section, it gives the document's section hierarchy (e.g. `h1 → h2 → h3`) that the input text belongs to. Use it **only as background** to disambiguate references and ground entity and relationship descriptions in the correct context. **Do NOT** extract entities or relationships from the section heading text itself, and do not mention the headings unless they also appear in the input text.\n  - Ensure all entity names and descriptions are written in the **third person**.\n  - Explicitly name the subject or object; **avoid using pronouns** such as `this article`, `this paper`, `our company`, `I`, `you`, and `he/she`.\n  - The entire output (entity names, keywords, and descriptions) must be written in `English`.\n  - Proper nouns (e.g., personal names, place names, organization names) should be retained in their original language if a proper, widely accepted translation is not available or would cause ambiguity.\n\n8. **Output Format Template Safety:**\n  - The `---Output Format Template---` section contains output format templates only. It is never source text.\n  - Do not extract, infer, or copy entities or relationships from the output format template.\n  - Angle-bracket tokens such as `<entity_name>` are placeholders. Replace them with values extracted from the current `---Input Text---` section and never output the placeholders literally.\n\n9. **Completion Signal:** Output the literal string `<|COMPLETE|>` only after all entities and relationships have been completely extracted and outputted.\n\n---Entity Types---\nClassify each entity using one of the following types. If no type fits, use `Other`.\n\n- Person: Human individuals, real or fictional\n- Creature: Non-human living beings (animals, mythical beings, etc.)\n- Organization: Companies, institutions, government bodies, groups\n- Location: Geographic places (cities, countries, buildings, regions)\n- Event: Occurrences, incidents, ceremonies, meetings\n- Concept: Abstract ideas, theories, principles, beliefs\n- Method: Procedures, techniques, algorithms, workflows\n- Content: Creative or informational works (books, articles, films, reports)\n- Data: Quantitative or structured information (statistics, datasets, measurements)\n- Artifact: Physical or digital objects created by humans (tools, software, devices)\n- NaturalObject: Natural non-living objects (minerals, celestial bodies, chemical compounds)\n\n---Output Format Template---\nThe following content is an output format template only. It is not source text and must never be used as extraction content.\n\nentity<|#|><entity_name><|#|><entity_type><|#|><entity_description>\nrelation<|#|><source_entity><|#|><target_entity><|#|><relationship_keywords><|#|><relationship_description>\n<|COMPLETE|>",
+    "queryparam": null,
+    "create_time": 1792576487,
+    "update_time": 1792576487,
+    "_id": "default:extract:3ee764c7383e08570acd35801609d64e"
+  },
+  "default:extract:3df48724449248aba00d718381ff196c": {
+    "return": "entity<|#|>Video<|#|>Content<|#|>A video is being used to learn about a new focus method.\nrelation<|#|>Video<|#|>Pomodoro Technique<|#|>Association, Instruction<|#|>The video is used to learn about the Pomodoro Technique.\nrelation<|#|>Francesco Cirillo<|#|>Video<|#|>Association, Creator<|#|>Francesco Cirillo's work is being presented in the video.\nrelation<|#|>Pomodoros<|#|>Breaks<|#|>Time, Association<|#|>Pomodoros are used with breaks in the Pomodoro Technique.\n<|COMPLETE|>",
+    "cache_type": "extract",
+    "chunk_id": "00-Inbox/untitled-3.md-chunk-000",
+    "original_prompt": "---Task---\nBased on the last extraction task, identify and extract any missed or incorrectly formatted entities and relationships from the input text.\n\n---Instructions---\n1. **Strict Adherence to System Format:** Strictly adhere to all format requirements for entity and relationship lists, including output order, field delimiters, and proper noun handling, as specified in the system instructions.\n2. **Focus on Corrections/Additions:**\n  - **Do NOT** re-output entities and relationships that were **correctly and fully** extracted in the last task.\n  - If an entity or relationship was **missed** in the last task, extract and output it now according to the system format.\n  - If an entity or relationship was **truncated, had missing fields, or was otherwise incorrectly formatted** in the last task, re-output the *corrected and complete* version in the specified format.\n  - Any corrected relationship row must be emitted with the literal `relation` prefix, never `entity`.\n3. **Quantity Limits:** In this response, output at most 100 total rows and at most 40 entity rows. Output fewer rows if fewer high-value corrections or additions remain. A relationship row may reference entities that were already extracted correctly in the previous response. Do not re-output those entities unless they were missing or need correction.\n4. **Output Content Only:** Output *only* the extracted list of entities and relationships. Do not include any introductory or concluding remarks, explanations, or additional text before or after the list.\n5. **Completion Signal:** Output `<|COMPLETE|>` as the final line after all relevant missing or corrected entities and relationships have been extracted and presented. If the row limit is reached, output `<|COMPLETE|>` immediately after the last allowed row.\n6. **Output Language:** Ensure the output language is English. Proper nouns (e.g., personal names, place names, organization names) must be kept in their original language and not translated.\n\n---Output---\n---Role---\nYou are a Knowledge Graph Specialist responsible for extracting entities and relationships from the `---Input Text---` section of user prompt.\n\n---Instructions---\n1. **Entity Extraction:**\n  - Identify clearly defined and meaningful entities only in the current user prompt's fenced `---Input Text---` section.\n  - For each entity, extract:\n    - `entity_name`: The name of the entity. If the entity name is case-insensitive, capitalize the first letter of each significant word (title case). Ensure **consistent naming** across the entire extraction process.\n    - `entity_type`: Categorize the entity using the type guidance provided in the `---Entity Types---` section below. If none of the provided entity types apply, classify it as `Other`.\n    - `entity_description`: Provide a concise yet comprehensive description of the entity's attributes and activities, based *solely* on the information present in the input text.\n\n2. **Relationship Extraction:**\n  - Identify direct, clearly stated, and meaningful relationships between previously extracted entities.\n  - If a single statement describes a relationship involving more than two entities, decompose it into multiple binary relationships.\n  - For each binary relationship, extract:\n    - `source_entity`: The name of the source entity. Ensure **consistent naming** with entity extraction. Capitalize the first letter of each significant word (title case) if the name is case-insensitive.\n    - `target_entity`: The name of the target entity. Ensure **consistent naming** with entity extraction. Capitalize the first letter of each significant word (title case) if the name is case-insensitive.\n    - `relationship_keywords`: One or more high-level keywords summarizing the relationship. Multiple keywords within this field must be separated by a comma `,`. **DO NOT use `<|#|>` for separating multiple keywords within this field.**\n    - `relationship_description`: A concise explanation of the nature of the relationship between the source and target entities.\n\n3. **Record Types:**\n  - `entity` is used only for entity rows and those rows always contain exactly 4 tuple parts total.\n  - `relation` is used only for relationship rows and those rows always contain exactly 5 tuple parts total.\n  - A row with two entity names plus relationship keywords and a relationship description must start with `relation`, never `entity`.\n  - After the last entity row, switch prefixes to `relation` for every relationship row.\n\n4. **Output Format:**\n  - Entity row: `entity<|#|>entity_name<|#|>entity_type<|#|>entity_description`\n  - Relation row: `relation<|#|>source_entity<|#|>target_entity<|#|>relationship_keywords<|#|>relationship_description`\n  - Wrong: `entity<|#|><source_entity><|#|><target_entity><|#|><relationship_keywords><|#|><relationship_description>`\n  - Correct: `relation<|#|><source_entity><|#|><target_entity><|#|><relationship_keywords><|#|><relationship_description>`\n\n5. **Delimiter Usage:**\n  - The `<|#|>` is a complete, atomic marker and **must not be filled with content**. It serves strictly as a field separator.\n  - Incorrect: `entity<|#|><entity_name><|entity_type|><entity_description>`\n  - Correct: `entity<|#|><entity_name><|#|><entity_type><|#|><entity_description>`\n\n6. **Output Order & Deduplication:**\n  - Output all extracted entities first, followed by all extracted relationships.\n  - Output at most 100 total rows across entities and relationships in this response.\n  - Output at most 40 entity rows in this response.\n  - Output fewer rows if fewer high-value items are present. Do not try to fill the limit.\n  - Only output relationship rows whose source and target entities are both included in the selected entity rows for this response.\n  - If the limit is reached, stop adding new rows immediately and output `<|COMPLETE|>`.\n  - Treat all relationships as **undirected** unless explicitly stated otherwise. Swapping the source and target entities for an undirected relationship does not constitute a new relationship.\n  - Avoid outputting duplicate relationships.\n  - Within the list of relationships, output the relationships that are **most significant** to the core meaning of the input text first.\n\n7. **Context & Language:**\n  - If the user prompt contains a `---Section Context---` section, it gives the document's section hierarchy (e.g. `h1 → h2 → h3`) that the input text belongs to. Use it **only as background** to disambiguate references and ground entity and relationship descriptions in the correct context. **Do NOT** extract entities or relationships from the section heading text itself, and do not mention the headings unless they also appear in the input text.\n  - Ensure all entity names and descriptions are written in the **third person**.\n  - Explicitly name the subject or object; **avoid using pronouns** such as `this article`, `this paper`, `our company`, `I`, `you`, and `he/she`.\n  - The entire output (entity names, keywords, and descriptions) must be written in `English`.\n  - Proper nouns (e.g., personal names, place names, organization names) should be retained in their original language if a proper, widely accepted translation is not available or would cause ambiguity.\n\n8. **Output Format Template Safety:**\n  - The `---Output Format Template---` section contains output format templates only. It is never source text.\n  - Do not extract, infer, or copy entities or relationships from the output format template.\n  - Angle-bracket tokens such as `<entity_name>` are placeholders. Replace them with values extracted from the current `---Input Text---` section and never output the placeholders literally.\n\n9. **Completion Signal:** Output the literal string `<|COMPLETE|>` only after all entities and relationships have been completely extracted and outputted.\n\n---Entity Types---\nClassify each entity using one of the following types. If no type fits, use `Other`.\n\n- Person: Human individuals, real or fictional\n- Creature: Non-human living beings (animals, mythical beings, etc.)\n- Organization: Companies, institutions, government bodies, groups\n- Location: Geographic places (cities, countries, buildings, regions)\n- Event: Occurrences, incidents, ceremonies, meetings\n- Concept: Abstract ideas, theories, principles, beliefs\n- Method: Procedures, techniques, algorithms, workflows\n- Content: Creative or informational works (books, articles, films, reports)\n- Data: Quantitative or structured information (statistics, datasets, measurements)\n- Artifact: Physical or digital objects created by humans (tools, software, devices)\n- NaturalObject: Natural non-living objects (minerals, celestial bodies, chemical compounds)\n\n---Output Format Template---\nThe following content is an output format template only. It is not source text and must never be used as extraction content.\n\nentity<|#|><entity_name><|#|><entity_type><|#|><entity_description>\nrelation<|#|><source_entity><|#|><target_entity><|#|><relationship_keywords><|#|><relationship_description>\n<|COMPLETE|>\n[{\"role\": \"user\", \"content\": \"---Task---\\nExtract entities and relationships from the `---Input Text---` section below.\\n\\n---Instructions---\\n1. **Strict Adherence to Format:** Strictly adhere to all format requirements for entity and relationship lists, including output order, field delimiters, and proper noun handling, as specified in the system prompt.\\n2. **Quantity Limits:** In this response, output at most 100 total rows and at most 40 entity rows. Output fewer rows if fewer high-value items are present. Only output relationship rows whose source and target entities are both included in this response.\\n3. **Output Content Only:** Output *only* the extracted list of entities and relationships. Do not include any introductory or concluding remarks, explanations, or additional text before or after the list.\\n4. **Completion Signal:** Output `<|COMPLETE|>` as the final line after all relevant entities and relationships have been extracted and presented. If the row limit is reached, output `<|COMPLETE|>` immediately after the last allowed row.\\n5. **Output Language:** Ensure the output language is English. Proper nouns (e.g., personal names, place names, organization names) must be kept in their original language and not translated.\\n\\n---Input Text---\\n```\\n# untitled-3\\n\\n# untitled-3\\n\\nTrying a new focus method from a video. You work in 25-minute blocks called pomodoros, then take a 5-minute break.\\nAfter four pomodoros you take a longer break of 15 to 30 minutes. Francesco Cirillo came up with it in the late 1980s,\\nnamed after his tomato-shaped kitchen timer.\\n```\\n\\n---Output---\"}, {\"role\": \"assistant\", \"content\": \"entity<|#|>Francesco Cirillo<|#|>Person<|#|>Francesco Cirillo is the Italian creator of the Pomodoro Technique.\\nentity<|#|>Pomodoro Technique<|#|>Method<|#|>The Pomodoro Technique is a time management method developed by Francesco Cirillo.\\nentity<|#|>Pomodoros<|#|>Method<|#|>Pomodoros are 25-minute blocks of time used in the Pomodoro Technique.\\nrelation<|#|>Pomodoro Technique<|#|>Pomodoros<|#|>Blocks of time, Breaks<|#|>The Pomodoro Technique uses Pomodoros, which are 25-minute blocks of time, alternating with breaks.\\nrelation<|#|>Francesco Cirillo<|#|>Pomodoro Technique<|#|>Development, Creator<|#|>Francesco Cirillo developed the Pomodoro Technique.\\nrelation<|#|>Francesco Cirillo<|#|>Kitchen timer<|#|>Object, Association<|#|>Francesco Cirillo's kitchen timer inspired the name \\\"Pomodoro Technique\\\".\\nrelation<|#|>Pomodoro Technique<|#|>Kitchen timer<|#|>Association, Inspiration<|#|>The Pomodoro Technique is named after Francesco Cirillo's kitchen timer.\\n<|COMPLETE|>\"}]",
+    "queryparam": null,
+    "create_time": 1792576492,
+    "update_time": 1792576492,
+    "_id": "default:extract:3df48724449248aba00d718381ff196c"
+  },
+  "hybrid:keywords:258f6f01437d1b68cbed0ace65ac39ef": {
+    "return": "{\"high_level_keywords\": [\"Thermodynamics\", \"First Law\"], \"low_level_keywords\": [\"First Law of thermodynamics\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What does the First Law of thermodynamics say?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1792576502,
+    "update_time": 1792576502,
+    "_id": "hybrid:keywords:258f6f01437d1b68cbed0ace65ac39ef"
+  },
+  "hybrid:keywords:33a9797df6a9261ba0976047f55512b5": {
+    "return": "{\"high_level_keywords\": [\"Third Law of thermodynamics\", \"formulated\"], \"low_level_keywords\": [\"Thermodynamics\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What does the Third Law of thermodynamics say, and who formulated it?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1792576508,
+    "update_time": 1792576508,
+    "_id": "hybrid:keywords:33a9797df6a9261ba0976047f55512b5"
+  },
+  "hybrid:keywords:a62b33941c4fd17bd5b09521da2567df": {
+    "return": "{\"high_level_keywords\": [\"thermodynamics\", \"scientists\"], \"low_level_keywords\": [\"1995\", \"1997\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Who worked in the field of thermodynamics between 1995 and 1997?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1792576514,
+    "update_time": 1792576514,
+    "_id": "hybrid:keywords:a62b33941c4fd17bd5b09521da2567df"
+  },
+  "hybrid:keywords:3496c800814f528b442dc4a33df69965": {
+    "return": "{\"high_level_keywords\": [\"Pomodoro technique\", \"break\"], \"low_level_keywords\": [\"long\", \"Pomodoro\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "How long is the long break in the Pomodoro technique?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1792576521,
+    "update_time": 1792576521,
+    "_id": "hybrid:keywords:3496c800814f528b442dc4a33df69965"
+  },
+  "hybrid:keywords:5afa52a8cd9f73fd321f4551d657bf8e": {
+    "return": "{\"high_level_keywords\": [\"event IDs\", \"admin account\", \"evtx-analyst project\"], \"low_level_keywords\": [\"detect\", \"new\", \"each\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Which event IDs does my evtx-analyst project use to detect a new admin account, and what does each ID mean?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1792576527,
+    "update_time": 1792576527,
+    "_id": "hybrid:keywords:5afa52a8cd9f73fd321f4551d657bf8e"
+  },
+  "hybrid:keywords:96b35ed5e747ef6930d5d6c57c0d4a5c": {
+    "return": "{\"high_level_keywords\": [\"boiling point\", \"water\", \"sea level\"], \"low_level_keywords\": [\"sea level\", \"water\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "What is the boiling point of water at sea level?",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1792576533,
+    "update_time": 1792576533,
+    "_id": "hybrid:keywords:96b35ed5e747ef6930d5d6c57c0d4a5c"
   }
 }

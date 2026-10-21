@@ -17,3 +17,6 @@ venv/
 # Obsidian plugin build output
 obsidian-plugin/main.js
 obsidian-plugin/node_modules/
+
+# per-query debug verdict (local only)
+store/.last_query.json

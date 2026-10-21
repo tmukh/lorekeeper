@@ -26,7 +26,12 @@ async def query_kb(question: str, mode: str = "hybrid") -> str:
     mode: 'local' (specific entities), 'global' (themes/summaries),
     'hybrid' (default, best all-round), or 'naive' (plain vector RAG).
     """
-    return await indexer.query(question, mode=mode)
+    r = await indexer.answer(question, mode=mode)
+    out = r["answer"]
+    if r["sources"]:
+        label = "Related note" if r["status"] == "topic_only" else "Sources"
+        out += f"\n\n{label}: " + ", ".join(s["path"] for s in r["sources"])
+    return out
 
 
 @mcp.tool()

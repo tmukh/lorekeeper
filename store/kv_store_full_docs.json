@@ -12,8 +12,8 @@
         "chunk_overlap_token_size": 100
       }
     },
-    "create_time": 1792467589,
-    "update_time": 1792467589,
+    "create_time": 1792471910,
+    "update_time": 1792471910,
     "_id": "README.md"
   },
   "SETUP.md": {
@@ -29,8 +29,8 @@
         "chunk_overlap_token_size": 100
       }
     },
-    "create_time": 1792467614,
-    "update_time": 1792467614,
+    "create_time": 1792471911,
+    "update_time": 1792471911,
     "_id": "SETUP.md"
   },
   "10-Learning/_index.md": {
@@ -46,8 +46,8 @@
         "chunk_overlap_token_size": 100
       }
     },
-    "create_time": 1792467646,
-    "update_time": 1792467646,
+    "create_time": 1792471913,
+    "update_time": 1792471913,
     "_id": "10-Learning/_index.md"
   },
   "20-Projects/evtx-analyst.md": {
@@ -63,8 +63,8 @@
         "chunk_overlap_token_size": 100
       }
     },
-    "create_time": 1792467655,
-    "update_time": 1792467655,
+    "create_time": 1792471914,
+    "update_time": 1792471914,
     "_id": "20-Projects/evtx-analyst.md"
   },
   "50-Reference/windows-event-ids.md": {
@@ -80,8 +80,8 @@
         "chunk_overlap_token_size": 100
       }
     },
-    "create_time": 1792467664,
-    "update_time": 1792467664,
+    "create_time": 1792471915,
+    "update_time": 1792471915,
     "_id": "50-Reference/windows-event-ids.md"
   },
   "90-Meta/learning-ledger.md": {
@@ -97,8 +97,8 @@
         "chunk_overlap_token_size": 100
       }
     },
-    "create_time": 1792467681,
-    "update_time": 1792467681,
+    "create_time": 1792471916,
+    "update_time": 1792471916,
     "_id": "90-Meta/learning-ledger.md"
   },
   "90-Meta/system.md": {
@@ -114,15 +114,15 @@
         "chunk_overlap_token_size": 100
       }
     },
-    "create_time": 1792467697,
-    "update_time": 1792467697,
+    "create_time": 1792471917,
+    "update_time": 1792471917,
     "_id": "90-Meta/system.md"
   },
-  "10-Learning/Finance/20-10-2026.md": {
-    "content": "# 20-10-2026\n\n# 20-10-2026\n\nThe stock market is a global network of exchanges and trading venues where investors buy and sell shares of publicly traded companies. [[1](https://www.hsbc.co.uk/investments/what-is-the-stock-market/), [2](https://www.fidelity.com/learning-center/smart-money/what-is-the-stock-market)]\n\nYou can learn more about its core structure and principles through [Investopedia](https://www.investopedia.com/terms/s/stockmarket.asp). [[1](https://www.investopedia.com/terms/s/stockmarket.asp)]\n\nHow It Works\n\n- **Ownership:** Buying a stock means you purchase a small piece of ownership (a share) in a company. [[1](https://www.manulife.com/ca/en/personal/insights/market-insights/what-s-the-stock-market-and-why-is-it-important-), [2](https://www.investopedia.com/terms/s/stockmarket.asp)]\n- **Raising Capital:** Companies list their shares publicly through an Initial Public Offering (IPO) to raise money to grow their business. [[1](https://www.td.com/ca/en/investing/direct-investing/articles/what-is-stock-market), [2](https://www.youtube.com/watch?v=dMOcrLMfDFM)]\n- **Secondary Market:** Most daily trading happens between investors buying and selling existing shares from one another rather than from the company itself. [[1](https://www.nbc.ca/en/direct-brokerage/learning-centre/understanding-stock-market/stock-market-basics/what-is-stock-market.html), [2](https://www.youtube.com/watch?v=dMOcrLMfDFM)]\n- **Supply and Demand:** Share prices move up or down based on company performance, economic news, and how many people want to buy or sell. [[1](https://www.hsbc.co.uk/investments/what-is-the-stock-market/), [2](https://www.youtube.com/watch?v=dMOcrLMfDFM)]\n- **Returns:** Investors can make money through **dividends** (cash payments from company profits) or **price appreciation** (selling a stock for more than they paid). [[1](https://www.bcu.ac.uk/blog/accounting-finance-and-economics/what-is-the-stock-market), [2](https://www.fidelity.com/learning-center/smart-money/what-is-the-stock-market)]\n\nMajor Components\n\n- **Stock Exchanges:** Organized marketplaces where trades take place, such as the New York Stock Exchange (NYSE), Nasdaq, and the London Stock Exchange (LSE). [[1](https://www.fidelity.com/learning-center/smart-money/what-is-the-stock-market), [2](https://www.bcu.ac.uk/blog/accounting-finance-and-economics/what-is-the-stock-market)]\n- **Market Indexes:** Tools like the **S&P 500** or the **Dow Jones Industrial Average** track groups of large companies to show the overall health of the market. [[1](https://www.neamb.com/retirement-planning/understanding-the-stock-market-a-beginners-guide), [2](https://www.fidelity.com/learning-center/smart-money/what-is-the-stock-market)]\n- **Brokerages:** Accounts or platforms that everyday people use to place buy and sell orders on exchanges. [[1](https://www.investopedia.com/terms/s/stockmarket.asp), [2](https://www.fidelity.com/learning-center/smart-money/what-is-the-stock-market)]",
-    "file_path": "20-10-2026.md",
+  "10-Learning/Physics/thermodynamics-laws.md": {
+    "content": "# thermodynamics-laws\n\n# thermodynamics-laws\n\n## In one sentence\nThere are three laws of thermodynamics\n- **Zeroth Law:** If two systems are each in thermal equilibrium with a third system, they are also in thermal equilibrium with each other. This forms the basis for measuring temperature. [[1](https://www.youtube.com/watch?v=CF0xfttIUDE&t=47)]\n\n- **First Law (Conservation of Energy):** Energy cannot be created or destroyed; it can only change form or transfer from one place to another. The total energy in a closed system stays constant. [[1](https://www.youtube.com/watch?v=CF0xfttIUDE&t=47)]\n\n- **Second Law:** Heat cannot spontaneously flow from a colder object to a hotter object. Over time, usable energy degrades, and the total entropy (disorder) of an isolated system always increases. [[1](https://www.youtube.com/watch?v=CF0xfttIUDE&t=47)]\n\n- **Third Law:** As a system's temperature approaches absolute zero (\\(0 \\text{ K}\\) or \\(-273.15^{\\circ }\\text{C}\\)), its entropy drops to a minimum, and molecular motion nearly stops. Absolute zero can never be completely reached. [[1](https://www.youtube.com/watch?v=CF0xfttIUDE&t=47)]\n## How it works\n\n## Example\n\n## Gotchas\n\n## Flashcards\n<!-- front::back -->\n\n## Sources",
+    "file_path": "thermodynamics-laws.md",
     "parse_format": "raw",
-    "content_hash": "c609f33ed2fee5a83b8ef346d924f3b7",
+    "content_hash": "19b0ad6d66de5490c44ce279f1131fe5",
     "chunk_options": {
       "chunk_token_size": 1200,
       "fixed_token": {
@@ -131,15 +131,15 @@
         "chunk_overlap_token_size": 100
       }
     },
-    "create_time": 1792470814,
-    "update_time": 1792470814,
-    "_id": "10-Learning/Finance/20-10-2026.md"
+    "create_time": 1792471949,
+    "update_time": 1792471949,
+    "_id": "10-Learning/Physics/thermodynamics-laws.md"
   },
-  "10-Learning/Physics/thermodynamics.md": {
-    "content": "# thermodynamics\n\n# thermodynamics\n\n## In one sentence\n\n## How it works\n\n## Example\n\n## Gotchas\n\n## Flashcards\n<!-- front::back -->\n\n## Sources\n\n\n## Related\n- [[system]]",
-    "file_path": "thermodynamics.md",
+  "00-Inbox/untitled-3.md": {
+    "content": "# untitled-3\n\n# untitled-3\n\nTrying a new focus method from a video. You work in 25-minute blocks called pomodoros, then take a 5-minute break.\nAfter four pomodoros you take a longer break of 15 to 30 minutes. Francesco Cirillo came up with it in the late 1980s,\nnamed after his tomato-shaped kitchen timer.",
+    "file_path": "untitled-3.md",
     "parse_format": "raw",
-    "content_hash": "94841b89a7f7c66abcb325ff9dc62a91",
+    "content_hash": "0e075fbabe0f24a6796b3c6556e12e76",
     "chunk_options": {
       "chunk_token_size": 1200,
       "fixed_token": {
@@ -148,8 +148,8 @@
         "chunk_overlap_token_size": 100
       }
     },
-    "create_time": 1792470832,
-    "update_time": 1792470832,
-    "_id": "10-Learning/Physics/thermodynamics.md"
+    "create_time": 1792576479,
+    "update_time": 1792576479,
+    "_id": "00-Inbox/untitled-3.md"
   }
 }
